@@ -59,11 +59,11 @@ Turn on multiple timezones at once to see distant cities glowing on the horizon.
 It creates a super realistic and cinematic effect.
 
 # ⚙️ Installation (Tampermonkey)
-1. Install Tampermonkey
-Go to your browser’s extension store
-Search for Tampermonkey
-Click Add to Browser
-Confirm installation
+1. Install Tampermonkey.
+Go to your browser’s extension store.
+Search for Tampermonkey.
+Click Add to Browser.
+Confirm installation.
 2. Find the Script
 Open this repository on GitHub
 Locate a .js file (example: script.user.js)
@@ -90,7 +90,7 @@ The add-on should load automatically
 
 If the script doesn’t work:
 
->Make sure the Tampermonkey "Allow Userscript" is enabled in manage extension
+>Make sure the Tampermonkey "Allow Userscript" is enabled in the manage extension
 >Check that the script is turned on in the dashboard
 >Ensure you are on the correct website
 
@@ -98,8 +98,8 @@ If the script doesn’t work:
 The in-game console lets you run JavaScript directly inside the game without installing anything.
 
 🔹 Step 1: Open GeoFS
-Go to GeoFS in your browser
-Load into the game normally
+Go to GeoFS in your browser.
+Load into the game normally.
 
 🔹 Step 2: Open the Console
 Press:
