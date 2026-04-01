@@ -94,7 +94,7 @@ If the script doesn’t work:
 >Check that the script is turned on in the dashboard
 >Ensure you are on the correct website
 
-#Using the In-Game Console
+# Using the In-Game Console
 The in-game console lets you run JavaScript directly inside the game without installing anything.
 🔹 Step 1: Open GeoFS
 Go to GeoFS in your browser
