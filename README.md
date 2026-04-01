@@ -94,8 +94,9 @@ If the script doesn’t work:
 >Check that the script is turned on in the dashboard
 >Ensure you are on the correct website
 
-# Using the In-Game Console
+# Installation (Console)
 The in-game console lets you run JavaScript directly inside the game without installing anything.
+
 🔹 Step 1: Open GeoFS
 Go to GeoFS in your browser
 Load into the game normally
@@ -110,7 +111,8 @@ This opens the developer console, where you can paste code.
 Copy your add-on code
 Paste it into the console
 Press Enter
-IMPORTANT: You will have to do this manually every time you open GeoFS. Tampermonkey is recommended since you do not have to do it every time.
+
+>IMPORTANT: You will have to do this manually every time you open GeoFS. Tampermonkey is recommended since you do not have to do it every time.
 
 
 
