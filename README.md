@@ -4,20 +4,20 @@ GeoFS After Dark is a scenery add-on that adds realistic metropolitan light poll
 
 Supported cities include:
 
-New York City
-Paris
-Dubai
-Tokyo
-Sydney
-Rio de Janeiro
-Johannesburg
+New York City,
+Paris,
+Dubai,
+Tokyo,
+Sydney,
+Rio de Janeiro,
+Johannesburg,
 🌍 Features
 Adds immersive night lighting effects to major global cities
 Enhances realism during nighttime flights
 Custom timezone selection system
 🕒 Timezone System
 
-When you install the add-on, a pop-up menu will appear with selectable timezones.
+When you install the add-on, a pop-up menu will appear with selectable time zones.
 
 Available Timezones:
 UTC-12
