@@ -65,17 +65,17 @@ Search for Tampermonkey.
 Click Add to Browser.
 Confirm installation.
 2. Find the Script
-Open this repository on GitHub
+Open this repository on GitHub.
 Locate a .js file (example: script.user.js)
-Click the file
+Click the file.
 3. Copy the Code
-Click the Raw button
-Press Ctrl + A (select all)
-Press Ctrl + C (copy)
+Click the Raw button.
+Press Ctrl + A (select all).
+Press Ctrl + C (copy).
 4. Open Tampermonkey
-Click the Tampermonkey icon
-Select Dashboard
-Click + Create a new script
+Click the Tampermonkey icon.
+Select Dashboard.
+Click + Create a new script.
 5. Paste the Script
 Delete the default template
 Press Ctrl + V to paste your code
@@ -83,9 +83,9 @@ Press Ctrl + V to paste your code
 Press Ctrl + S
 Your script is now active
 7. Run the Add-on
-Open GeoFS
-Refresh the page
-The add-on should load automatically
+Open GeoFS.
+Refresh the page.
+The add-on should load automatically.
 ❗ Troubleshooting
 
 If the script doesn’t work:
@@ -108,9 +108,9 @@ OR: F12 → then click Console
 This opens the developer console, where you can paste code.
 
 🔹 Step 3: Paste Your Script
-Copy your add-on code
-Paste it into the console
-Press Enter
+Copy your add-on code.
+Paste it into the console.
+Press Enter.
 
 >IMPORTANT: You will have to do this manually every time you open GeoFS. Tampermonkey is recommended since you do not have to do it every time.
 
