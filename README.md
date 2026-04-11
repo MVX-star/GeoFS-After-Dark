@@ -115,6 +115,24 @@ Press Enter.
 
 >IMPORTANT: You will have to do this manually every time you open GeoFS. Tampermonkey is recommended since you do not have to do it every time.
 
+# GeoFS: After Dark — Update Log
+> ✨ v1.1 — A New Name
+
+We’ve officially rebranded!
+Welcome to GeoFS: After Dark 
+
+> 🔧 v1.2 — Control & Convenience
+
+NEW Brightness Control and
+Fine-tune lighting to boost visibility, especially when you are on the ground.
+Including a NEW Search Bar.
+Instantly find time zones for cities around the world. 🌍
+
+> 🌆 v1.3 — City Lights Reimagined
+
+Region-Based Lighting Colors.
+Cities now glow with unique tones depending on their region.
+Experience warm amber/orange lights and cool white/blue hues for a more realistic night world
 
 
 This is a visual-only add-on focused on atmosphere and realism.
