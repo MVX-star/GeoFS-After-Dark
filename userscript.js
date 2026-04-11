@@ -41,9 +41,49 @@
 // 🌟 GLOW GENERATOR
 // ==========================
 const glowCache = {};
+function getRegionColor(lat, lon) {
 
-function glowCanvas(intensity = 1, pop = 1000000) {
-    const key = `${Math.round(intensity*10)}_${Math.round(pop/100000)}`;
+    if (lat > 15 && lat < 75 && lon > -170 && lon < -50) {
+        return [255, 225, 160]; // North America
+    }
+
+    if (lat < 15 && lat > -60 && lon > -90 && lon < -30) {
+        return [255, 210, 140]; // South America
+    }
+
+    if (lat > 35 && lat < 70 && lon > -10 && lon < 40) {
+        return [255, 235, 180]; // Europe
+    }
+
+    if (lat > -35 && lat < 35 && lon > -20 && lon < 50) {
+        return [255, 200, 120]; // Africa
+    }
+
+    if (lat > 10 && lat < 40 && lon > 40 && lon < 65) {
+        return [255, 210, 140]; // Middle East
+    }
+
+    if (lat > 5 && lat < 35 && lon > 65 && lon < 95) {
+        return [255, 220, 150]; // India
+    }
+
+    if (lat > 20 && lat < 50 && lon > 100 && lon < 145) {
+        return [255, 240, 200]; // East Asia
+    }
+
+    if (lat > -10 && lat < 25 && lon > 95 && lon < 140) {
+        return [255, 210, 140]; // SE Asia
+    }
+
+    if (lat < -10 && lat > -45 && lon > 110 && lon < 155) {
+        return [255, 230, 170]; // Australia
+    }
+
+    return [255, 235, 160]; // default
+}
+
+function glowCanvas(intensity = 1, pop = 1000000, color = [255,235,160]) {
+    const key = `${Math.round(intensity*10)}_${Math.round(pop/100000)}_${color.join(",")}`;
     if (glowCache[key]) return glowCache[key];
 
     const size = 256; // bigger canvas for larger glow
@@ -55,8 +95,8 @@ function glowCanvas(intensity = 1, pop = 1000000) {
 
     // base radial gradient glow
     const g = ctx.createRadialGradient(size/2, size/2, size*0.05, size/2, size/2, size/2);
-    g.addColorStop(0, `rgba(255,235,160,${0.7*intensity})`);
-    g.addColorStop(0.5, `rgba(255,235,160,${0.25*intensity})`);
+    g.addColorStop(0, `rgba(${color[0]},${color[1]},${color[2]},${0.7*intensity})`);
+g.addColorStop(0.5, `rgba(${color[0]},${color[1]},${color[2]},${0.25*intensity})`);
     g.addColorStop(1, `rgba(255,235,160,0)`);
     ctx.fillStyle = g;
     ctx.fillRect(0,0,size,size);
@@ -71,7 +111,7 @@ function glowCanvas(intensity = 1, pop = 1000000) {
 
         ctx.beginPath();
         ctx.arc(x, y, r, 0, Math.PI*2);
-        ctx.fillStyle = `rgba(255,235,160,${alpha*intensity})`;
+        ctx.fillStyle = `rgba(${color[0]},${color[1]},${color[2]},${alpha*intensity})`;
         ctx.fill();
     }
 
@@ -110,6 +150,7 @@ function glowCanvas(intensity = 1, pop = 1000000) {
 {name:"Phoenix, USA", lat:33.4484, lon:-112.0740, pop:5000000, timezone:-7},
 {name:"San Francisco, USA", lat:37.7749, lon:-122.4194, pop:4800000, timezone:-8},
 {name:"Seattle, USA", lat:47.6062, lon:-122.3321, pop:4000000, timezone:-8},
+{name:"San Bernardino, USA", lat:34.0845, lon:-117.2919, pop:230000, timezone:-7},
 
 {name:"Detroit, USA", lat:42.3314, lon:-83.0458, pop:3700000, timezone:-5},
 {name:"Minneapolis, USA", lat:44.9778, lon:-93.2650, pop:3600000, timezone:-6},
@@ -120,7 +161,7 @@ function glowCanvas(intensity = 1, pop = 1000000) {
 {name:"Charlotte, USA", lat:35.2271, lon:-80.8431, pop:2800000, timezone:-5},
 {name:"San Antonio, USA", lat:29.4241, lon:-98.4936, pop:2600000, timezone:-6},
 {name:"Austin, USA", lat:30.2672, lon:-97.7431, pop:2400000, timezone:-6},
-{name:"Las Vegas, USA", lat:36.1699, lon:-115.1398, pop:2300000, timezone:-8},
+{name:"Las Vegas, USA", lat:36.1699, lon:-115.1398, pop:2400000, timezone:-8},
 {name:"Baltimore, USA", lat:39.2905, lon:-76.6104, pop:2300000, timezone:-5},
 
 {name:"Portland, USA", lat:45.5152, lon:-122.6784, pop:2500000, timezone:-8},
@@ -658,22 +699,47 @@ function glowCanvas(intensity = 1, pop = 1000000) {
 // ==========================
 // 🌟 CREATE LIGHTS (FIXED)
 // ==========================
+function isLikelyLand(lat, lon) {
+
+    if (lat > 75 || lat < -75) return false;
+
+    if (lat > -60 && lat < 60) {
+        if (lon < -100 && lon > -160) return false;
+        if (lon > 140 || lon < -160) return false;
+    }
+
+    if (lat > -50 && lat < 50 && lon > -60 && lon < -20) {
+        return false;
+    }
+
+    if (lat > -40 && lat < 20 && lon > 60 && lon < 100) {
+        return false;
+    }
+
+    return true;
+}
+
 cities.forEach(city => {
+
+    // ✅ ADD THIS LINE
+    if (!isLikelyLand(city.lat, city.lon)) return;
 
     const size = Math.min(Math.max(city.pop / 1000000, 5), 30);
     const intensity = Math.min(Math.max(city.pop / 12000000, 0.5), 2.3);
 
-    city.entity = geofs.api.viewer.entities.add({
-        position: Cesium.Cartesian3.fromDegrees(city.lon, city.lat, 2000),
-        ellipse: {
-            semiMajorAxis: size * 2000,
-            semiMinorAxis: size * 2000,
-            material: new Cesium.ImageMaterialProperty({
-                image: glowCanvas(intensity, city.pop),
-                transparent: true
-            })
-        }
-    });
+    const color = getRegionColor(city.lat, city.lon);
+
+city.entity = geofs.api.viewer.entities.add({
+    position: Cesium.Cartesian3.fromDegrees(city.lon, city.lat, 2000),
+    ellipse: {
+        semiMajorAxis: size * 2000,
+        semiMinorAxis: size * 2000,
+        material: new Cesium.ImageMaterialProperty({
+            image: glowCanvas(intensity, city.pop, color),
+            transparent: true
+        })
+    }
+});
 
 });
 
@@ -709,6 +775,105 @@ header.style.fontWeight = "bold";
 menu.appendChild(header);
 
 const container = document.createElement("div");
+// ==========================
+// 💡 BRIGHTNESS SLIDER
+// ==========================
+let brightnessMultiplier = 1;
+
+const sliderLabel = document.createElement("div");
+sliderLabel.textContent = "💡 Brightness";
+sliderLabel.style.marginTop = "10px";
+
+const slider = document.createElement("input");
+slider.type = "range";
+slider.min = 0.3;
+slider.max = 2.5;
+slider.step = 0.1;
+slider.value = 1;
+slider.style.width = "100%";
+
+slider.addEventListener("input", () => {
+    brightnessMultiplier = parseFloat(slider.value);
+
+    cities.forEach(city => {
+        if (city.entity) {
+            const baseIntensity = Math.min(Math.max(city.pop / 12000000, 0.5), 2.3);
+
+            city.entity.ellipse.material.image = glowCanvas(
+                baseIntensity * brightnessMultiplier,
+                city.pop
+            );
+        }
+    });
+});
+
+container.appendChild(sliderLabel);
+container.appendChild(slider);
+
+let isTyping = false;
+
+// ==========================
+// 🔍 CITY SEARCH
+// ==========================
+const searchBox = document.createElement("input");
+
+searchBox.addEventListener("focus", () => {
+    isTyping = true;
+});
+
+searchBox.addEventListener("blur", () => {
+    isTyping = false;
+});
+
+searchBox.type = "text";
+searchBox.placeholder = "Search city...";
+searchBox.style.width = "100%";
+searchBox.style.marginTop = "10px";
+searchBox.style.padding = "4px";
+
+const resultBox = document.createElement("div");
+resultBox.style.marginTop = "5px";
+resultBox.style.maxHeight = "120px";
+resultBox.style.overflowY = "auto";
+
+searchBox.addEventListener("input", () => {
+    const query = searchBox.value.toLowerCase();
+    resultBox.innerHTML = "";
+
+    if (!query) return;
+
+    const matches = cities.filter(city =>
+        city.name.toLowerCase().includes(query)
+    ).slice(0, 6);
+
+    matches.forEach(city => {
+        const btn = document.createElement("div");
+        btn.textContent = `${city.name} (UTC${city.timezone >= 0 ? '+' : ''}${city.timezone})`;
+
+        btn.style.cursor = "pointer";
+        btn.style.padding = "4px";
+        btn.style.borderBottom = "1px solid rgba(255,255,255,0.1)";
+
+        btn.addEventListener("click", () => {
+            // turn OFF all lights first
+            cities.forEach(c => {
+                if (c.entity) c.entity.show = false;
+            });
+
+            // turn ON selected timezone
+            cities.forEach(c => {
+                if (c.entity && Math.abs(c.timezone - city.timezone) < 0.01) {
+                    c.entity.show = true;
+                }
+            });
+        });
+
+        resultBox.appendChild(btn);
+    });
+});
+
+container.appendChild(searchBox);
+container.appendChild(resultBox);
 menu.appendChild(container);
 
 const timezones = [
@@ -767,6 +932,27 @@ document.addEventListener("mousemove", e => {
 });
 
 // ==========================
+// 🔒 FULL UI FOCUS MODE
+// ==========================
+document.addEventListener("keydown", function(e) {
+    if (isTyping) {
+        e.stopPropagation();
+    }
+}, true);
+
+document.addEventListener("keyup", function(e) {
+    if (isTyping) {
+        e.stopPropagation();
+    }
+}, true);
+
+document.addEventListener("keypress", function(e) {
+    if (isTyping) {
+        e.stopPropagation();
+    }
+}, true);
+
+// ==========================
 // 🔽 COLLAPSE MENU
 // ==========================
 let collapsed = false;
@@ -776,3 +962,5 @@ header.addEventListener("dblclick", () => {
 });
 
     }
+
+})();
