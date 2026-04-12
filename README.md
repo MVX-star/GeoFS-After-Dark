@@ -1,4 +1,4 @@
-<img width="167" height="671" alt="www geo-fs com_geofs php_v=3 9 (2)" src="https://github.com/user-attachments/assets/3d4efd14-7e46-4abe-845a-1a97bd0bf1f1" />
+
 # GeoFS After Dark
 
 GeoFS After Dark is a scenery add-on that adds realistic metropolitan light pollution to major cities around the world.
