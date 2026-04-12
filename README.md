@@ -1,7 +1,12 @@
-
 # GeoFS After Dark
 
 GeoFS After Dark is a scenery add-on that adds realistic metropolitan light pollution to major cities around the world.
+
+> Emirates A380-800 flying near Amsterdam at Night
+> <img width="912" height="568" alt="beta geo-fs com_geofs php_a=22 (2)" src="https://github.com/user-attachments/assets/ce43642f-9e01-4b6c-a6c2-8312820de2ce" />
+
+>Air France B777-300ER flying near Paris at Night
+<img width="807" height="561" alt="www geo-fs com_geofs php_v=3 9 (4)" src="https://github.com/user-attachments/assets/a9508f9f-04af-4ec4-8071-ab31fc3bb7e6" />
 
 When you install the add-on, a pop-up menu will appear with selectable time zones. Double-click the tab to hide it.
 
