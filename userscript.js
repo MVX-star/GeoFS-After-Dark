@@ -25,17 +25,50 @@
 
     function initNightLights() {
 
+
+        let currentMode = "manual";
+
         // ==========================
         // 🌟 ALTITUDE FADE
         // ==========================
         let glowAlphaMultiplier = 1;
 
         setInterval(() => {
-            try {
-                const alt = geofs.aircraft.instance?.llaLocation?.[2] || 0;
-                glowAlphaMultiplier = 1 - Math.min(Math.max((alt - 200)/5000,0),1);
-            } catch(e){}
-        }, 500);
+    if (currentMode !== "auto") return;
+
+    cities.forEach(city => {
+        if (!city.entity) return;
+
+        const target = isNightAt(city) ? 1 : 0;
+
+        // Smooth fade speed
+        const speed = 0.05;
+
+        // Move brightness toward target
+        city.brightness += (target - city.brightness) * speed;
+
+        // Apply altitude fade too
+        const finalIntensity = city.brightness * glowAlphaMultiplier;
+
+        if (finalIntensity < 0.01) {
+            city.entity.show = false;
+        } else {
+            city.entity.show = true;
+
+            const baseIntensity = Math.min(Math.max(city.pop / 12000000, 0.5), 2.3);
+
+            const color = getRegionColor(city.lat, city.lon);
+city.color = color; // ✅ THIS LINE FIXES MOST OF IT
+
+            city.entity.ellipse.material.image = glowCanvas(
+                baseIntensity * finalIntensity,
+                city.pop,
+                color
+            );
+        }
+    });
+
+}, 100);
 
         // ==========================
 // 🌟 GLOW GENERATOR
@@ -82,7 +115,8 @@ function getRegionColor(lat, lon) {
     return [255, 235, 160]; // default
 }
 
-function glowCanvas(intensity = 1, pop = 1000000, color = [255,235,160]) {
+function glowCanvas(intensity = 1, pop = 1000000, color) {
+    if (!color) color = [255,235,160];
     const key = `${Math.round(intensity*10)}_${Math.round(pop/100000)}_${color.join(",")}`;
     if (glowCache[key]) return glowCache[key];
 
@@ -97,7 +131,7 @@ function glowCanvas(intensity = 1, pop = 1000000, color = [255,235,160]) {
     const g = ctx.createRadialGradient(size/2, size/2, size*0.05, size/2, size/2, size/2);
     g.addColorStop(0, `rgba(${color[0]},${color[1]},${color[2]},${0.7*intensity})`);
 g.addColorStop(0.5, `rgba(${color[0]},${color[1]},${color[2]},${0.25*intensity})`);
-    g.addColorStop(1, `rgba(255,235,160,0)`);
+    g.addColorStop(1, `rgba(${color[0]},${color[1]},${color[2]},0)`);
     ctx.fillStyle = g;
     ctx.fillRect(0,0,size,size);
 
@@ -431,6 +465,7 @@ g.addColorStop(0.5, `rgba(${color[0]},${color[1]},${color[2]},${0.25*intensity})
 {name:"Nagoya, Japan", lat:35.1815, lon:136.9066, pop:9000000, timezone:9},
 {name:"Sapporo, Japan", lat:43.0618, lon:141.3545, pop:2600000, timezone:9},
 {name:"Fukuoka, Japan", lat:33.5904, lon:130.4017, pop:2600000, timezone:9},
+{name:"Taiepi, Taiwan", lat:25.0330, lon:121.5654, pop:7800000, timezone:8},
 
 /* --- CHINA EXPANDED --- */
 {name:"Chengdu, China", lat:30.5728, lon:104.0668, pop:16000000, timezone:8},
@@ -721,13 +756,13 @@ function isLikelyLand(lat, lon) {
 
 cities.forEach(city => {
 
-    // ✅ ADD THIS LINE
     if (!isLikelyLand(city.lat, city.lon)) return;
 
     const size = Math.min(Math.max(city.pop / 1000000, 5), 30);
     const intensity = Math.min(Math.max(city.pop / 12000000, 0.5), 2.3);
 
     const color = getRegionColor(city.lat, city.lon);
+city.color = color; // 🔥 IMPORTANT FIX
 
 city.entity = geofs.api.viewer.entities.add({
     position: Cesium.Cartesian3.fromDegrees(city.lon, city.lat, 2000),
@@ -740,6 +775,8 @@ city.entity = geofs.api.viewer.entities.add({
         })
     }
 });
+    // ✅ ADD IT HERE
+    city.brightness = 0;
 
 });
 
@@ -770,45 +807,43 @@ Object.assign(menu.style, {
 });
 
 const header = document.createElement("div");
+
+// ==========================
+// 🔀 MODE TABS
+// ==========================
+const tabContainer = document.createElement("div");
+tabContainer.style.display = "flex";
+tabContainer.style.marginTop = "10px";
+
+const manualTab = document.createElement("button");
+manualTab.textContent = "Created By SkyTeamDelta";
+manualTab.style.flex = "1";
+
+// Highlight function
+function updateTabStyles() {
+    manualTab.style.background = "#444";
+}
+
+updateTabStyles();
+
+tabContainer.appendChild(manualTab);
+menu.appendChild(tabContainer);
+
+manualTab.onclick = () => {
+    currentMode = "manual";
+    updateTabStyles();
+
+    // Turn OFF all lights first
+    cities.forEach(c => {
+        if (c.entity) c.entity.show = false;
+    });
+};
+
 header.textContent = "🌐 GeoFS-After-Dark";
 header.style.fontWeight = "bold";
 menu.appendChild(header);
 
 const container = document.createElement("div");
-// ==========================
-// 💡 BRIGHTNESS SLIDER
-// ==========================
-let brightnessMultiplier = 1;
-
-const sliderLabel = document.createElement("div");
-sliderLabel.textContent = "💡 Brightness";
-sliderLabel.style.marginTop = "10px";
-
-const slider = document.createElement("input");
-slider.type = "range";
-slider.min = 0.3;
-slider.max = 2.5;
-slider.step = 0.1;
-slider.value = 1;
-slider.style.width = "100%";
-
-slider.addEventListener("input", () => {
-    brightnessMultiplier = parseFloat(slider.value);
-
-    cities.forEach(city => {
-        if (city.entity) {
-            const baseIntensity = Math.min(Math.max(city.pop / 12000000, 0.5), 2.3);
-
-            city.entity.ellipse.material.image = glowCanvas(
-                baseIntensity * brightnessMultiplier,
-                city.pop
-            );
-        }
-    });
-});
-
-container.appendChild(sliderLabel);
-container.appendChild(slider);
 
 let isTyping = false;
 
@@ -855,6 +890,7 @@ searchBox.addEventListener("input", () => {
         btn.style.borderBottom = "1px solid rgba(255,255,255,0.1)";
 
         btn.addEventListener("click", () => {
+    if (currentMode !== "manual") return;
             // turn OFF all lights first
             cities.forEach(c => {
                 if (c.entity) c.entity.show = false;
@@ -891,6 +927,7 @@ timezones.forEach(tz => {
     cb.dataset.tz = tz;
 
     cb.addEventListener("change", () => {
+    if (currentMode !== "manual") return;
         const activeTZ = Array.from(container.querySelectorAll("input"))
             .filter(i => i.checked)
             .map(i => parseFloat(i.dataset.tz));
