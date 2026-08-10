@@ -5874,8 +5874,8 @@ function updateAfterDarkButton() {
 
     lightButton.textContent =
         afterDarkEnabled
-            ? "💡 LIGHTS ON"
-            : "🌑 LIGHTS OFF";
+            ? " LIGHTS ON"
+            : " LIGHTS OFF";
 }
 
 function updateAfterDarkUI() {
