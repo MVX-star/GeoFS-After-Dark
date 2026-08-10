@@ -78,7 +78,7 @@ Open GeoFS.
 Refresh the page if you already have it open.
 The add-on should load automatically.
 
-❗ Troubleshooting
+Troubleshooting
 
 If the script doesn’t work:
 
@@ -149,3 +149,5 @@ The addon now has dedicated branding and logo assets for its interface.
 
 This is a visual-only add-on focused on atmosphere and realism.
 No impact on gameplay mechanics.
+
+Script was made by a human, troubleshooted by Artificial Intelligence.
