@@ -133,5 +133,19 @@ The brightness slider was removed due to breaking the region-based lighting func
 
 The more the merrier
 
+>  v1.6 — Menu Rework
+
+NEW Universal Lights Toggle
+Turn every city light in the world on or off with a single, universal button.
+
+NEW Advanced Timezone Mode
+Select individual UTC time zones and control exactly which regions are illuminated.
+
+NEW Redesigned Native GeoFS Menu
+GeoFS: After Dark now uses a dedicated in-game interface integrated directly into the GeoFS UI.
+
+NEW GeoFS: After Dark Branding
+The addon now has dedicated branding and logo assets for its interface.
+
 This is a visual-only add-on focused on atmosphere and realism.
 No impact on gameplay mechanics.
