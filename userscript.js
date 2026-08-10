@@ -164,28 +164,21 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 ========================= */
 
 /* --- MEGACITIES --- */
-{name:"São Paulo, Brazil", lat:-23.5505, lon:-46.6333, pop:23440000, timezone:-3},
-{name:"Mexico City, Mexico", lat:19.4326, lon:-99.1332, pop:21800000, timezone:-6},
-{name:"New York City, USA", lat:40.7128, lon:-74.0060, pop:19490000, timezone:-5},
 {name:"Buenos Aires, Argentina", lat:-34.6037, lon:-58.3816, pop:16360000, timezone:-3},
-{name:"Rio de Janeiro, Brazil", lat:-22.9068, lon:-43.1729, pop:13190000, timezone:-3},
 {name:"Los Angeles, USA", lat:34.0522, lon:-118.2437, pop:12790000, timezone:-8},
 {name:"Bogotá, Colombia", lat:4.7110, lon:-74.0721, pop:12770000, timezone:-5},
 {name:"Lima, Peru", lat:-12.0464, lon:-77.0428, pop:11280000, timezone:-5},
-{name:"Toronto, Canada", lat:43.6511, lon:-79.3839, pop:9760000, timezone:-5},
-{name:"Chicago, USA", lat:41.8781, lon:-87.6298, pop:9290000, timezone:-6},
+{name:"Chicago, USA", lat:41.8781, lon:-87.6298, pop:290000, timezone:-6},
 
 /* --- USA CORE --- */
 {name:"Houston, USA", lat:29.7604, lon:-95.3698, pop:7100000, timezone:-6},
 {name:"Dallas, USA", lat:32.7767, lon:-96.7970, pop:6400000, timezone:-6},
-{name:"Miami, USA", lat:25.7617, lon:-80.1918, pop:6200000, timezone:-5},
+{name:"Miami, USA", lat:25.7617, lon:-80.1918, pop:200000, timezone:-5},
 {name:"Philadelphia, USA", lat:39.9526, lon:-75.1652, pop:6100000, timezone:-5},
 {name:"Atlanta, USA", lat:33.7490, lon:-84.3880, pop:6000000, timezone:-5},
 {name:"Washington DC, USA", lat:38.9072, lon:-77.0369, pop:6300000, timezone:-5},
-{name:"Boston, USA", lat:42.3601, lon:-71.0589, pop:4900000, timezone:-5},
 {name:"Phoenix, USA", lat:33.4484, lon:-112.0740, pop:5000000, timezone:-7},
 {name:"San Francisco, USA", lat:37.7749, lon:-122.4194, pop:4800000, timezone:-8},
-{name:"Seattle, USA", lat:47.6062, lon:-122.3321, pop:4000000, timezone:-8},
 {name:"San Bernardino, USA", lat:34.0845, lon:-117.2919, pop:230000, timezone:-7},
 
 {name:"Detroit, USA", lat:42.3314, lon:-83.0458, pop:3700000, timezone:-5},
@@ -697,9 +690,227 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 {name:"Pucté, Mexico", lat:18.1000, lon:-88.8500, pop:1000, timezone:-5},
 {name:"Nuevo Progreso, Mexico", lat:18.0500, lon:-88.9000, pop:1000, timezone:-5},
 {name:"La Unión, Mexico", lat:18.0000, lon:-88.9500, pop:1000, timezone:-5},
+// ==========================
+// 🇿🇦 JOHANNESBURG–PRETORIA
+// ==========================
+
+// Johannesburg
+{name:"Johannesburg - CBD", lat:-26.2041, lon:28.0473, pop:1500000, timezone:2},
+{name:"Johannesburg - Sandton", lat:-26.1076, lon:28.0567, pop:800000, timezone:2},
+{name:"Johannesburg - Rosebank", lat:-26.1450, lon:28.0430, pop:400000, timezone:2},
+{name:"Johannesburg - Soweto", lat:-26.2485, lon:27.8540, pop:1200000, timezone:2},
+{name:"Johannesburg - Randburg", lat:-26.0936, lon:27.9947, pop:500000, timezone:2},
+{name:"Johannesburg - Roodepoort", lat:-26.1625, lon:27.8725, pop:500000, timezone:2},
+
+// East Rand
+{name:"Germiston", lat:-26.2259, lon:28.1700, pop:250000, timezone:2},
+{name:"Boksburg", lat:-26.2120, lon:28.2590, pop:300000, timezone:2},
+{name:"Benoni", lat:-26.1885, lon:28.3208, pop:300000, timezone:2},
+{name:"Kempton Park", lat:-26.0980, lon:28.2330, pop:250000, timezone:2},
+{name:"Edenvale", lat:-26.1400, lon:28.1500, pop:150000, timezone:2},
+
+// Mid-corridor
+{name:"Midrand", lat:-25.9895, lon:28.1284, pop:500000, timezone:2},
+{name:"Centurion", lat:-25.8603, lon:28.1894, pop:350000, timezone:2},
+{name:"Vanderbijlpark", lat:-26.7117, lon:27.8370, pop:250000, timezone:2},
+{name:"Vereeniging", lat:-26.6731, lon:27.9261, pop:250000, timezone:2},
+
+// Pretoria
+{name:"Pretoria - CBD", lat:-25.7479, lon:28.2293, pop:900000, timezone:2},
+{name:"Pretoria - Centurion", lat:-25.8603, lon:28.1894, pop:350000, timezone:2},
+{name:"Pretoria - Hatfield", lat:-25.7460, lon:28.2370, pop:300000, timezone:2},
+{name:"Pretoria - Menlyn", lat:-25.7830, lon:28.2760, pop:300000, timezone:2},
+{name:"Pretoria - Soshanguve", lat:-25.4700, lon:28.1000, pop:500000, timezone:2},
+{name:"Mamelodi", lat:-25.7060, lon:28.3830, pop:400000, timezone:2},
+{name:"Akasia", lat:-25.6270, lon:28.1000, pop:200000, timezone:2},
+// ==========================
+// 🇮🇳 MUMBAI METROPOLITAN REGION
+// ==========================
+{name:"Mumbai - South", lat:18.9388, lon:72.8354, pop:1200000, timezone:5.5},
+{name:"Mumbai - Central", lat:19.0178, lon:72.8478, pop:1800000, timezone:5.5},
+{name:"Mumbai - Bandra", lat:19.0607, lon:72.8362, pop:900000, timezone:5.5},
+{name:"Mumbai - Andheri", lat:19.1197, lon:72.8468, pop:1400000, timezone:5.5},
+{name:"Mumbai - Borivali", lat:19.2300, lon:72.8567, pop:900000, timezone:5.5},
+{name:"Mumbai - Powai", lat:19.1176, lon:72.9060, pop:500000, timezone:5.5},
+
+{name:"Thane", lat:19.2183, lon:72.9781, pop:2000000, timezone:5.5},
+{name:"Navi Mumbai", lat:19.0330, lon:73.0297, pop:1400000, timezone:5.5},
+{name:"Kalyan", lat:19.2437, lon:73.1355, pop:700000, timezone:5.5},
+{name:"Dombivli", lat:19.2183, lon:73.0867, pop:700000, timezone:5.5},
+{name:"Mira Road", lat:19.2952, lon:72.8544, pop:500000, timezone:5.5},
+{name:"Bhiwandi", lat:19.2813, lon:73.0483, pop:700000, timezone:5.5},
+{name:"Vasai", lat:19.3919, lon:72.8397, pop:500000, timezone:5.5},
+{name:"Virar", lat:19.4559, lon:72.8114, pop:400000, timezone:5.5},
+{name:"Panvel", lat:18.9894, lon:73.1175, pop:300000, timezone:5.5},
+// ==========================
+// 🇫🇷 PARIS METROPOLITAN AREA
+// ==========================
+{name:"Paris - Centre", lat:48.8566, lon:2.3522, pop:2500000, timezone:1},
+{name:"Paris - La Défense", lat:48.8920, lon:2.2369, pop:700000, timezone:1},
+{name:"Paris - Montmartre", lat:48.8867, lon:2.3431, pop:500000, timezone:1},
+{name:"Paris - Montparnasse", lat:48.8422, lon:2.3219, pop:400000, timezone:1},
+
+{name:"Saint-Denis", lat:48.9362, lon:2.3574, pop:120000, timezone:1},
+{name:"Boulogne-Billancourt", lat:48.8397, lon:2.2399, pop:120000, timezone:1},
+{name:"Argenteuil", lat:48.9472, lon:2.2467, pop:110000, timezone:1},
+{name:"Montreuil", lat:48.8638, lon:2.4485, pop:110000, timezone:1},
+{name:"Nanterre", lat:48.8924, lon:2.2067, pop:100000, timezone:1},
+{name:"Créteil", lat:48.7904, lon:2.4556, pop:95000, timezone:1},
+{name:"Vitry-sur-Seine", lat:48.7872, lon:2.3922, pop:95000, timezone:1},
+{name:"Versailles", lat:48.8014, lon:2.1301, pop:85000, timezone:1},
+{name:"Cergy", lat:49.0360, lon:2.0610, pop:70000, timezone:1},
+{name:"Évry-Courcouronnes", lat:48.6298, lon:2.4418, pop:70000, timezone:1},
+{name:"Aulnay-sous-Bois", lat:48.9381, lon:2.4946, pop:90000, timezone:1},
+{name:"Marne-la-Vallée", lat:48.8422, lon:2.6036, pop:100000, timezone:1},
+// ==========================
+// 🇬🇧 GREATER LONDON
+// ==========================
+{name:"London - Central", lat:51.5074, lon:-0.1278, pop:2000000, timezone:0},
+{name:"London - Westminster", lat:51.4975, lon:-0.1357, pop:700000, timezone:0},
+{name:"London - Canary Wharf", lat:51.5054, lon:-0.0235, pop:500000, timezone:0},
+{name:"London - Camden", lat:51.5416, lon:-0.1433, pop:400000, timezone:0},
+{name:"London - Croydon", lat:51.3762, lon:-0.0982, pop:400000, timezone:0},
+{name:"London - Wembley", lat:51.5580, lon:-0.2800, pop:300000, timezone:0},
+{name:"London - Stratford", lat:51.5460, lon:-0.0090, pop:300000, timezone:0},
+{name:"London - Greenwich", lat:51.4826, lon:0.0077, pop:300000, timezone:0},
+
+{name:"Ilford", lat:51.5590, lon:0.0741, pop:200000, timezone:0},
+{name:"Romford", lat:51.5768, lon:0.1801, pop:150000, timezone:0},
+{name:"Watford", lat:51.6565, lon:-0.3903, pop:150000, timezone:0},
+{name:"Slough", lat:51.5105, lon:-0.5950, pop:150000, timezone:0},
+{name:"Brentford", lat:51.4750, lon:-0.3060, pop:100000, timezone:0},
+{name:"Croydon", lat:51.3762, lon:-0.0982, pop:200000, timezone:0},
+{name:"Luton", lat:51.8787, lon:-0.4200, pop:250000, timezone:0},
+{name:"Basildon", lat:51.5761, lon:0.4887, pop:180000, timezone:0},
 {name:"Tres Garantías, Mexico", lat:17.9500, lon:-89.0000, pop:1000, timezone:-5},
+// ==========================
+// 🇨🇦 GREATER TORONTO AREA
+// ==========================
+{name:"Toronto - Downtown", lat:43.6532, lon:-79.3832, pop:1200000, timezone:-5},
+{name:"Toronto - North York", lat:43.7615, lon:-79.4111, pop:700000, timezone:-5},
+{name:"Toronto - Scarborough", lat:43.7764, lon:-79.2318, pop:650000, timezone:-5},
+{name:"Toronto - Etobicoke", lat:43.6205, lon:-79.5132, pop:500000, timezone:-5},
+{name:"Toronto - York", lat:43.6896, lon:-79.4802, pop:300000, timezone:-5},
+
+{name:"Mississauga", lat:43.5890, lon:-79.6441, pop:800000, timezone:-5},
+{name:"Brampton", lat:43.7315, lon:-79.7624, pop:700000, timezone:-5},
+{name:"Vaughan", lat:43.8563, lon:-79.5085, pop:350000, timezone:-5},
+{name:"Markham", lat:43.8561, lon:-79.3370, pop:350000, timezone:-5},
+{name:"Richmond Hill", lat:43.8828, lon:-79.4403, pop:250000, timezone:-5},
+{name:"Oakville", lat:43.4675, lon:-79.6877, pop:250000, timezone:-5},
+{name:"Burlington", lat:43.3255, lon:-79.7990, pop:200000, timezone:-5},
+{name:"Ajax", lat:43.8509, lon:-79.0204, pop:150000, timezone:-5},
+{name:"Pickering", lat:43.8384, lon:-79.0868, pop:100000, timezone:-5},
+{name:"Oshawa", lat:43.8975, lon:-78.8658, pop:180000, timezone:-5},
 {name:"Tomas Garrido, Mexico", lat:17.9000, lon:-89.0500, pop:1000, timezone:-5},
+// ==========================
+// 🇮🇩 JAKARTA METRO / JABODETABEK
+// ==========================
+{name:"Jakarta - Central", lat:-6.2088, lon:106.8456, pop:3000000, timezone:7},
+{name:"Jakarta - South", lat:-6.2615, lon:106.8106, pop:1800000, timezone:7},
+{name:"Jakarta - West", lat:-6.1683, lon:106.7588, pop:1800000, timezone:7},
+{name:"Jakarta - East", lat:-6.2250, lon:106.9000, pop:1800000, timezone:7},
+{name:"Jakarta - North", lat:-6.1380, lon:106.8800, pop:1500000, timezone:7},
+
+{name:"Tangerang", lat:-6.1783, lon:106.6319, pop:2000000, timezone:7},
+{name:"South Tangerang", lat:-6.2886, lon:106.7179, pop:1400000, timezone:7},
+{name:"Bekasi", lat:-6.2383, lon:106.9756, pop:2500000, timezone:7},
+{name:"Depok", lat:-6.4025, lon:106.7942, pop:2100000, timezone:7},
+{name:"Bogor", lat:-6.5971, lon:106.8060, pop:1100000, timezone:7},
+{name:"Cibinong", lat:-6.4810, lon:106.8500, pop:300000, timezone:7},
+{name:"Karawang", lat:-6.3050, lon:107.3000, pop:400000, timezone:7},
+{name:"Cikarang", lat:-6.2610, lon:107.1520, pop:400000, timezone:7},
 {name:"Conhuas, Mexico", lat:18.4000, lon:-89.5000, pop:1000, timezone:-6},
+// ==========================
+// 🇮🇳 DELHI NCR
+// ==========================
+{name:"Delhi - Central", lat:28.6139, lon:77.2090, pop:3000000, timezone:5.5},
+{name:"Delhi - South", lat:28.5244, lon:77.1855, pop:1500000, timezone:5.5},
+{name:"Delhi - East", lat:28.6280, lon:77.2780, pop:1200000, timezone:5.5},
+{name:"Delhi - North", lat:28.7041, lon:77.1025, pop:1500000, timezone:5.5},
+{name:"Delhi - West", lat:28.6667, lon:77.0667, pop:1300000, timezone:5.5},
+
+{name:"Gurugram", lat:28.4595, lon:77.0266, pop:1200000, timezone:5.5},
+{name:"Noida", lat:28.5355, lon:77.3910, pop:700000, timezone:5.5},
+{name:"Ghaziabad", lat:28.6692, lon:77.4538, pop:1200000, timezone:5.5},
+{name:"Faridabad", lat:28.4089, lon:77.3178, pop:1200000, timezone:5.5},
+{name:"Greater Noida", lat:28.4744, lon:77.5040, pop:500000, timezone:5.5},
+{name:"Bahadurgarh", lat:28.6929, lon:76.9350, pop:250000, timezone:5.5},
+{name:"Sonipat", lat:28.9931, lon:77.0151, pop:300000, timezone:5.5},
+{name:"Panipat", lat:29.3909, lon:76.9635, pop:400000, timezone:5.5},
+// ==========================
+// 🇰🇷 SEOUL CAPITAL AREA
+// ==========================
+{name:"Seoul - Jongno", lat:37.5730, lon:126.9794, pop:300000, timezone:9},
+{name:"Seoul - Gangnam", lat:37.4979, lon:127.0276, pop:700000, timezone:9},
+{name:"Seoul - Gangbuk", lat:37.6396, lon:127.0257, pop:500000, timezone:9},
+{name:"Seoul - Yeongdeungpo", lat:37.5264, lon:126.8963, pop:500000, timezone:9},
+{name:"Seoul - Songpa", lat:37.5145, lon:127.1059, pop:700000, timezone:9},
+{name:"Seoul - Mapo", lat:37.5663, lon:126.9014, pop:400000, timezone:9},
+{name:"Seoul - Guro", lat:37.4954, lon:126.8874, pop:400000, timezone:9},
+{name:"Seoul - Nowon", lat:37.6543, lon:127.0560, pop:500000, timezone:9},
+
+{name:"Incheon", lat:37.4563, lon:126.7052, pop:3000000, timezone:9},
+{name:"Bucheon", lat:37.5034, lon:126.7660, pop:800000, timezone:9},
+{name:"Goyang", lat:37.6584, lon:126.8320, pop:1100000, timezone:9},
+{name:"Suwon", lat:37.2636, lon:127.0286, pop:1200000, timezone:9},
+{name:"Seongnam", lat:37.4200, lon:127.1265, pop:950000, timezone:9},
+{name:"Yongin", lat:37.2411, lon:127.1776, pop:1100000, timezone:9},
+{name:"Anyang", lat:37.3943, lon:126.9568, pop:550000, timezone:9},
+{name:"Gwangmyeong", lat:37.4786, lon:126.8647, pop:300000, timezone:9},
+{name:"Uijeongbu", lat:37.7381, lon:127.0337, pop:450000, timezone:9},
+{name:"Namyangju", lat:37.6360, lon:127.2165, pop:700000, timezone:9},
+{name:"Hanam", lat:37.5393, lon:127.2148, pop:330000, timezone:9},
+{name:"Gimpo", lat:37.6153, lon:126.7156, pop:500000, timezone:9},
+// ==========================
+// 🇧🇷 SÃO PAULO METRO
+// ==========================
+{name:"São Paulo - Centro", lat:-23.5505, lon:-46.6333, pop:6000000, timezone:-3},
+{name:"São Paulo - Paulista", lat:-23.5614, lon:-46.6562, pop:1200000, timezone:-3},
+{name:"São Paulo - Pinheiros", lat:-23.5670, lon:-46.7010, pop:700000, timezone:-3},
+{name:"São Paulo - Moema", lat:-23.6000, lon:-46.6670, pop:500000, timezone:-3},
+{name:"São Paulo - Tatuapé", lat:-23.5400, lon:-46.5750, pop:700000, timezone:-3},
+{name:"São Paulo - Santana", lat:-23.5000, lon:-46.6250, pop:500000, timezone:-3},
+{name:"São Paulo - Santo Amaro", lat:-23.6540, lon:-46.7100, pop:600000, timezone:-3},
+{name:"São Paulo - Itaquera", lat:-23.5400, lon:-46.4550, pop:700000, timezone:-3},
+
+{name:"Guarulhos", lat:-23.4543, lon:-46.5337, pop:1400000, timezone:-3},
+{name:"Osasco", lat:-23.5329, lon:-46.7917, pop:750000, timezone:-3},
+{name:"São Bernardo do Campo", lat:-23.6914, lon:-46.5646, pop:850000, timezone:-3},
+{name:"Santo André", lat:-23.6639, lon:-46.5383, pop:750000, timezone:-3},
+{name:"São Caetano do Sul", lat:-23.6229, lon:-46.5548, pop:170000, timezone:-3},
+{name:"Diadema", lat:-23.6860, lon:-46.6230, pop:430000, timezone:-3},
+{name:"Mauá", lat:-23.6677, lon:-46.4613, pop:450000, timezone:-3},
+{name:"Barueri", lat:-23.5112, lon:-46.8765, pop:300000, timezone:-3},
+{name:"Taboão da Serra", lat:-23.6260, lon:-46.7910, pop:300000, timezone:-3},
+{name:"Cotia", lat:-23.6020, lon:-46.9190, pop:250000, timezone:-3},
+{name:"Mogi das Cruzes", lat:-23.5228, lon:-46.1883, pop:450000, timezone:-3},
+// ==========================
+// 🇲🇽 MEXICO CITY METRO
+// ==========================
+{name:"Mexico City - Centro", lat:19.4326, lon:-99.1332, pop:5000000, timezone:-6},
+{name:"Mexico City - Polanco", lat:19.4330, lon:-99.1940, pop:700000, timezone:-6},
+{name:"Mexico City - Coyoacán", lat:19.3467, lon:-99.1617, pop:600000, timezone:-6},
+{name:"Mexico City - Iztapalapa", lat:19.3574, lon:-99.0050, pop:1800000, timezone:-6},
+{name:"Mexico City - Gustavo A. Madero", lat:19.4870, lon:-99.1100, pop:1200000, timezone:-6},
+{name:"Mexico City - Azcapotzalco", lat:19.4869, lon:-99.1830, pop:500000, timezone:-6},
+{name:"Mexico City - Álvaro Obregón", lat:19.3587, lon:-99.2030, pop:800000, timezone:-6},
+{name:"Mexico City - Tlalpan", lat:19.2879, lon:-99.1677, pop:700000, timezone:-6},
+{name:"Mexico City - Xochimilco", lat:19.2570, lon:-99.1010, pop:400000, timezone:-6},
+
+{name:"Nezahualcóyotl", lat:19.4000, lon:-99.0333, pop:1100000, timezone:-6},
+{name:"Ecatepec", lat:19.6018, lon:-99.0507, pop:1600000, timezone:-6},
+{name:"Naucalpan", lat:19.4785, lon:-99.2380, pop:800000, timezone:-6},
+{name:"Tlalnepantla", lat:19.5400, lon:-99.1950, pop:700000, timezone:-6},
+{name:"Chimalhuacán", lat:19.4216, lon:-98.9500, pop:700000, timezone:-6},
+{name:"Texcoco", lat:19.5110, lon:-98.8820, pop:300000, timezone:-6},
+{name:"Huixquilucan", lat:19.3600, lon:-99.3500, pop:300000, timezone:-6},
+{name:"Atizapán de Zaragoza", lat:19.5580, lon:-99.2900, pop:500000, timezone:-6},
+{name:"Cuautitlán Izcalli", lat:19.6430, lon:-99.2150, pop:600000, timezone:-6},
+
+// Outer metro
+{name:"Toluca", lat:19.2826, lon:-99.6557, pop:2000000, timezone:-6},
+{name:"Metepec", lat:19.2500, lon:-99.6000, pop:250000, timezone:-6},
 {name:"Xpujil, Mexico", lat:18.5000, lon:-89.4000, pop:5000, timezone:-6},
 {name:"Zoh Laguna, Mexico", lat:18.5500, lon:-89.3500, pop:2000, timezone:-6},
 {name:"Nicolas Bravo, Mexico", lat:18.4500, lon:-89.1000, pop:2000, timezone:-6},
@@ -835,7 +1046,6 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 
 /* --- CANADA --- */
 {name:"Montreal, Canada", lat:45.5017, lon:-73.5673, pop:4300000, timezone:-5},
-{name:"Vancouver, Canada", lat:49.2827, lon:-123.1207, pop:2700000, timezone:-8},
 {name:"Calgary, Canada", lat:51.0447, lon:-114.0719, pop:1600000, timezone:-7},
 {name:"Ottawa, Canada", lat:45.4215, lon:-75.6972, pop:1400000, timezone:-5},
 {name:"Edmonton, Canada", lat:53.5461, lon:-113.4938, pop:1400000, timezone:-7},
@@ -1945,10 +2155,7 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 ========================= */
 
 /* --- MEGACITIES --- */
-{name:"Istanbul, Turkey", lat:41.0082, lon:28.9784, pop:16200000, timezone:3},
 {name:"Moscow, Russia", lat:55.7558, lon:37.6173, pop:12700000, timezone:3},
-{name:"London, UK", lat:51.5074, lon:-0.1278, pop:10400000, timezone:0},
-{name:"Paris, France", lat:48.8566, lon:2.3522, pop:11300000, timezone:1},
 {name:"Madrid, Spain", lat:40.4168, lon:-3.7038, pop:6800000, timezone:1},
 {name:"Berlin, Germany", lat:52.5200, lon:13.4050, pop:4400000, timezone:1},
 {name:"Rome, Italy", lat:41.9028, lon:12.4964, pop:4300000, timezone:1},
@@ -2550,21 +2757,15 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 ========================= */
 
 /* --- MEGACITIES --- */
-{name:"Tokyo, Japan", lat:35.6762, lon:139.6503, pop:37400000, timezone:9},
-{name:"Delhi, India", lat:28.7041, lon:77.1025, pop:32900000, timezone:5.5},
-{name:"Shanghai, China", lat:31.2304, lon:121.4737, pop:29200000, timezone:8},
-{name:"Dhaka, Bangladesh", lat:23.8103, lon:90.4125, pop:23200000, timezone:6},
+{name:"Dhaka, Bangladesh", lat:23.8103, lon:90.4125, pop:3200000, timezone:6},
 {name:"Beijing, China", lat:39.9042, lon:116.4074, pop:21700000, timezone:8},
-{name:"Mumbai, India", lat:19.0760, lon:72.8777, pop:22100000, timezone:5.5},
 {name:"Karachi, Pakistan", lat:24.8607, lon:67.0011, pop:17700000, timezone:5},
-{name:"Guangzhou, China", lat:23.1291, lon:113.2644, pop:25000000, timezone:8},
-{name:"Shenzhen, China", lat:22.5431, lon:114.0579, pop:17500000, timezone:8},
+{name:"Guangzhou, China", lat:23.1291, lon:113.2644, pop:5000000, timezone:8},
+{name:"Shenzhen, China", lat:22.5431, lon:114.0579, pop:7500000, timezone:8},
 {name:"Chongqing, China", lat:29.5630, lon:106.5516, pop:17000000, timezone:8},
 
 /* --- EAST ASIA --- */
-{name:"Seoul, South Korea", lat:37.5665, lon:126.9780, pop:9700000, timezone:9},
 {name:"Busan, South Korea", lat:35.1796, lon:129.0756, pop:3400000, timezone:9},
-{name:"Osaka, Japan", lat:34.6937, lon:135.5023, pop:19000000, timezone:9},
 {name:"Nagoya, Japan", lat:35.1815, lon:136.9066, pop:9000000, timezone:9},
 {name:"Sapporo, Japan", lat:43.0618, lon:141.3545, pop:2600000, timezone:9},
 {name:"Fukuoka, Japan", lat:33.5904, lon:130.4017, pop:2600000, timezone:9},
@@ -2638,6 +2839,107 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 {name:"Phuntsholing, Bhutan", lat:26.8500, lon:89.3833, pop:30000, timezone:6},
 {name:"Paro, Bhutan", lat:27.4333, lon:89.4167, pop:15000, timezone:6},
 {name:"Punakha, Bhutan", lat:27.5833, lon:89.8667, pop:10000, timezone:6},
+// ==========================
+// 🇻🇳 HO CHI MINH CITY METRO
+// ==========================
+{name:"HCMC - District 1", lat:10.7769, lon:106.7009, pop:1000000, timezone:7},
+{name:"HCMC - District 3", lat:10.7840, lon:106.6840, pop:500000, timezone:7},
+{name:"HCMC - District 5", lat:10.7540, lon:106.6630, pop:500000, timezone:7},
+{name:"HCMC - District 7", lat:10.7350, lon:106.7210, pop:600000, timezone:7},
+{name:"HCMC - Binh Thanh", lat:10.8100, lon:106.7100, pop:600000, timezone:7},
+{name:"HCMC - Tan Binh", lat:10.8000, lon:106.6500, pop:600000, timezone:7},
+{name:"HCMC - Thu Duc", lat:10.8500, lon:106.7700, pop:1500000, timezone:7},
+{name:"HCMC - Go Vap", lat:10.8400, lon:106.6700, pop:700000, timezone:7},
+
+{name:"Bien Hoa", lat:10.9574, lon:106.8426, pop:800000, timezone:7},
+{name:"Thu Dau Mot", lat:10.9804, lon:106.6519, pop:400000, timezone:7},
+{name:"Di An", lat:10.9068, lon:106.7690, pop:400000, timezone:7},
+{name:"Tan Uyen", lat:11.0500, lon:106.7700, pop:300000, timezone:7},
+{name:"Long An", lat:10.6956, lon:106.2431, pop:200000, timezone:7},
+// ==========================
+// 🇨🇳 SHENZHEN–DONGGUAN METRO
+// ==========================
+{name:"Shenzhen - Futian", lat:22.5431, lon:114.0579, pop:1200000, timezone:8},
+{name:"Shenzhen - Luohu", lat:22.5480, lon:114.1230, pop:800000, timezone:8},
+{name:"Shenzhen - Nanshan", lat:22.5333, lon:113.9300, pop:1000000, timezone:8},
+{name:"Shenzhen - Bao'an", lat:22.5700, lon:113.8500, pop:1200000, timezone:8},
+{name:"Shenzhen - Longgang", lat:22.7200, lon:114.2500, pop:1000000, timezone:8},
+{name:"Shenzhen - Longhua", lat:22.6500, lon:114.0300, pop:800000, timezone:8},
+{name:"Shenzhen - Guangming", lat:22.7480, lon:113.9350, pop:500000, timezone:8},
+{name:"Shenzhen - Pingshan", lat:22.6900, lon:114.3500, pop:400000, timezone:8},
+
+{name:"Dongguan - Center", lat:23.0200, lon:113.7500, pop:1000000, timezone:8},
+{name:"Dongguan - Houjie", lat:22.9400, lon:113.6800, pop:500000, timezone:8},
+{name:"Dongguan - Humen", lat:22.8200, lon:113.6800, pop:600000, timezone:8},
+{name:"Dongguan - Chang'an", lat:22.8200, lon:113.8000, pop:500000, timezone:8},
+{name:"Dongguan - Dalang", lat:22.9500, lon:113.9200, pop:400000, timezone:8},
+// ==========================
+// 🇨🇳 GUANGZHOU–FOSHAN METRO
+// ==========================
+{name:"Guangzhou - Tianhe", lat:23.1350, lon:113.3260, pop:1500000, timezone:8},
+{name:"Guangzhou - Yuexiu", lat:23.1288, lon:113.2644, pop:1000000, timezone:8},
+{name:"Guangzhou - Haizhu", lat:23.0833, lon:113.3000, pop:900000, timezone:8},
+{name:"Guangzhou - Panyu", lat:22.9380, lon:113.3840, pop:1000000, timezone:8},
+{name:"Guangzhou - Baiyun", lat:23.2500, lon:113.2700, pop:1000000, timezone:8},
+{name:"Guangzhou - Huangpu", lat:23.1800, lon:113.4500, pop:800000, timezone:8},
+{name:"Guangzhou - Nansha", lat:22.8000, lon:113.5000, pop:500000, timezone:8},
+
+{name:"Foshan", lat:23.0218, lon:113.1219, pop:1500000, timezone:8},
+{name:"Shunde", lat:22.8400, lon:113.2500, pop:800000, timezone:8},
+{name:"Nanhai", lat:23.0300, lon:113.1400, pop:800000, timezone:8},
+{name:"Sanshui", lat:23.1600, lon:112.8900, pop:400000, timezone:8},
+{name:"Zhaoqing", lat:23.0470, lon:112.4650, pop:500000, timezone:8},
+// ==========================
+// 🇧🇩 DHAKA METRO
+// ==========================
+{name:"Dhaka - Central", lat:23.8103, lon:90.4125, pop:2000000, timezone:6},
+{name:"Dhaka - Gulshan", lat:23.7925, lon:90.4078, pop:700000, timezone:6},
+{name:"Dhaka - Dhanmondi", lat:23.7461, lon:90.3742, pop:600000, timezone:6},
+{name:"Dhaka - Mirpur", lat:23.8223, lon:90.3654, pop:900000, timezone:6},
+{name:"Dhaka - Uttara", lat:23.8759, lon:90.3795, pop:900000, timezone:6},
+{name:"Dhaka - Mohammadpur", lat:23.7679, lon:90.3580, pop:600000, timezone:6},
+{name:"Dhaka - Jatrabari", lat:23.7100, lon:90.4350, pop:500000, timezone:6},
+{name:"Dhaka - Motijheel", lat:23.7333, lon:90.4167, pop:500000, timezone:6},
+
+{name:"Tongi", lat:23.8980, lon:90.4050, pop:500000, timezone:6},
+{name:"Savar", lat:23.8583, lon:90.2667, pop:350000, timezone:6},
+{name:"Gazipur", lat:24.0023, lon:90.4264, pop:700000, timezone:6},
+{name:"Narayanganj", lat:23.6238, lon:90.5000, pop:600000, timezone:6},
+{name:"Keraniganj", lat:23.7000, lon:90.3500, pop:300000, timezone:6},
+// ==========================
+// 🇮🇳 KOLKATA METRO
+// ==========================
+{name:"Kolkata - Central", lat:22.5726, lon:88.3639, pop:1800000, timezone:5.5},
+{name:"Kolkata - Salt Lake", lat:22.5804, lon:88.4120, pop:600000, timezone:5.5},
+{name:"Kolkata - New Town", lat:22.5958, lon:88.4797, pop:500000, timezone:5.5},
+{name:"Kolkata - Howrah", lat:22.5958, lon:88.2636, pop:800000, timezone:5.5},
+{name:"Kolkata - Alipore", lat:22.5350, lon:88.3320, pop:500000, timezone:5.5},
+{name:"Kolkata - Jadavpur", lat:22.4950, lon:88.3700, pop:500000, timezone:5.5},
+{name:"Kolkata - Dum Dum", lat:22.6500, lon:88.4200, pop:500000, timezone:5.5},
+
+{name:"Barasat", lat:22.7215, lon:88.4810, pop:300000, timezone:5.5},
+{name:"Kalyani", lat:22.9750, lon:88.4340, pop:150000, timezone:5.5},
+{name:"Bally", lat:22.6500, lon:88.3400, pop:250000, timezone:5.5},
+{name:"Serampore", lat:22.7500, lon:88.3400, pop:200000, timezone:5.5},
+{name:"Chandannagar", lat:22.8671, lon:88.3674, pop:200000, timezone:5.5},
+// ==========================
+// 🇳🇬 LAGOS METRO
+// ==========================
+{name:"Lagos - Island", lat:6.4541, lon:3.3947, pop:1500000, timezone:1},
+{name:"Lagos - Mainland", lat:6.5244, lon:3.3792, pop:2000000, timezone:1},
+{name:"Lagos - Ikeja", lat:6.6018, lon:3.3515, pop:1000000, timezone:1},
+{name:"Lagos - Surulere", lat:6.5000, lon:3.3500, pop:700000, timezone:1},
+{name:"Lagos - Yaba", lat:6.5090, lon:3.3710, pop:500000, timezone:1},
+{name:"Lagos - Lekki", lat:6.4698, lon:3.5852, pop:800000, timezone:1},
+{name:"Lagos - Ajah", lat:6.4667, lon:3.5667, pop:500000, timezone:1},
+{name:"Lagos - Ikorodu", lat:6.6194, lon:3.5105, pop:600000, timezone:1},
+{name:"Lagos - Agege", lat:6.6250, lon:3.3250, pop:500000, timezone:1},
+{name:"Lagos - Alimosho", lat:6.5900, lon:3.2600, pop:1000000, timezone:1},
+{name:"Lagos - Badagry", lat:6.4167, lon:2.8833, pop:150000, timezone:1},
+
+// Nearby urban corridor
+{name:"Ota", lat:6.6826, lon:3.2327, pop:400000, timezone:1},
+{name:"Agbara", lat:6.5250, lon:3.1050, pop:200000, timezone:1},
 {name:"Wangdue Phodrang, Bhutan", lat:27.4833, lon:89.9000, pop:10000, timezone:6},
 {name:"Trongsa, Bhutan", lat:27.5000, lon:90.5000, pop:5000, timezone:6},
 {name:"Bumthang, Bhutan", lat:27.5500, lon:90.7500, pop:5000, timezone:6},
@@ -2656,23 +2958,18 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 {name:"Maliana, Timor-Leste", lat:-9.0000, lon:125.2167, pop:15000, timezone:9},
 {name:"Suai, Timor-Leste", lat:-9.3000, lon:125.2500, pop:10000, timezone:9},
 {name:"Lospalos, Timor-Leste", lat:-8.5167, lon:127.0000, pop:15000, timezone:9},
-{name:"Kolkata, India", lat:22.5726, lon:88.3639, pop:15000000, timezone:5.5},
+{name:"Kolkata, India", lat:22.5726, lon:88.3639, pop:5000000, timezone:5.5},
 {name:"Chennai, India", lat:13.0827, lon:80.2707, pop:11000000, timezone:5.5},
 {name:"Hyderabad, India", lat:17.3850, lon:78.4867, pop:10500000, timezone:5.5},
 {name:"Ahmedabad, India", lat:23.0225, lon:72.5714, pop:8000000, timezone:5.5},
 {name:"Pune, India", lat:18.5204, lon:73.8567, pop:7500000, timezone:5.5},
 
 /* --- SOUTHEAST ASIA --- */
-{name:"Jakarta, Indonesia", lat:-6.2088, lon:106.8456, pop:34000000, timezone:7},
-{name:"Manila, Philippines", lat:14.5995, lon:120.9842, pop:25000000, timezone:8},
-{name:"Bangkok, Thailand", lat:13.7563, lon:100.5018, pop:17000000, timezone:7},
-{name:"Ho Chi Minh City, Vietnam", lat:10.8231, lon:106.6297, pop:13000000, timezone:7},
+{name:"Ho Chi Minh City, Vietnam", lat:10.8231, lon:106.6297, pop:3000000, timezone:7},
 {name:"Hanoi, Vietnam", lat:21.0278, lon:105.8342, pop:8500000, timezone:7},
 {name:"Kuala Lumpur, Malaysia", lat:3.1390, lon:101.6869, pop:8000000, timezone:8},
-{name:"Singapore, Singapore", lat:1.3521, lon:103.8198, pop:5900000, timezone:8},
 
 /* --- MIDDLE EAST --- */
-{name:"Dubai, UAE", lat:25.2048, lon:55.2708, pop:3500000, timezone:4},
 {name:"Abu Dhabi, UAE", lat:24.4539, lon:54.3773, pop:1500000, timezone:4},
 {name:"Riyadh, Saudi Arabia", lat:24.7136, lon:46.6753, pop:7500000, timezone:3},
 {name:"Jeddah, Saudi Arabia", lat:21.4858, lon:39.1925, pop:4800000, timezone:3},
@@ -3324,8 +3621,7 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 ========================= */
 
 /* --- MEGACITIES --- */
-{name:"Cairo, Egypt", lat:30.0444, lon:31.2357, pop:22000000, timezone:2},
-{name:"Lagos, Nigeria", lat:6.5244, lon:3.3792, pop:16000000, timezone:1},
+{name:"Lagos, Nigeria", lat:6.5244, lon:3.3792, pop:6000000, timezone:1},
 {name:"Kinshasa, DR Congo", lat:-4.4419, lon:15.2663, pop:15000000, timezone:1},
 
 /* --- NORTH AFRICA --- */
@@ -3629,8 +3925,6 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 {name:"Kasese, Uganda", lat:0.1833, lon:30.0833, pop:50000, timezone:3},
 
 // Southern Africa
-{name:"Johannesburg, South Africa", lat:-26.2041, lon:28.0473, pop:5500000, timezone:2},
-{name:"Cape Town, South Africa", lat:-33.9249, lon:18.4241, pop:4500000, timezone:2},
 {name:"Durban, South Africa", lat:-29.8587, lon:31.0218, pop:3500000, timezone:2},
 {name:"Pretoria, South Africa", lat:-25.7479, lon:28.2293, pop:2500000, timezone:2},
 {name:"Port Elizabeth, South Africa", lat:-33.9608, lon:25.6022, pop:1200000, timezone:2},
@@ -4192,7 +4486,6 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
    🇦🇺 AUSTRALIA (15)
 ========================= */
 
-{name:"Sydney, Australia", lat:-33.8688, lon:151.2093, pop:5300000, timezone:10},
 {name:"Melbourne, Australia", lat:-37.8136, lon:144.9631, pop:5100000, timezone:10},
 {name:"Brisbane, Australia", lat:-27.4698, lon:153.0251, pop:2600000, timezone:10},
 {name:"Perth, Australia", lat:-31.9505, lon:115.8605, pop:2100000, timezone:8},
@@ -4326,6 +4619,415 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 {name:"Napier, New Zealand", lat:-39.4928, lon:176.9120, pop:65000, timezone:12},
 {name:"Hastings, New Zealand", lat:-39.6456, lon:176.8433, pop:50000, timezone:12},
 {name:"Blenheim, New Zealand", lat:-41.5111, lon:173.9539, pop:30000, timezone:12},
+/* =========================
+   MULTI-CIRCLE CITIES
+   (City + surrounding areas)
+========================= */
+
+// ========== NEW YORK CITY ==========
+{name:"NYC - Manhattan", lat:40.7831, lon:-73.9712, pop:1800000, timezone:-5},
+{name:"NYC - Brooklyn", lat:40.6782, lon:-73.9442, pop:2600000, timezone:-5},
+{name:"NYC - Queens", lat:40.7282, lon:-73.7949, pop:2400000, timezone:-5},
+{name:"NYC - Bronx", lat:40.8448, lon:-73.8648, pop:1500000, timezone:-5},
+{name:"NYC - Staten Island", lat:40.5795, lon:-74.1502, pop:500000, timezone:-5},
+{name:"NYC - Jersey City", lat:40.7178, lon:-74.0431, pop:300000, timezone:-5},
+{name:"NYC - Newark", lat:40.7357, lon:-74.1724, pop:310000, timezone:-5},
+{name:"NYC - Yonkers", lat:40.9312, lon:-73.8987, pop:200000, timezone:-5},
+{name:"NYC - New Rochelle", lat:40.9115, lon:-73.7823, pop:80000, timezone:-5},
+{name:"NYC - White Plains", lat:41.0330, lon:-73.7629, pop:60000, timezone:-5},
+{name:"NYC - Hempstead", lat:40.7062, lon:-73.6187, pop:80000, timezone:-5},
+{name:"NYC - Long Beach", lat:40.5884, lon:-73.6579, pop:35000, timezone:-5},
+
+// ========== LOS ANGELES ==========
+{name:"LA - Downtown", lat:34.0407, lon:-118.2468, pop:600000, timezone:-8},
+{name:"LA - Hollywood", lat:34.0928, lon:-118.3287, pop:350000, timezone:-8},
+{name:"LA - Santa Monica", lat:34.0195, lon:-118.4912, pop:100000, timezone:-8},
+{name:"LA - Long Beach", lat:33.7701, lon:-118.1937, pop:470000, timezone:-8},
+{name:"LA - Pasadena", lat:34.1478, lon:-118.1445, pop:150000, timezone:-8},
+{name:"LA - Glendale", lat:34.1425, lon:-118.2551, pop:200000, timezone:-8},
+{name:"LA - Burbank", lat:34.1808, lon:-118.3090, pop:110000, timezone:-8},
+{name:"LA - Torrance", lat:33.8358, lon:-118.3406, pop:150000, timezone:-8},
+{name:"LA - Inglewood", lat:33.9617, lon:-118.3531, pop:110000, timezone:-8},
+{name:"LA - Compton", lat:33.8958, lon:-118.2201, pop:100000, timezone:-8},
+{name:"LA - Anaheim", lat:33.8366, lon:-117.9143, pop:350000, timezone:-8},
+{name:"LA - Irvine", lat:33.6846, lon:-117.8265, pop:310000, timezone:-8},
+{name:"LA - Santa Ana", lat:33.7455, lon:-117.8677, pop:320000, timezone:-8},
+// ==========================
+// 🌃 RESTORED METRO BASE CIRCLES
+// ==========================
+
+// North America
+{name:"New York City, USA", lat:40.7128, lon:-74.0060, pop:7000000, timezone:-5},
+{name:"Los Angeles, USA", lat:34.0522, lon:-118.2437, pop:4000000, timezone:-8},
+{name:"San Francisco, USA", lat:37.7749, lon:-122.4194, pop:700000, timezone:-8},
+{name:"Seattle, USA", lat:47.6062, lon:-122.3321, pop:100000, timezone:-8},
+{name:"Las Vegas, USA", lat:36.1699, lon:-115.1398, pop:100000, timezone:-8},
+{name:"Vancouver, Canada", lat:49.2827, lon:-123.1207, pop:700000, timezone:-8},
+{name:"Boston, USA", lat:42.3601, lon:-71.0589, pop:700000, timezone:-5},
+
+// Asia
+{name:"Tokyo, Japan", lat:35.6762, lon:139.6503, pop:7000000, timezone:9},
+{name:"Shanghai, China", lat:31.2304, lon:121.4737, pop:1000000, timezone:8},
+{name:"Hong Kong, China", lat:22.3193, lon:114.1694, pop:7000000, timezone:8},
+{name:"Singapore, Singapore", lat:1.3521, lon:103.8198, pop:900000, timezone:8},
+{name:"Bangkok, Thailand", lat:13.7563, lon:100.5018, pop:7000000, timezone:7},
+{name:"Manila, Philippines", lat:14.5995, lon:120.9842, pop:5000000, timezone:8},
+{name:"Mumbai, India", lat:19.0760, lon:72.8777, pop:2000000, timezone:5.5},
+{name:"Osaka, Japan", lat:34.6937, lon:135.5023, pop:7000000, timezone:9},
+
+// Middle East
+{name:"Dubai, UAE", lat:25.2048, lon:55.2708, pop:5000000, timezone:4},
+{name:"Istanbul, Turkey", lat:41.0082, lon:28.9784, pop:10000000, timezone:3},
+{name:"Las Vegas, USA", lat:36.1699, lon:-115.1398, pop:1000000, timezone:-8},
+
+// Africa
+{name:"Cape Town, South Africa", lat:-33.9249, lon:18.4241, pop:500000, timezone:2},
+{name:"Cairo, Egypt", lat:30.0444, lon:31.2357, pop:2000000, timezone:2},
+{name:"Alexandria, Egypt", lat:31.2001, lon:29.9187, pop:500000, timezone:2},
+
+// South America
+{name:"Rio de Janeiro, Brazil", lat:-22.9068, lon:-43.1729, pop:1000000, timezone:-3},
+{name:"LA - Riverside", lat:33.9806, lon:-117.3755, pop:320000, timezone:-8},
+{name:"LA - San Bernardino", lat:34.1083, lon:-117.2898, pop:220000, timezone:-8},
+{name:"LA - Ontario", lat:34.0633, lon:-117.6509, pop:180000, timezone:-8},
+{name:"LA - Pomona", lat:34.0551, lon:-117.7500, pop:150000, timezone:-8},
+{name:"LA - Fullerton", lat:33.8704, lon:-117.9242, pop:140000, timezone:-8},
+{name:"LA - Huntington Beach", lat:33.6595, lon:-117.9988, pop:200000, timezone:-8},
+{name:"LA - Costa Mesa", lat:33.6411, lon:-117.9187, pop:110000, timezone:-8},
+
+// ========== TOKYO ==========
+{name:"Tokyo - Shinjuku", lat:35.6938, lon:139.7034, pop:900000, timezone:9},
+{name:"Tokyo - Shibuya", lat:35.6618, lon:139.7041, pop:700000, timezone:9},
+{name:"Tokyo - Ikebukuro", lat:35.7295, lon:139.7109, pop:600000, timezone:9},
+{name:"Tokyo - Ginza", lat:35.6717, lon:139.7650, pop:400000, timezone:9},
+{name:"Tokyo - Akihabara", lat:35.7023, lon:139.7745, pop:300000, timezone:9},
+{name:"Tokyo - Roppongi", lat:35.6627, lon:139.7314, pop:300000, timezone:9},
+{name:"Tokyo - Ueno", lat:35.7140, lon:139.7774, pop:300000, timezone:9},
+{name:"Tokyo - Asakusa", lat:35.7148, lon:139.7967, pop:200000, timezone:9},
+{name:"Tokyo - Shinagawa", lat:35.6284, lon:139.7387, pop:400000, timezone:9},
+{name:"Tokyo - Yokohama Center", lat:35.4437, lon:139.6380, pop:1800000, timezone:9},
+{name:"Tokyo - Kawasaki", lat:35.5308, lon:139.7029, pop:900000, timezone:9},
+{name:"Tokyo - Chiba", lat:35.6074, lon:140.1065, pop:600000, timezone:9},
+{name:"Tokyo - Saitama", lat:35.8617, lon:139.6455, pop:1300000, timezone:9},
+{name:"Tokyo - Funabashi", lat:35.6947, lon:139.9826, pop:600000, timezone:9},
+{name:"Tokyo - Kawaguchi", lat:35.8077, lon:139.7241, pop:600000, timezone:9},
+{name:"Tokyo - Hachioji", lat:35.6559, lon:139.3239, pop:580000, timezone:9},
+{name:"Tokyo - Machida", lat:35.5469, lon:139.4386, pop:430000, timezone:9},
+{name:"Tokyo - Fuchu", lat:35.6694, lon:139.4778, pop:260000, timezone:9},
+{name:"Tokyo - Chofu", lat:35.6506, lon:139.5406, pop:230000, timezone:9},
+{name:"Tokyo - Mitaka", lat:35.6833, lon:139.5667, pop:190000, timezone:9},
+
+// ========== DUBAI ==========
+{name:"Dubai - Downtown", lat:25.1972, lon:55.2744, pop:500000, timezone:4},
+{name:"Dubai - Marina", lat:25.0805, lon:55.1403, pop:350000, timezone:4},
+{name:"Dubai - JBR", lat:25.0782, lon:55.1325, pop:180000, timezone:4},
+{name:"Dubai - Business Bay", lat:25.1850, lon:55.2700, pop:250000, timezone:4},
+{name:"Dubai - Deira", lat:25.2697, lon:55.3095, pop:450000, timezone:4},
+{name:"Dubai - Bur Dubai", lat:25.2532, lon:55.2972, pop:350000, timezone:4},
+{name:"Dubai - Jebel Ali", lat:25.0100, lon:55.0600, pop:250000, timezone:4},
+{name:"Dubai - Palm Jumeirah", lat:25.1124, lon:55.1390, pop:120000, timezone:4},
+{name:"Dubai - Al Barsha", lat:25.1110, lon:55.1980, pop:180000, timezone:4},
+{name:"Dubai - International City", lat:25.1700, lon:55.4100, pop:180000, timezone:4},
+{name:"Dubai - Al Quoz", lat:25.1400, lon:55.2300, pop:150000, timezone:4},
+{name:"Dubai - Al Qusais", lat:25.2800, lon:55.3800, pop:200000, timezone:4},
+{name:"Dubai - Mirdif", lat:25.2200, lon:55.4200, pop:150000, timezone:4},
+{name:"Dubai - Silicon Oasis", lat:25.1200, lon:55.3800, pop:100000, timezone:4},
+{name:"Dubai - Sports City", lat:25.0400, lon:55.2100, pop:80000, timezone:4},
+// ========== SHANGHAI — ADDITIONAL COVERAGE ==========
+
+{name:"Shanghai - Hongkou", lat:31.2640, lon:121.5050, pop:600000, timezone:8},
+{name:"Shanghai - Putuo", lat:31.2500, lon:121.3950, pop:600000, timezone:8},
+{name:"Shanghai - Changning", lat:31.2180, lon:121.4240, pop:500000, timezone:8},
+
+{name:"Shanghai - Pudong South", lat:31.1700, lon:121.5200, pop:700000, timezone:8},
+{name:"Shanghai - Pudong East", lat:31.1500, lon:121.6500, pop:700000, timezone:8},
+
+{name:"Shanghai - Jiading East", lat:31.3400, lon:121.3200, pop:500000, timezone:8},
+
+{name:"Shanghai - Kunshan East", lat:31.3700, lon:121.1000, pop:500000, timezone:8},
+{name:"Suzhou - East", lat:31.3000, lon:120.7000, pop:700000, timezone:8},
+// Shanghai (expanded metro)
+{name:"Shanghai - Pudong", lat:31.2213, lon:121.5440, pop:3000000, timezone:8},
+{name:"Shanghai - Puxi", lat:31.2304, lon:121.4737, pop:5000000, timezone:8},
+{name:"Shanghai - Hongqiao", lat:31.1979, lon:121.3364, pop:1000000, timezone:8},
+{name:"Shanghai - Xujiahui", lat:31.1880, lon:121.4365, pop:800000, timezone:8},
+{name:"Shanghai - Lujiazui", lat:31.2397, lon:121.4998, pop:500000, timezone:8},
+{name:"Shanghai - Jing'an", lat:31.2230, lon:121.4450, pop:700000, timezone:8},
+{name:"Shanghai - Yangpu", lat:31.2600, lon:121.5200, pop:800000, timezone:8},
+{name:"Shanghai - Minhang", lat:31.1120, lon:121.3800, pop:1500000, timezone:8},
+{name:"Shanghai - Baoshan", lat:31.4000, lon:121.4800, pop:1200000, timezone:8},
+{name:"Shanghai - Songjiang", lat:31.0300, lon:121.2200, pop:1000000, timezone:8},
+// ========== TOKYO — EXPANDED ==========
+
+{name:"Tokyo - Setagaya", lat:35.6466, lon:139.6532, pop:900000, timezone:9},
+{name:"Tokyo - Nerima", lat:35.7356, lon:139.6517, pop:700000, timezone:9},
+{name:"Tokyo - Edogawa", lat:35.7068, lon:139.8683, pop:700000, timezone:9},
+{name:"Tokyo - Koto", lat:35.6728, lon:139.8170, pop:600000, timezone:9},
+{name:"Tokyo - Katsushika", lat:35.7435, lon:139.8470, pop:500000, timezone:9},
+
+{name:"Tokyo - Ota", lat:35.5614, lon:139.7161, pop:700000, timezone:9},
+{name:"Tokyo - Itabashi", lat:35.7512, lon:139.7092, pop:600000, timezone:9},
+
+{name:"Tokyo - Tachikawa", lat:35.7139, lon:139.4078, pop:400000, timezone:9},
+{name:"Tokyo - Musashino", lat:35.7177, lon:139.5661, pop:300000, timezone:9},
+
+{name:"Tokyo - Yokohama North", lat:35.5100, lon:139.5900, pop:600000, timezone:9},
+{name:"Tokyo - Yokohama East", lat:35.4700, lon:139.6600, pop:500000, timezone:9},
+
+{name:"Tokyo - Ichikawa", lat:35.7219, lon:139.9311, pop:500000, timezone:9},
+{name:"Tokyo - Matsudo", lat:35.7877, lon:139.9031, pop:500000, timezone:9},
+{name:"Tokyo - Kashiwa", lat:35.8676, lon:139.9757, pop:450000, timezone:9},
+
+// Surrounding urban areas
+{name:"Shanghai - Jiading", lat:31.3747, lon:121.2500, pop:800000, timezone:8},
+{name:"Shanghai - Qingpu", lat:31.1510, lon:121.1240, pop:700000, timezone:8},
+{name:"Shanghai - Fengxian", lat:30.9180, lon:121.4740, pop:700000, timezone:8},
+{name:"Shanghai - Jinshan", lat:30.7410, lon:121.3410, pop:500000, timezone:8},
+{name:"Shanghai - Pudong East", lat:31.1500, lon:121.6500, pop:700000, timezone:8},
+
+// Nearby satellite cities
+{name:"Kunshan", lat:31.3856, lon:120.9807, pop:800000, timezone:8},
+{name:"Taicang", lat:31.4580, lon:121.1300, pop:500000, timezone:8},
+{name:"Jiangyin", lat:31.9200, lon:120.2850, pop:700000, timezone:8},
+{name:"Suzhou", lat:31.2989, lon:120.5853, pop:2500000, timezone:8},
+{name:"Wuxi", lat:31.4912, lon:120.3119, pop:1800000, timezone:8},
+// ========== ISTANBUL ==========
+{name:"Istanbul - European Side", lat:41.0082, lon:28.9784, pop:9000000, timezone:3},
+{name:"Istanbul - Asian Side", lat:41.0053, lon:29.0283, pop:7000000, timezone:3},
+{name:"Istanbul - Beşiktaş", lat:41.0422, lon:29.0067, pop:450000, timezone:3},
+{name:"Istanbul - Kadıköy", lat:40.9833, lon:29.0333, pop:550000, timezone:3},
+{name:"Istanbul - Üsküdar", lat:41.0225, lon:29.0150, pop:550000, timezone:3},
+{name:"Istanbul - Bakırköy", lat:40.9833, lon:28.8500, pop:350000, timezone:3},
+{name:"Istanbul - Şişli", lat:41.0600, lon:28.9870, pop:350000, timezone:3},
+{name:"Istanbul - Fatih", lat:41.0186, lon:28.9397, pop:450000, timezone:3},
+{name:"Istanbul - Beyoğlu", lat:41.0370, lon:28.9850, pop:280000, timezone:3},
+{name:"Istanbul - Maltepe", lat:40.9333, lon:29.1500, pop:550000, timezone:3},
+{name:"Istanbul - Kartal", lat:40.8889, lon:29.1875, pop:500000, timezone:3},
+{name:"Istanbul - Pendik", lat:40.8775, lon:29.2333, pop:750000, timezone:3},
+{name:"Istanbul - Ataşehir", lat:40.9833, lon:29.1167, pop:400000, timezone:3},
+{name:"Istanbul - Ümraniye", lat:41.0167, lon:29.1167, pop:700000, timezone:3},
+{name:"Istanbul - Sarıyer", lat:41.1667, lon:29.0500, pop:350000, timezone:3},
+{name:"Istanbul - Beykoz", lat:41.1333, lon:29.1000, pop:250000, timezone:3},
+{name:"Istanbul - Büyükçekmece", lat:41.0167, lon:28.5833, pop:250000, timezone:3},
+{name:"Istanbul - Esenyurt", lat:41.0333, lon:28.6833, pop:900000, timezone:3},
+
+// ========== RIO DE JANEIRO ==========
+{name:"Rio - Centro", lat:-22.9068, lon:-43.1729, pop:700000, timezone:-3},
+{name:"Rio - Zona Sul", lat:-22.9711, lon:-43.1822, pop:600000, timezone:-3},
+{name:"Rio - Copacabana", lat:-22.9711, lon:-43.1822, pop:150000, timezone:-3},
+{name:"Rio - Ipanema", lat:-22.9838, lon:-43.2096, pop:100000, timezone:-3},
+{name:"Rio - Barra da Tijuca", lat:-23.0000, lon:-43.3650, pop:300000, timezone:-3},
+{name:"Rio - Jacarepaguá", lat:-22.9500, lon:-43.3700, pop:250000, timezone:-3},
+{name:"Rio - Tijuca", lat:-22.9300, lon:-43.2400, pop:200000, timezone:-3},
+{name:"Rio - Zona Norte", lat:-22.8800, lon:-43.2800, pop:800000, timezone:-3},
+{name:"Rio - Niterói", lat:-22.8833, lon:-43.1036, pop:500000, timezone:-3},
+{name:"Rio - São Gonçalo", lat:-22.8268, lon:-43.0539, pop:1000000, timezone:-3},
+{name:"Rio - Duque de Caxias", lat:-22.7858, lon:-43.3117, pop:900000, timezone:-3},
+{name:"Rio - Nova Iguaçu", lat:-22.7592, lon:-43.4511, pop:800000, timezone:-3},
+{name:"Rio - Belford Roxo", lat:-22.7642, lon:-43.3994, pop:500000, timezone:-3},
+{name:"Rio - São João de Meriti", lat:-22.8039, lon:-43.3722, pop:500000, timezone:-3},
+{name:"Rio - Petrópolis", lat:-22.5050, lon:-43.1786, pop:300000, timezone:-3},
+{name:"Rio - Volta Redonda", lat:-22.5231, lon:-44.1044, pop:250000, timezone:-3},
+
+// ========== LAS VEGAS (SUPER BRIGHT) ==========
+{name:"Las Vegas - The Strip", lat:36.1147, lon:-115.1728, pop:15000000, timezone:-8},
+{name:"Las Vegas - Downtown", lat:36.1699, lon:-115.1398, pop:10000000, timezone:-8},
+{name:"Las Vegas - Paradise", lat:36.1120, lon:-115.1400, pop:8000000, timezone:-8},
+{name:"Las Vegas - Spring Valley", lat:36.1080, lon:-115.2450, pop:5000000, timezone:-8},
+{name:"Las Vegas - Summerlin", lat:36.1800, lon:-115.3200, pop:4000000, timezone:-8},
+{name:"Las Vegas - Henderson", lat:36.0395, lon:-114.9817, pop:6000000, timezone:-8},
+{name:"Las Vegas - North Las Vegas", lat:36.1989, lon:-115.1175, pop:5000000, timezone:-8},
+{name:"Las Vegas - Enterprise", lat:36.0300, lon:-115.2200, pop:3000000, timezone:-8},
+{name:"Las Vegas - Whitney", lat:36.0700, lon:-115.0500, pop:2000000, timezone:-8},
+
+// ========== CAIRO + ALEXANDRIA + NILE DELTA ==========
+{name:"Cairo - Downtown", lat:30.0444, lon:31.2357, pop:5000000, timezone:2},
+{name:"Cairo - Giza", lat:30.0131, lon:31.2089, pop:4000000, timezone:2},
+{name:"Cairo - Heliopolis", lat:30.0900, lon:31.3200, pop:1500000, timezone:2},
+{name:"Cairo - Nasr City", lat:30.0500, lon:31.3400, pop:1500000, timezone:2},
+{name:"Cairo - Maadi", lat:29.9600, lon:31.2700, pop:500000, timezone:2},
+{name:"Cairo - 6th of October", lat:29.9300, lon:30.9200, pop:800000, timezone:2},
+{name:"Cairo - New Cairo", lat:30.0300, lon:31.4700, pop:1000000, timezone:2},
+{name:"Cairo - Shubra", lat:30.1100, lon:31.2400, pop:1000000, timezone:2},
+{name:"Alexandria - Center", lat:31.2001, lon:29.9187, pop:3000000, timezone:2},
+{name:"Alexandria - Montaza", lat:31.2800, lon:30.0100, pop:800000, timezone:2},
+{name:"Alexandria - Agami", lat:31.1000, lon:29.7800, pop:400000, timezone:2},
+{name:"Alexandria - Borg El Arab", lat:30.8500, lon:29.7000, pop:300000, timezone:2},
+
+// Nile Delta corridor (the bright green strip)
+{name:"Nile - Tanta", lat:30.7865, lon:31.0004, pop:500000, timezone:2},
+{name:"Nile - Mansoura", lat:31.0364, lon:31.3807, pop:500000, timezone:2},
+{name:"Nile - Zagazig", lat:30.5877, lon:31.5020, pop:350000, timezone:2},
+{name:"Nile - Banha", lat:30.4591, lon:31.1786, pop:200000, timezone:2},
+{name:"Nile - Shibin El Kom", lat:30.5500, lon:30.9990, pop:250000, timezone:2},
+{name:"Nile - Mahalla", lat:30.9700, lon:31.1700, pop:500000, timezone:2},
+{name:"Nile - Kafr El Sheikh", lat:31.1100, lon:30.9400, pop:150000, timezone:2},
+{name:"Nile - Damanhur", lat:31.0341, lon:30.4682, pop:300000, timezone:2},
+{name:"Nile - Damietta", lat:31.4167, lon:31.8200, pop:300000, timezone:2},
+{name:"Nile - Port Said", lat:31.2653, lon:32.3019, pop:750000, timezone:2},
+{name:"Nile - Ismailia", lat:30.5965, lon:32.2715, pop:400000, timezone:2},
+{name:"Nile - Suez", lat:29.9668, lon:32.5498, pop:700000, timezone:2},
+{name:"Nile - Beni Suef", lat:29.0667, lon:31.0833, pop:250000, timezone:2},
+{name:"Nile - Minya", lat:28.1099, lon:30.7503, pop:300000, timezone:2},
+{name:"Nile - Asyut", lat:27.1809, lon:31.1837, pop:450000, timezone:2},
+{name:"Nile - Sohag", lat:26.5569, lon:31.6948, pop:250000, timezone:2},
+{name:"Nile - Qena", lat:26.1551, lon:32.7160, pop:250000, timezone:2},
+{name:"Nile - Luxor", lat:25.6872, lon:32.6396, pop:500000, timezone:2},
+{name:"Nile - Aswan", lat:24.0889, lon:32.8998, pop:300000, timezone:2},
+
+// ========== EXTRA HIGH-PRIORITY MULTI-CIRCLE CITIES ==========
+
+// Singapore
+{name:"Singapore - Central", lat:1.2897, lon:103.8501, pop:1500000, timezone:8},
+{name:"Singapore - Jurong", lat:1.3329, lon:103.7436, pop:800000, timezone:8},
+{name:"Singapore - Woodlands", lat:1.4382, lon:103.7890, pop:600000, timezone:8},
+{name:"Singapore - Tampines", lat:1.3496, lon:103.9568, pop:500000, timezone:8},
+{name:"Singapore - Bedok", lat:1.3236, lon:103.9273, pop:400000, timezone:8},
+{name:"Singapore - Hougang", lat:1.3612, lon:103.8863, pop:300000, timezone:8},
+{name:"Singapore - Sengkang", lat:1.3917, lon:103.8950, pop:300000, timezone:8},
+{name:"Singapore - Punggol", lat:1.4050, lon:103.9020, pop:200000, timezone:8},
+{name:"Singapore - Pasir Ris", lat:1.3721, lon:103.9493, pop:200000, timezone:8},
+{name:"Singapore - Changi", lat:1.3500, lon:103.9900, pop:150000, timezone:8},
+
+// Hong Kong
+{name:"Hong Kong - Central", lat:22.2819, lon:114.1580, pop:800000, timezone:8},
+{name:"Hong Kong - Kowloon", lat:22.3167, lon:114.1833, pop:2000000, timezone:8},
+{name:"Hong Kong - Tsim Sha Tsui", lat:22.2975, lon:114.1722, pop:300000, timezone:8},
+{name:"Hong Kong - Mong Kok", lat:22.3193, lon:114.1694, pop:400000, timezone:8},
+{name:"Hong Kong - Sha Tin", lat:22.3800, lon:114.1900, pop:600000, timezone:8},
+{name:"Hong Kong - Tuen Mun", lat:22.3900, lon:113.9700, pop:500000, timezone:8},
+{name:"Hong Kong - Yuen Long", lat:22.4500, lon:114.0300, pop:600000, timezone:8},
+{name:"Hong Kong - Tseung Kwan O", lat:22.3100, lon:114.2600, pop:400000, timezone:8},
+{name:"Hong Kong - Tai Po", lat:22.4500, lon:114.1700, pop:300000, timezone:8},
+{name:"Hong Kong - Lantau", lat:22.2700, lon:113.9500, pop:200000, timezone:8},
+
+// San Francisco
+{name:"SF - Downtown", lat:37.7749, lon:-122.4194, pop:800000, timezone:-8},
+{name:"SF - Oakland", lat:37.8044, lon:-122.2712, pop:450000, timezone:-8},
+{name:"SF - Berkeley", lat:37.8716, lon:-122.2727, pop:120000, timezone:-8},
+{name:"SF - San Jose", lat:37.3382, lon:-121.8863, pop:1000000, timezone:-8},
+{name:"SF - Sunnyvale", lat:37.3688, lon:-122.0363, pop:150000, timezone:-8},
+{name:"SF - Palo Alto", lat:37.4419, lon:-122.1430, pop:70000, timezone:-8},
+{name:"SF - Fremont", lat:37.5485, lon:-121.9886, pop:230000, timezone:-8},
+{name:"SF - Hayward", lat:37.6688, lon:-122.0808, pop:160000, timezone:-8},
+{name:"SF - Richmond", lat:37.9358, lon:-122.3477, pop:110000, timezone:-8},
+{name:"SF - Daly City", lat:37.6879, lon:-122.4702, pop:110000, timezone:-8},
+{name:"SF - South San Francisco", lat:37.6547, lon:-122.4077, pop:70000, timezone:-8},
+{name:"SF - San Mateo", lat:37.5629, lon:-122.3255, pop:100000, timezone:-8},
+
+// Sydney
+{name:"Sydney - CBD", lat:-33.8688, lon:151.2093, pop:500000, timezone:10},
+{name:"Sydney - North Shore", lat:-33.8200, lon:151.2000, pop:400000, timezone:10},
+{name:"Sydney - Eastern Suburbs", lat:-33.9000, lon:151.2500, pop:300000, timezone:10},
+{name:"Sydney - Inner West", lat:-33.8900, lon:151.1500, pop:300000, timezone:10},
+{name:"Sydney - Parramatta", lat:-33.8150, lon:151.0010, pop:300000, timezone:10},
+{name:"Sydney - Liverpool", lat:-33.9200, lon:150.9200, pop:200000, timezone:10},
+{name:"Sydney - Blacktown", lat:-33.7700, lon:150.9000, pop:350000, timezone:10},
+{name:"Sydney - Penrith", lat:-33.7500, lon:150.7000, pop:200000, timezone:10},
+{name:"Sydney - Sutherland", lat:-34.0300, lon:151.0600, pop:200000, timezone:10},
+{name:"Sydney - Manly", lat:-33.8000, lon:151.2800, pop:100000, timezone:10},
+{name:"Sydney - Bondi", lat:-33.8900, lon:151.2700, pop:100000, timezone:10},
+{name:"Sydney - Cronulla", lat:-34.0500, lon:151.1500, pop:100000, timezone:10},
+
+// Boston
+{name:"Boston - Downtown", lat:42.3601, lon:-71.0589, pop:700000, timezone:-5},
+{name:"Boston - Cambridge", lat:42.3736, lon:-71.1097, pop:120000, timezone:-5},
+{name:"Boston - Somerville", lat:42.3876, lon:-71.0995, pop:80000, timezone:-5},
+{name:"Boston - Brookline", lat:42.3318, lon:-71.1212, pop:60000, timezone:-5},
+{name:"Boston - Quincy", lat:42.2529, lon:-71.0023, pop:100000, timezone:-5},
+{name:"Boston - Newton", lat:42.3370, lon:-71.2092, pop:90000, timezone:-5},
+{name:"Boston - Waltham", lat:42.3765, lon:-71.2356, pop:60000, timezone:-5},
+{name:"Boston - Medford", lat:42.4184, lon:-71.1062, pop:60000, timezone:-5},
+{name:"Boston - Malden", lat:42.4251, lon:-71.0662, pop:60000, timezone:-5},
+{name:"Boston - Everett", lat:42.4084, lon:-71.0537, pop:50000, timezone:-5},
+{name:"Boston - Chelsea", lat:42.3918, lon:-71.0328, pop:40000, timezone:-5},
+{name:"Boston - Revere", lat:42.4084, lon:-71.0120, pop:50000, timezone:-5},
+
+// Seattle
+{name:"Seattle - Downtown", lat:47.6062, lon:-122.3321, pop:700000, timezone:-8},
+{name:"Seattle - Bellevue", lat:47.6101, lon:-122.2015, pop:150000, timezone:-8},
+{name:"Seattle - Redmond", lat:47.6740, lon:-122.1215, pop:70000, timezone:-8},
+{name:"Seattle - Kirkland", lat:47.6815, lon:-122.2087, pop:90000, timezone:-8},
+{name:"Seattle - Renton", lat:47.4829, lon:-122.2171, pop:100000, timezone:-8},
+{name:"Seattle - Kent", lat:47.3809, lon:-122.2348, pop:130000, timezone:-8},
+{name:"Seattle - Federal Way", lat:47.3223, lon:-122.3126, pop:100000, timezone:-8},
+{name:"Seattle - Tacoma", lat:47.2529, lon:-122.4443, pop:220000, timezone:-8},
+{name:"Seattle - Everett", lat:47.9789, lon:-122.2021, pop:110000, timezone:-8},
+{name:"Seattle - Bothell", lat:47.7601, lon:-122.2054, pop:50000, timezone:-8},
+
+// Vancouver
+{name:"Vancouver - Downtown", lat:49.2827, lon:-123.1207, pop:700000, timezone:-8},
+{name:"Vancouver - Burnaby", lat:49.2488, lon:-122.9805, pop:250000, timezone:-8},
+{name:"Vancouver - Richmond", lat:49.1666, lon:-123.1336, pop:200000, timezone:-8},
+{name:"Vancouver - Surrey", lat:49.1913, lon:-122.8490, pop:550000, timezone:-8},
+{name:"Vancouver - Coquitlam", lat:49.2838, lon:-122.7932, pop:150000, timezone:-8},
+{name:"Vancouver - New Westminster", lat:49.2057, lon:-122.9110, pop:80000, timezone:-8},
+{name:"Vancouver - North Vancouver", lat:49.3200, lon:-123.0700, pop:100000, timezone:-8},
+{name:"Vancouver - West Vancouver", lat:49.3300, lon:-123.1600, pop:50000, timezone:-8},
+{name:"Vancouver - Langley", lat:49.1040, lon:-122.6600, pop:150000, timezone:-8},
+{name:"Vancouver - Delta", lat:49.0900, lon:-123.0000, pop:100000, timezone:-8},
+
+// Osaka
+{name:"Osaka - Center", lat:34.6937, lon:135.5023, pop:2500000, timezone:9},
+{name:"Osaka - Sakai", lat:34.5733, lon:135.4831, pop:800000, timezone:9},
+{name:"Osaka - Higashiosaka", lat:34.6794, lon:135.6000, pop:500000, timezone:9},
+{name:"Osaka - Toyonaka", lat:34.7814, lon:135.4692, pop:400000, timezone:9},
+{name:"Osaka - Suita", lat:34.7594, lon:135.5167, pop:350000, timezone:9},
+{name:"Osaka - Takatsuki", lat:34.8461, lon:135.6172, pop:350000, timezone:9},
+{name:"Osaka - Hirakata", lat:34.8144, lon:135.6506, pop:400000, timezone:9},
+{name:"Osaka - Yao", lat:34.6269, lon:135.6008, pop:270000, timezone:9},
+{name:"Osaka - Neyagawa", lat:34.7661, lon:135.6281, pop:230000, timezone:9},
+{name:"Osaka - Moriguchi", lat:34.7375, lon:135.5642, pop:140000, timezone:9},
+
+// Mumbai
+{name:"Mumbai - South", lat:18.9388, lon:72.8354, pop:3000000, timezone:5.5},
+{name:"Mumbai - Central", lat:19.0760, lon:72.8777, pop:4000000, timezone:5.5},
+{name:"Mumbai - Western Suburbs", lat:19.1200, lon:72.8500, pop:5000000, timezone:5.5},
+{name:"Mumbai - Eastern Suburbs", lat:19.0800, lon:72.9000, pop:3000000, timezone:5.5},
+{name:"Mumbai - Navi Mumbai", lat:19.0330, lon:73.0297, pop:1500000, timezone:5.5},
+{name:"Mumbai - Thane", lat:19.2183, lon:72.9781, pop:1800000, timezone:5.5},
+{name:"Mumbai - Kalyan", lat:19.2403, lon:73.1305, pop:1500000, timezone:5.5},
+{name:"Mumbai - Vasai-Virar", lat:19.4700, lon:72.8000, pop:1200000, timezone:5.5},
+{name:"Mumbai - Mira-Bhayandar", lat:19.3000, lon:72.8500, pop:800000, timezone:5.5},
+{name:"Mumbai - Bhiwandi", lat:19.3000, lon:73.0500, pop:700000, timezone:5.5},
+
+// Manila
+{name:"Manila - Center", lat:14.5995, lon:120.9842, pop:1800000, timezone:8},
+{name:"Manila - Quezon City", lat:14.6760, lon:121.0437, pop:3000000, timezone:8},
+{name:"Manila - Makati", lat:14.5547, lon:121.0244, pop:600000, timezone:8},
+{name:"Manila - Taguig", lat:14.5176, lon:121.0509, pop:900000, timezone:8},
+{name:"Manila - Pasig", lat:14.5764, lon:121.0851, pop:800000, timezone:8},
+{name:"Manila - Caloocan", lat:14.6488, lon:120.9830, pop:1600000, timezone:8},
+{name:"Manila - Parañaque", lat:14.4793, lon:121.0198, pop:700000, timezone:8},
+{name:"Manila - Las Piñas", lat:14.4500, lon:120.9800, pop:600000, timezone:8},
+{name:"Manila - Muntinlupa", lat:14.3800, lon:121.0500, pop:500000, timezone:8},
+{name:"Manila - Marikina", lat:14.6500, lon:121.1000, pop:500000, timezone:8},
+{name:"Manila - Valenzuela", lat:14.7000, lon:120.9800, pop:600000, timezone:8},
+{name:"Manila - Antipolo", lat:14.6255, lon:121.1245, pop:900000, timezone:8},
+
+// Bangkok
+{name:"Bangkok - Center", lat:13.7563, lon:100.5018, pop:3000000, timezone:7},
+{name:"Bangkok - Thonburi", lat:13.7200, lon:100.4800, pop:1500000, timezone:7},
+{name:"Bangkok - Nonthaburi", lat:13.8622, lon:100.5140, pop:300000, timezone:7},
+{name:"Bangkok - Pak Kret", lat:13.9100, lon:100.5000, pop:200000, timezone:7},
+{name:"Bangkok - Samut Prakan", lat:13.5993, lon:100.5968, pop:500000, timezone:7},
+{name:"Bangkok - Lat Krabang", lat:13.7200, lon:100.7500, pop:200000, timezone:7},
+{name:"Bangkok - Minburi", lat:13.8100, lon:100.7200, pop:150000, timezone:7},
+{name:"Bangkok - Bang Na", lat:13.6700, lon:100.6500, pop:150000, timezone:7},
+{name:"Bangkok - Bang Kapi", lat:13.7700, lon:100.6400, pop:200000, timezone:7},
+{name:"Bangkok - Rangsit", lat:14.0000, lon:100.6200, pop:200000, timezone:7},
+
+// Cape Town
+{name:"Cape Town - City Bowl", lat:-33.9249, lon:18.4241, pop:500000, timezone:2},
+{name:"Cape Town - Southern Suburbs", lat:-33.9800, lon:18.4700, pop:400000, timezone:2},
+{name:"Cape Town - Northern Suburbs", lat:-33.8500, lon:18.5500, pop:500000, timezone:2},
+{name:"Cape Town - Atlantic Seaboard", lat:-33.9100, lon:18.3800, pop:150000, timezone:2},
+{name:"Cape Town - False Bay", lat:-34.0800, lon:18.4500, pop:200000, timezone:2},
+{name:"Cape Town - Mitchells Plain", lat:-34.0500, lon:18.6200, pop:300000, timezone:2},
+{name:"Cape Town - Khayelitsha", lat:-34.0400, lon:18.6700, pop:400000, timezone:2},
+{name:"Cape Town - Bellville", lat:-33.9000, lon:18.6300, pop:150000, timezone:2},
+{name:"Cape Town - Somerset West", lat:-34.0800, lon:18.8500, pop:100000, timezone:2},
+{name:"Cape Town - Stellenbosch", lat:-33.9300, lon:18.8600, pop:100000, timezone:2},
 {name:"Masterton, New Zealand", lat:-40.9597, lon:175.6575, pop:25000, timezone:12},
 {name:"Levin, New Zealand", lat:-40.6333, lon:175.2833, pop:20000, timezone:12},
 {name:"Ashburton, New Zealand", lat:-43.9053, lon:171.7497, pop:20000, timezone:12},
@@ -4458,28 +5160,8 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 // ==========================
 // 🌟 CREATE LIGHTS (FIXED)
 // ==========================
-function isLikelyLand(lat, lon) {
-
-    if (lat > 75 || lat < -75) return false;
-
-    if (lat > -60 && lat < 60) {
-        if (lon < -100 && lon > -160) return false;
-        if (lon > 140 || lon < -160) return false;
-    }
-
-    if (lat > -50 && lat < 50 && lon > -60 && lon < -20) {
-        return false;
-    }
-
-    if (lat > -40 && lat < 20 && lon > 60 && lon < 100) {
-        return false;
-    }
-
-    return true;
-}
 
 cities.forEach(city => {
-    if (!isLikelyLand(city.lat, city.lon)) return;
 
     // Use manual radius if provided, otherwise calculate from population
     const size = city.radius
@@ -4505,224 +5187,794 @@ cities.forEach(city => {
     city.brightness = 0;
 });
 
-        // ==========================
-// 🌐 GEOFS-AFTER-DARK MENU
+// ==========================
+// 🌐 GEOFS-AFTER-DARK NATIVE MENU
 // ==========================
 
-// 🔹 HIDE LIGHTS INITIALLY
+// Hide all lights initially
 cities.forEach(city => {
     if (city.entity) {
-        city.entity.show = false; // all lights OFF at start
+        city.entity.show = false;
     }
 });
 
-const menu = document.createElement("div");
-Object.assign(menu.style, {
-    position: "fixed",
-    top: "20px",
-    left: "20px",
-    background: "#111a",
-    color: "#fff",
-    padding: "10px",
-    borderRadius: "8px",
-    zIndex: 9999,
-    cursor: "move",
-    maxHeight: "90vh",
-    overflowY: "auto"
-});
+let afterDarkEnabled = false;
+let afterDarkBrightness = 1;
+let afterDarkAdvanced = false;
 
-const header = document.createElement("div");
-
-// ==========================
-// 🔀 MODE TABS
-// ==========================
-const tabContainer = document.createElement("div");
-tabContainer.style.display = "flex";
-tabContainer.style.marginTop = "10px";
-
-const manualTab = document.createElement("button");
-manualTab.textContent = "Created By SkyTeamDelta";
-manualTab.style.flex = "1";
-
-// Highlight function
-function updateTabStyles() {
-    manualTab.style.background = "#444";
-}
-
-updateTabStyles();
-
-tabContainer.appendChild(manualTab);
-menu.appendChild(tabContainer);
-
-manualTab.onclick = () => {
-    currentMode = "manual";
-    updateTabStyles();
-
-    // Turn OFF all lights first
-    cities.forEach(c => {
-        if (c.entity) c.entity.show = false;
-    });
-};
-
-header.textContent = "🌐 GeoFS-After-Dark";
-header.style.fontWeight = "bold";
-menu.appendChild(header);
-
-const container = document.createElement("div");
-
-let isTyping = false;
-
-// ==========================
-// 🔍 CITY SEARCH
-// ==========================
-const searchBox = document.createElement("input");
-
-searchBox.addEventListener("focus", () => {
-    isTyping = true;
-});
-
-searchBox.addEventListener("blur", () => {
-    isTyping = false;
-});
-
-searchBox.type = "text";
-searchBox.placeholder = "Search city...";
-searchBox.style.width = "100%";
-searchBox.style.marginTop = "10px";
-searchBox.style.padding = "4px";
-
-const resultBox = document.createElement("div");
-resultBox.style.marginTop = "5px";
-resultBox.style.maxHeight = "120px";
-resultBox.style.overflowY = "auto";
-
-searchBox.addEventListener("input", () => {
-    const query = searchBox.value.toLowerCase();
-    resultBox.innerHTML = "";
-
-    if (!query) return;
-
-    const matches = cities.filter(city =>
-        city.name.toLowerCase().includes(query)
-    ).slice(0, 6);
-
-    matches.forEach(city => {
-        const btn = document.createElement("div");
-        btn.textContent = `${city.name} (UTC${city.timezone >= 0 ? '+' : ''}${city.timezone})`;
-
-        btn.style.cursor = "pointer";
-        btn.style.padding = "4px";
-        btn.style.borderBottom = "1px solid rgba(255,255,255,0.1)";
-
-        btn.addEventListener("click", () => {
-    if (currentMode !== "manual") return;
-            // turn OFF all lights first
-            cities.forEach(c => {
-                if (c.entity) c.entity.show = false;
-            });
-
-            // turn ON selected timezone
-            cities.forEach(c => {
-                if (c.entity && Math.abs(c.timezone - city.timezone) < 0.01) {
-                    c.entity.show = true;
-                }
-            });
-        });
-
-        resultBox.appendChild(btn);
-    });
-});
-
-container.appendChild(searchBox);
-container.appendChild(resultBox);
-menu.appendChild(container);
-
-const timezones = [
-    -12,-11,-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,
-    0,1,2,3,3.5,4,5,5.5,5.75,6,7,8,9,9.5,10,11,12,13
+const afterDarkTimezones = [
+    -12, -11, -10, -9, -8, -7, -6, -5, -4, -3,
+    -2, -1, 0, 1, 2, 3, 3.5, 4, 5, 5.5,
+    5.75, 6, 7, 8, 9, 9.5, 10, 11, 12, 13
 ];
 
-timezones.forEach(tz => {
-    const label = document.createElement("label");
-    label.style.display = "block";
+let afterDarkSelectedTimezones = new Set();
 
-    const cb = document.createElement("input");
-    cb.type = "checkbox";
-    cb.checked = false; // starts unchecked
-    cb.dataset.tz = tz;
+// ==========================
+// 💡 UPDATE LIGHTS
+// ==========================
 
-    cb.addEventListener("change", () => {
-    if (currentMode !== "manual") return;
-        const activeTZ = Array.from(container.querySelectorAll("input"))
-            .filter(i => i.checked)
-            .map(i => parseFloat(i.dataset.tz));
+function updateAfterDarkLights() {
+
+    if (!afterDarkEnabled) {
 
         cities.forEach(city => {
+
             if (city.entity) {
-                city.entity.show = activeTZ.some(tz =>
-                    Math.abs(tz - (city.timezone ?? 0)) < 0.01
-                );
+                city.entity.show = false;
             }
+
         });
+
+        return;
+    }
+
+    // Advanced timezone mode
+    if (afterDarkAdvanced) {
+
+        cities.forEach(city => {
+
+            if (!city.entity) {
+                return;
+            }
+
+            city.entity.show =
+                afterDarkSelectedTimezones.has(
+                    city.timezone ?? 0
+                );
+
+        });
+
+        return;
+    }
+
+    // Universal mode
+    cities.forEach(city => {
+
+        if (city.entity) {
+            city.entity.show = true;
+        }
+
     });
+}
 
-    label.appendChild(cb);
-    label.appendChild(document.createTextNode(` UTC${tz >= 0 ? '+' : ''}${tz}`));
-    container.appendChild(label);
+
+// ==========================
+// 💡 UNIVERSAL ON/OFF
+// ==========================
+
+function toggleAfterDarkLights() {
+
+    afterDarkEnabled =
+        !afterDarkEnabled;
+
+    // The main button is ALWAYS universal.
+    // When turned on, show every light.
+    if (afterDarkEnabled) {
+
+        afterDarkAdvanced = false;
+
+        if (typeof automaticCheckbox !== "undefined") {
+            automaticCheckbox.checked = false;
+        }
+
+        cities.forEach(function (city) {
+
+            if (city.entity) {
+                city.entity.show = true;
+            }
+
+        });
+
+    } else {
+
+        cities.forEach(function (city) {
+
+            if (city.entity) {
+                city.entity.show = false;
+            }
+
+        });
+
+    }
+
+    updateAfterDarkUI();
+}
+
+// ==========================
+// 🌐 FORMAT UTC
+// ==========================
+
+function formatAfterDarkTimezone(tz) {
+
+    return "UTC" +
+        (tz >= 0 ? "+" : "") +
+        tz;
+}
+
+
+// ==========================
+// 🌃 PANEL
+// ==========================
+
+const afterDarkPanel =
+    document.createElement("div");
+
+afterDarkPanel.id =
+    "afterDarkPanel";
+
+afterDarkPanel.className =
+"geofs-list geofs-toggle-panel after-dark-panel";
+
+afterDarkPanel.setAttribute(
+    "data-noblur",
+    "true"
+);
+
+afterDarkPanel.style.maxHeight =
+    "90vh";
+
+afterDarkPanel.style.overflowY =
+    "auto";
+
+
+// ==========================
+// HEADER
+// ==========================
+
+const afterDarkTitle =
+    document.createElement("h3");
+
+afterDarkTitle.textContent =
+    "🌃 GeoFS-After-Dark";
+
+afterDarkPanel.appendChild(
+    afterDarkTitle
+);
+
+
+// ==========================
+// UNIVERSAL LIGHT BUTTON
+// ==========================
+
+const lightButton =
+    document.createElement("button");
+
+lightButton.id =
+    "afterDarkLightButton";
+
+lightButton.className =
+    "mdl-button mdl-js-button mdl-button--raised mdl-button--colored";
+
+lightButton.style.width =
+    "100%";
+
+lightButton.onclick =
+    toggleAfterDarkLights;
+
+afterDarkPanel.appendChild(
+    lightButton
+);
+
+// ==========================
+// CURRENT TIMEZONE
+// ==========================
+
+const timezoneStatus =
+    document.createElement("div");
+
+timezoneStatus.id =
+    "afterDarkTimezoneStatus";
+
+timezoneStatus.style.marginTop =
+    "10px";
+
+afterDarkPanel.appendChild(
+    timezoneStatus
+);
+
+// ==========================
+// CITY SEARCH
+// ==========================
+
+const searchBox =
+    document.createElement("input");
+
+searchBox.type =
+    "text";
+
+searchBox.placeholder =
+    "Search city...";
+
+// Prevent GeoFS keyboard shortcuts from
+// receiving keys while searching.
+[
+    "keydown",
+    "keyup",
+    "keypress"
+].forEach(function (eventName) {
+
+    searchBox.addEventListener(
+        eventName,
+        function (event) {
+
+            event.stopPropagation();
+
+        },
+        true
+    );
+
 });
 
-document.body.appendChild(menu);
+searchBox.className =
+    "mdl-textfield__input address-input";
 
-// ==========================
-// 🖱 DRAGGING
-// ==========================
-let isDragging = false, offsetX = 0, offsetY = 0;
+searchBox.style.width =
+    "100%";
 
-header.addEventListener("mousedown", e => {
-    isDragging = true;
-    offsetX = e.clientX - menu.offsetLeft;
-    offsetY = e.clientY - menu.offsetTop;
-});
+searchBox.style.marginTop =
+    "10px";
 
-document.addEventListener("mouseup", () => isDragging = false);
+const searchResults =
+    document.createElement("div");
 
-document.addEventListener("mousemove", e => {
-    if (isDragging) {
-        menu.style.left = (e.clientX - offsetX) + "px";
-        menu.style.top = (e.clientY - offsetY) + "px";
+searchResults.style.maxHeight =
+    "120px";
+
+searchResults.style.overflowY =
+    "auto";
+
+searchResults.style.marginTop =
+    "5px";
+
+searchBox.addEventListener(
+    "input",
+    function () {
+
+        const query =
+            this.value
+                .trim()
+                .toLowerCase();
+
+        searchResults.innerHTML = "";
+
+        if (!query) {
+            return;
+        }
+
+        const matches =
+            cities
+                .filter(city =>
+                    city.name
+                        .toLowerCase()
+                        .includes(query)
+                )
+                .slice(0, 6);
+
+        matches.forEach(city => {
+
+            const result =
+                document.createElement("div");
+
+            result.textContent =
+                city.name +
+                " (" +
+                formatAfterDarkTimezone(
+                    city.timezone ?? 0
+                ) +
+                ")";
+
+            result.style.cursor =
+                "pointer";
+
+            result.style.padding =
+                "5px";
+
+            result.style.borderBottom =
+                "1px solid rgba(255,255,255,0.1)";
+
+            result.onclick = function () {
+
+                afterDarkEnabled =
+                    true;
+
+                afterDarkAdvanced =
+                    true;
+
+                afterDarkSelectedTimezones.clear();
+
+                afterDarkSelectedTimezones.add(
+                    city.timezone ?? 0
+                );
+
+                updateAfterDarkLights();
+                updateAfterDarkUI();
+
+                searchBox.value =
+                    "";
+
+                searchResults.innerHTML =
+                    "";
+
+            };
+
+            searchResults.appendChild(
+                result
+            );
+
+        });
+
     }
-});
+);
+
+afterDarkPanel.appendChild(
+    searchBox
+);
+
+afterDarkPanel.appendChild(
+    searchResults
+);
+
 
 // ==========================
-// 🔒 FULL UI FOCUS MODE
+// ⚙️ ADVANCED MODE BUTTON
 // ==========================
-document.addEventListener("keydown", function(e) {
-    if (isTyping) {
-        e.stopPropagation();
-    }
-}, true);
 
-document.addEventListener("keyup", function(e) {
-    if (isTyping) {
-        e.stopPropagation();
-    }
-}, true);
+const advancedButton =
+    document.createElement("button");
 
-document.addEventListener("keypress", function(e) {
-    if (isTyping) {
-        e.stopPropagation();
-    }
-}, true);
+advancedButton.className =
+    "mdl-button mdl-js-button mdl-button--raised";
+
+advancedButton.style.width =
+    "100%";
+
+advancedButton.style.marginTop =
+    "12px";
+
+advancedButton.textContent =
+    "Advanced Mode";
+
+advancedButton.onclick = function () {
+
+    afterDarkAdvanced = true;
+
+    afterDarkSelectedTimezones.clear();
+
+    refreshTimezoneCheckboxes();
+
+    showAdvancedPanel();
+
+};
+
+afterDarkPanel.appendChild(
+    advancedButton
+);
 
 // ==========================
-// 🔽 COLLAPSE MENU
+// ⚙️ ADVANCED PANEL
 // ==========================
-let collapsed = false;
-header.addEventListener("dblclick", () => {
-    collapsed = !collapsed;
-    container.style.display = collapsed ? "none" : "block";
-});
+
+const advancedPanel =
+    document.createElement("div");
+
+advancedPanel.id =
+    "afterDarkAdvancedPanel";
+
+advancedPanel.style.display =
+    "none";
+
+advancedPanel.style.marginTop =
+    "10px";
+
+const advancedTitle =
+    document.createElement("h5");
+
+advancedTitle.textContent =
+    "Advanced Mode";
+
+advancedPanel.appendChild(
+    advancedTitle
+);
+
+
+// Select all
+const selectAll =
+    document.createElement("button");
+
+selectAll.className =
+    "mdl-button mdl-js-button mdl-button--raised";
+
+selectAll.textContent =
+    "Select All";
+
+selectAll.onclick =
+    function () {
+
+        afterDarkSelectedTimezones =
+            new Set(
+                afterDarkTimezones
+            );
+
+        refreshTimezoneCheckboxes();
+
+        afterDarkEnabled =
+            true;
+
+        updateAfterDarkLights();
+        updateAfterDarkUI();
+
+    };
+
+advancedPanel.appendChild(
+    selectAll
+);
+
+
+// Clear all
+const clearAll =
+    document.createElement("button");
+
+clearAll.className =
+    "mdl-button mdl-js-button mdl-button--raised";
+
+clearAll.textContent =
+    "Clear All";
+
+clearAll.style.marginLeft =
+    "5px";
+
+clearAll.onclick =
+    function () {
+
+        afterDarkSelectedTimezones.clear();
+
+        refreshTimezoneCheckboxes();
+
+        afterDarkEnabled =
+            false;
+
+        updateAfterDarkLights();
+        updateAfterDarkUI();
+
+    };
+
+advancedPanel.appendChild(
+    clearAll
+);
+
+
+// Timezone list
+const timezoneList =
+    document.createElement("div");
+
+timezoneList.style.marginTop =
+    "10px";
+
+afterDarkTimezones.forEach(
+    function (tz) {
+
+        const label =
+            document.createElement("label");
+
+        label.style.display =
+            "block";
+
+        const checkbox =
+            document.createElement("input");
+
+        checkbox.type =
+            "checkbox";
+
+        checkbox.dataset.afterDarkTimezone =
+            tz;
+
+        checkbox.onchange =
+            function () {
+
+                if (this.checked) {
+
+                    afterDarkSelectedTimezones.add(
+                        tz
+                    );
+
+                } else {
+
+                    afterDarkSelectedTimezones.delete(
+                        tz
+                    );
+
+                }
+
+                afterDarkEnabled =
+                    afterDarkSelectedTimezones.size > 0;
+
+                updateAfterDarkLights();
+                updateAfterDarkUI();
+
+            };
+
+        label.appendChild(
+            checkbox
+        );
+
+        label.appendChild(
+            document.createTextNode(
+                " " +
+                formatAfterDarkTimezone(tz)
+            )
+        );
+
+        timezoneList.appendChild(
+            label
+        );
 
     }
+);
+
+advancedPanel.appendChild(
+    timezoneList
+);
+
+
+// ==========================
+// ← BACK TO NORMAL MENU
+// ==========================
+
+const backButton =
+document.createElement("button");
+
+backButton.className =
+"mdl-button mdl-js-button mdl-button--raised";
+
+backButton.textContent =
+"← Back";
+
+backButton.style.marginTop =
+"10px";
+
+backButton.onclick =
+function () {
+
+    afterDarkAdvanced = false;
+
+    advancedPanel.style.display =
+        "none";
+
+    // Restore normal menu controls
+    afterDarkTitle.style.display = "";
+    lightButton.style.display = "";
+    timezoneStatus.style.display = "";
+    searchBox.style.display = "";
+    searchResults.style.display = "";
+    advancedButton.style.display = "";
+
+    updateAfterDarkLights();
+    updateAfterDarkUI();
+
+};
+
+advancedPanel.appendChild(
+    backButton
+);
+
+afterDarkPanel.appendChild(
+    advancedPanel
+);
+
+// ==========================
+// SHOW ADVANCED
+// ==========================
+
+function showAdvancedPanel() {
+
+    afterDarkTitle.style.display = "none";
+    lightButton.style.display = "none";
+    timezoneStatus.style.display = "none";
+    searchBox.style.display = "none";
+    searchResults.style.display = "none";
+    advancedButton.style.display = "none";
+
+    advancedPanel.style.display = "block";
+
+    updateAfterDarkLights();
+    updateAfterDarkUI();
+}
+
+
+// ==========================
+// REFRESH CHECKBOXES
+// ==========================
+
+function refreshTimezoneCheckboxes() {
+
+    timezoneList
+        .querySelectorAll(
+            "input[data-afterdark-timezone]"
+        )
+        .forEach(function (checkbox) {
+
+            const tz =
+                parseFloat(
+                    checkbox.dataset
+                        .afterDarkTimezone
+                );
+
+            checkbox.checked =
+                afterDarkSelectedTimezones
+                    .has(tz);
+
+        });
+}
+
+
+// ==========================
+// UPDATE UI
+// ==========================
+
+function updateAfterDarkButton() {
+
+    lightButton.textContent =
+        afterDarkEnabled
+            ? "💡 LIGHTS ON"
+            : "🌑 LIGHTS OFF";
+}
+
+function updateAfterDarkUI() {
+
+    updateAfterDarkButton();
+
+    if (afterDarkAdvanced) {
+
+        timezoneStatus.textContent =
+            "Advanced Mode • " +
+            afterDarkSelectedTimezones.size +
+            " timezone(s) selected";
+
+    } else {
+
+        timezoneStatus.textContent =
+            afterDarkEnabled
+                ? "Universal Mode • All lights"
+                : "Lights off";
+
+    }
+
+}
+
+
+// ==========================
+// ADD PANEL TO GEOFS
+// ==========================
+
+const geofsLeft =
+    document.querySelector(
+        ".geofs-ui-left"
+    );
+
+if (geofsLeft) {
+
+    geofsLeft.appendChild(
+        afterDarkPanel
+    );
+
+}
+
+
+// ==========================
+// 🌃 GEOFS TOOLBAR BUTTON
+// ==========================
+
+const geofsBottom =
+    document.querySelector(
+        ".geofs-ui-bottom"
+    );
+
+if (
+    geofsBottom &&
+    !document.getElementById(
+        "afterDarkButton"
+    )
+) {
+
+    const afterDarkButton =
+        document.createElement("button");
+
+    afterDarkButton.id =
+        "afterDarkButton";
+
+    afterDarkButton.title =
+        "GeoFS-After-Dark";
+
+    afterDarkButton.className =
+        "mdl-button mdl-js-button geofs-f-standard-ui geofs-mediumScreenOnly";
+
+    afterDarkButton.setAttribute(
+        "data-toggle-panel",
+        ".after-dark-panel"
+    );
+
+    afterDarkButton.setAttribute(
+        "data-tooltip-classname",
+        "mdl-tooltip--top"
+    );
+
+    afterDarkButton.innerHTML =
+        '<span style="font-size:25px;">🌃</span>';
+
+    const insertPosition =
+        geofs.version >= 3.6
+            ? 4
+            : 3;
+
+    if (
+        geofsBottom.children.length >
+        insertPosition
+    ) {
+
+        geofsBottom.insertBefore(
+            afterDarkButton,
+            geofsBottom.children[
+                insertPosition
+            ]
+        );
+
+    } else {
+
+        geofsBottom.appendChild(
+            afterDarkButton
+        );
+
+    }
+
+}
+
+
+// ==========================
+// 🕐 UPDATE WHILE FLYING
+// ==========================
+
+setInterval(
+function () {
+
+    if (afterDarkEnabled && afterDarkAdvanced) {
+
+        updateAfterDarkLights();
+        updateAfterDarkUI();
+
+    }
+
+},
+5000
+);
+
+// ==========================
+// INITIAL STATE
+// ==========================
+
+updateAfterDarkLights();
+updateAfterDarkUI();
+
+}
 
 })();
