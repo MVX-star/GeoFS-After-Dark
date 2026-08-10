@@ -1,4 +1,4 @@
-# GeoFS After Dark
+# GeoFS After Dark created by SKYTEAM_ALLIANCE (MVX-star)
 
 GeoFS After Dark is a scenery add-on that adds realistic metropolitan light pollution to major cities around the world.
 
