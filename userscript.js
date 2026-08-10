@@ -5211,6 +5211,16 @@ const afterDarkTimezones = [
 let afterDarkSelectedTimezones = new Set();
 
 // ==========================
+// 🎨 AFTER DARK BRANDING
+// ==========================
+
+const AFTER_DARK_LOGO =
+    "https://github.com/MVX-star/GeoFS-After-Dark/raw/main/image-removebg-preview%20(1).png";
+
+const AFTER_DARK_ICON =
+    "https://github.com/MVX-star/GeoFS-After-Dark/raw/main/After_dark__4_-removebg-preview.png";
+
+// ==========================
 // 💡 UPDATE LIGHTS
 // ==========================
 
@@ -5339,17 +5349,45 @@ afterDarkPanel.style.overflowY =
 
 
 // ==========================
-// HEADER
+// HEADER / BRANDING
 // ==========================
 
 const afterDarkTitle =
-    document.createElement("h3");
+document.createElement("div");
 
-afterDarkTitle.textContent =
-    "🌃 GeoFS-After-Dark";
+const afterDarkLogo =
+document.createElement("img");
+
+afterDarkLogo.src =
+AFTER_DARK_LOGO;
+
+afterDarkLogo.alt =
+"GeoFS: After Dark";
+
+afterDarkLogo.style.width =
+"100%";
+
+afterDarkLogo.style.maxWidth =
+"300px";
+
+afterDarkLogo.style.height =
+"auto";
+
+afterDarkLogo.style.display =
+"block";
+
+afterDarkLogo.style.margin =
+"0 auto 10px auto";
+
+afterDarkLogo.style.objectFit =
+"contain";
+
+afterDarkTitle.appendChild(
+afterDarkLogo
+);
 
 afterDarkPanel.appendChild(
-    afterDarkTitle
+afterDarkTitle
 );
 
 
@@ -5919,8 +5957,11 @@ if (
         "mdl-tooltip--top"
     );
 
-    afterDarkButton.innerHTML =
-        '<span style="font-size:25px;">🌃</span>';
+afterDarkButton.innerHTML =
+    '<img src="' +
+    AFTER_DARK_ICON +
+    '" alt="GeoFS: After Dark" ' +
+    'style="width:32px;height:32px;object-fit:contain;">';
 
     const insertPosition =
         geofs.version >= 3.6
