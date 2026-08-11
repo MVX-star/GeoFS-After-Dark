@@ -5365,10 +5365,10 @@ afterDarkLogo.alt =
 "GeoFS: After Dark";
 
 afterDarkLogo.style.width =
-"100%";
+"calc(100% + 20px)";
 
 afterDarkLogo.style.maxWidth =
-"300px";
+"none";
 
 afterDarkLogo.style.height =
 "auto";
