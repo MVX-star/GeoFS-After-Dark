@@ -5893,8 +5893,8 @@ function updateAfterDarkUI() {
 
         timezoneStatus.textContent =
             afterDarkEnabled
-                ? "Universal Mode • All lights"
-                : "Lights off";
+                ? "City Lights On"
+                : "City Lights Off";
 
     }
 
