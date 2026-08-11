@@ -189,7 +189,7 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 {name:"Charlotte, USA", lat:35.2271, lon:-80.8431, pop:2800000, timezone:-5},
 {name:"San Antonio, USA", lat:29.4241, lon:-98.4936, pop:2600000, timezone:-6},
 {name:"Austin, USA", lat:30.2672, lon:-97.7431, pop:2400000, timezone:-6},
-{name:"Las Vegas, USA", lat:36.1699, lon:-115.1398, pop:2400000, timezone:-8},
+{name:"Las Vegas, USA", lat:36.1699, lon:-115.1398, pop:400000, timezone:-8},
 {name:"Baltimore, USA", lat:39.2905, lon:-76.6104, pop:2300000, timezone:-5},
 
 {name:"Portland, USA", lat:45.5152, lon:-122.6784, pop:2500000, timezone:-8},
@@ -4830,15 +4830,15 @@ g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
 {name:"Rio - Volta Redonda", lat:-22.5231, lon:-44.1044, pop:250000, timezone:-3},
 
 // ========== LAS VEGAS (SUPER BRIGHT) ==========
-{name:"Las Vegas - The Strip", lat:36.1147, lon:-115.1728, pop:15000000, timezone:-8},
-{name:"Las Vegas - Downtown", lat:36.1699, lon:-115.1398, pop:10000000, timezone:-8},
-{name:"Las Vegas - Paradise", lat:36.1120, lon:-115.1400, pop:8000000, timezone:-8},
-{name:"Las Vegas - Spring Valley", lat:36.1080, lon:-115.2450, pop:5000000, timezone:-8},
-{name:"Las Vegas - Summerlin", lat:36.1800, lon:-115.3200, pop:4000000, timezone:-8},
-{name:"Las Vegas - Henderson", lat:36.0395, lon:-114.9817, pop:6000000, timezone:-8},
-{name:"Las Vegas - North Las Vegas", lat:36.1989, lon:-115.1175, pop:5000000, timezone:-8},
-{name:"Las Vegas - Enterprise", lat:36.0300, lon:-115.2200, pop:3000000, timezone:-8},
-{name:"Las Vegas - Whitney", lat:36.0700, lon:-115.0500, pop:2000000, timezone:-8},
+{name:"Las Vegas - The Strip", lat:36.1147, lon:-115.1728, pop:500000, timezone:-8},
+{name:"Las Vegas - Downtown", lat:36.1699, lon:-115.1398, pop:100000, timezone:-8},
+{name:"Las Vegas - Paradise", lat:36.1120, lon:-115.1400, pop:800000, timezone:-8},
+{name:"Las Vegas - Spring Valley", lat:36.1080, lon:-115.2450, pop:500000, timezone:-8},
+{name:"Las Vegas - Summerlin", lat:36.1800, lon:-115.3200, pop:400000, timezone:-8},
+{name:"Las Vegas - Henderson", lat:36.0395, lon:-114.9817, pop:600000, timezone:-8},
+{name:"Las Vegas - North Las Vegas", lat:36.1989, lon:-115.1175, pop:500000, timezone:-8},
+{name:"Las Vegas - Enterprise", lat:36.0300, lon:-115.2200, pop:300000, timezone:-8},
+{name:"Las Vegas - Whitney", lat:36.0700, lon:-115.0500, pop:200000, timezone:-8},
 
 // ========== CAIRO + ALEXANDRIA + NILE DELTA ==========
 {name:"Cairo - Downtown", lat:30.0444, lon:31.2357, pop:5000000, timezone:2},
