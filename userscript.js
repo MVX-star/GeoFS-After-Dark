@@ -19,7 +19,7 @@
     }
 
     waitForGeoFS(() => {
-        console.log("✅ GeoFS detected!");
+        console.log("GeoFS detected");
         initNightLights();
     });
 
@@ -29,7 +29,7 @@
         let currentMode = "manual";
 
         // ==========================
-        // 🌟 ALTITUDE FADE
+        //  ALTITUDE FADE
         // ==========================
         let glowAlphaMultiplier = 1;
 
