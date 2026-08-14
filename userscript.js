@@ -70,11 +70,10 @@ city.color = color; // ✅ THIS LINE FIXES MOST OF IT
 
 }, 100);
 
-       // ==========================
-// 🌟 GLOW GENERATOR — SOFT FADE
+        // ==========================
+// 🌟 GLOW GENERATOR
 // ==========================
 const glowCache = {};
-
 function getRegionColor(lat, lon) {
 
     if (lat > 15 && lat < 75 && lon > -170 && lon < -50) {
@@ -116,130 +115,43 @@ function getRegionColor(lat, lon) {
     return [255, 235, 160]; // default
 }
 
-
 function glowCanvas(intensity = 1, pop = 1000000, color) {
-
-    if (!color) color = [255, 235, 160];
-
-    const key =
-        `${Math.round(intensity * 10)}_${Math.round(pop / 100000)}_${color.join(",")}`;
-
+    if (!color) color = [255,235,160];
+    const key = `${Math.round(intensity*10)}_${Math.round(pop/100000)}_${color.join(",")}`;
     if (glowCache[key]) return glowCache[key];
 
-    const size = 256;
-
+    const size = 256; // bigger canvas for larger glow
     const c = document.createElement("canvas");
     c.width = c.height = size;
-
     const ctx = c.getContext("2d");
 
     ctx.globalCompositeOperation = "lighter";
 
-    // =====================================
-    // 🌕 MAIN SOFT RADIAL GLOW
-    // =====================================
+    // base radial gradient glow
+    const g = ctx.createRadialGradient(size/2, size/2, size*0.02, size/2, size/2, size*0.65);
 
-    const g = ctx.createRadialGradient(
-        size / 2,
-        size / 2,
-        size * 0.03,
-
-        size / 2,
-        size / 2,
-        size * 0.98
-    );
-
-    // Bright city center
-    g.addColorStop(
-        0.00,
-        `rgba(${color[0]},${color[1]},${color[2]},${0.80 * intensity})`
-    );
-
-    // Still very bright
-    g.addColorStop(
-        0.25,
-        `rgba(${color[0]},${color[1]},${color[2]},${0.45 * intensity})`
-    );
-
-    // Gradual transition
-    g.addColorStop(
-        0.50,
-        `rgba(${color[0]},${color[1]},${color[2]},${0.20 * intensity})`
-    );
-
-    // Soft outer glow
-    g.addColorStop(
-        0.72,
-        `rgba(${color[0]},${color[1]},${color[2]},${0.07 * intensity})`
-    );
-
-    // Very faint
-    g.addColorStop(
-        0.88,
-        `rgba(${color[0]},${color[1]},${color[2]},${0.025 * intensity})`
-    );
-
-    // Completely invisible at edge
-    g.addColorStop(
-        1.00,
-        `rgba(${color[0]},${color[1]},${color[2]},0)`
-    );
-
+g.addColorStop(0,   `rgba(${color[0]},${color[1]},${color[2]},${0.8*intensity})`);
+g.addColorStop(0.35,`rgba(${color[0]},${color[1]},${color[2]},${0.3*intensity})`);
+g.addColorStop(0.7, `rgba(${color[0]},${color[1]},${color[2]},${0.05*intensity})`);
+g.addColorStop(1,   `rgba(${color[0]},${color[1]},${color[2]},0)`);
     ctx.fillStyle = g;
-    ctx.fillRect(0, 0, size, size);
+    ctx.fillRect(0,0,size,size);
 
-
-    // =====================================
-    // ✨ SMALL CITY LIGHT DOTS
-    // =====================================
-
-    const dots = Math.min(
-        Math.max(pop / 3000, 120),
-        400
-    );
-
-    for (let j = 0; j < dots; j++) {
-
-        // Keep most dots toward the center
-        const angle = Math.random() * Math.PI * 2;
-
-        // Squared random distribution = denser center
-        const distance =
-            Math.sqrt(Math.random()) * (size * 0.43);
-
-        const x =
-            size / 2 +
-            Math.cos(angle) * distance;
-
-        const y =
-            size / 2 +
-            Math.sin(angle) * distance;
-
-        const r =
-            Math.random() * 1.5 + 0.2;
-
-        const alpha =
-            Math.random() * 0.25 + 0.05;
+    // create lots of small overlapping dots
+    const dots = Math.min(Math.max(pop/3000,120),400); // more dots for dense glow
+    for (let j=0; j<dots; j++){
+        const x = Math.random()*size;
+        const y = Math.random()*size;
+        const r = Math.random()*1.5 + 0.2; // bigger and more variable radius
+        const alpha = Math.random()*0.3 + 0.1; // small transparency variation
 
         ctx.beginPath();
-
-        ctx.arc(
-            x,
-            y,
-            r,
-            0,
-            Math.PI * 2
-        );
-
-        ctx.fillStyle =
-            `rgba(${color[0]},${color[1]},${color[2]},${alpha * intensity})`;
-
+        ctx.arc(x, y, r, 0, Math.PI*2);
+        ctx.fillStyle = `rgba(${color[0]},${color[1]},${color[2]},${alpha*intensity})`;
         ctx.fill();
     }
 
-
     glowCache[key] = c;
-
     return c;
 }
 
@@ -253,7 +165,7 @@ function glowCanvas(intensity = 1, pop = 1000000, color) {
 
 /* --- MEGACITIES --- */
 {name:"Buenos Aires, Argentina", lat:-34.6037, lon:-58.3816, pop:16360000, timezone:-3},
-{name:"Los Angeles, USA", lat:34.0522, lon:-118.2437, pop:12790000, timezone:-8},
+{name:"Los Angeles, USA", lat:34.0522, lon:-118.2437, pop:2790000, timezone:-8},
 {name:"Bogotá, Colombia", lat:4.7110, lon:-74.0721, pop:12770000, timezone:-5},
 {name:"Lima, Peru", lat:-12.0464, lon:-77.0428, pop:11280000, timezone:-5},
 {name:"Chicago, USA", lat:41.8781, lon:-87.6298, pop:290000, timezone:-6},
@@ -4746,7 +4658,7 @@ function glowCanvas(intensity = 1, pop = 1000000, color) {
 
 // North America
 {name:"New York City, USA", lat:40.7128, lon:-74.0060, pop:7000000, timezone:-5},
-{name:"Los Angeles, USA", lat:34.0522, lon:-118.2437, pop:4000000, timezone:-8},
+{name:"Los Angeles, USA", lat:34.0522, lon:-118.2437, pop:400000, timezone:-8},
 {name:"San Francisco, USA", lat:37.7749, lon:-122.4194, pop:700000, timezone:-8},
 {name:"Seattle, USA", lat:47.6062, lon:-122.3321, pop:100000, timezone:-8},
 {name:"Las Vegas, USA", lat:36.1699, lon:-115.1398, pop:100000, timezone:-8},
@@ -4764,17 +4676,17 @@ function glowCanvas(intensity = 1, pop = 1000000, color) {
 {name:"Osaka, Japan", lat:34.6937, lon:135.5023, pop:7000000, timezone:9},
 
 // Middle East
-{name:"Dubai, UAE", lat:25.2048, lon:55.2708, pop:5000000, timezone:4},
-{name:"Istanbul, Turkey", lat:41.0082, lon:28.9784, pop:10000000, timezone:3},
-{name:"Las Vegas, USA", lat:36.1699, lon:-115.1398, pop:1000000, timezone:-8},
+{name:"Dubai, UAE", lat:25.2048, lon:55.2708, pop:500000, timezone:4},
+{name:"Istanbul, Turkey", lat:41.0082, lon:28.9784, pop:1000000, timezone:3},
+{name:"Las Vegas, USA", lat:36.1699, lon:-115.1398, pop:100000, timezone:-8},
 
 // Africa
-{name:"Cape Town, South Africa", lat:-33.9249, lon:18.4241, pop:500000, timezone:2},
-{name:"Cairo, Egypt", lat:30.0444, lon:31.2357, pop:2000000, timezone:2},
-{name:"Alexandria, Egypt", lat:31.2001, lon:29.9187, pop:500000, timezone:2},
+{name:"Cape Town, South Africa", lat:-33.9249, lon:18.4241, pop:50000, timezone:2},
+{name:"Cairo, Egypt", lat:30.0444, lon:31.2357, pop:200000, timezone:2},
+{name:"Alexandria, Egypt", lat:31.2001, lon:29.9187, pop:50000, timezone:2},
 
 // South America
-{name:"Rio de Janeiro, Brazil", lat:-22.9068, lon:-43.1729, pop:1000000, timezone:-3},
+{name:"Rio de Janeiro, Brazil", lat:-22.9068, lon:-43.1729, pop:100000, timezone:-3},
 {name:"LA - Riverside", lat:33.9806, lon:-117.3755, pop:320000, timezone:-8},
 {name:"LA - San Bernardino", lat:34.1083, lon:-117.2898, pop:220000, timezone:-8},
 {name:"LA - Ontario", lat:34.0633, lon:-117.6509, pop:180000, timezone:-8},
@@ -5981,8 +5893,8 @@ function updateAfterDarkUI() {
 
         timezoneStatus.textContent =
             afterDarkEnabled
-                ? "Universal Mode • All lights"
-                : "Lights off";
+                ? "City Lights On"
+                : "City Lights Off";
 
     }
 
