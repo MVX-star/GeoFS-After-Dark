@@ -10,7 +10,7 @@ GeoFS After Dark is a scenery add-on that adds realistic metropolitan light poll
 
 When you install the add-on, a pop-up menu will appear with selectable time zones. Double-click the tab to hide it.
 
-Available Timezones:
+Available Time Zones:
 UTC-12
 UTC-11
 UTC-10
@@ -42,7 +42,7 @@ UTC+11
 UTC+12
 UTC+13
 
- Note: Some timezones use decimals (e.g., UTC+5.5) because real-world regions use half-hour or quarter-hour offsets.
+ Note: Some time zones use decimals (e.g., UTC+5.5) because real-world regions use half-hour or quarter-hour offsets.
 
 Tip
 
@@ -82,7 +82,7 @@ Troubleshooting
 
 If the script doesn’t work:
 
->Make sure the Tampermonkey "Allow Userscript" is enabled in the manage extension
+>Make sure the Tampermonkey "Allow Userscript" is enabled in the extension manager
 >Check that the script is turned on in the dashboard
 >Ensure you are on the correct website
 
@@ -114,7 +114,7 @@ Welcome to GeoFS: After Dark
 
 >  v1.2 — Control & Convenience
 
-NEW Brightness Control and
+NEW Brightness Control
 Fine-tune lighting to boost visibility, especially when you are on the ground.
 Including a New Search Bar.
 Instantly find time zones for cities around the world. 
@@ -131,7 +131,7 @@ The brightness slider was removed due to breaking the region-based lighting func
 
 >  v1.5 — Added 100 More Cities to each continent(s)
 
-The more the merrier
+The more, the merrier
 
 >  v1.6 — Menu Rework
 
@@ -139,15 +139,15 @@ NEW Universal Lights Toggle
 Turn every city light in the world on or off with a single, universal button.
 
 NEW Advanced Timezone Mode
-Select individual UTC time zones and control exactly which regions are illuminated.
+Select individual UTC zones and control exactly which regions are illuminated.
 
 NEW Redesigned Native GeoFS Menu
 GeoFS: After Dark now uses a dedicated in-game interface integrated directly into the GeoFS UI.
 
 NEW GeoFS: After Dark Branding
-The addon now has dedicated branding and logo assets for its interface.
+The add-on now has dedicated branding and logo assets for its interface.
 
 This is a visual-only add-on focused on atmosphere and realism.
 No impact on gameplay mechanics.
 
-Script was made by a human, troubleshooted by Artificial Intelligence.
+The script was made by a human; the City Dataset and Arrays were made by Artificial Intelligence.
