@@ -5758,20 +5758,6 @@
 {name:"Hobart, Australia", lat:-42.8821, lon:147.3272, pop:250000, timezone:10},
 {name:"Darwin, Australia", lat:-12.4634, lon:130.8456, pop:150000, timezone:9.5},
 
-/* =========================
-   🌊 OCEANIA (30)
-========================= */
-
-/* =========================
-   🌊 OCEANIA – 40 NEW CITIES (no Australia, no duplicates)
-========================= */
-
-// New Zealand secondary
-/* =========================
-   MULTI-CIRCLE CITIES
-   (City + surrounding areas)
-========================= */
-
 // ========== NEW YORK CITY ==========
 {name:"NYC - Manhattan", lat:40.7831, lon:-73.9712, pop:1800000, timezone:-5},
 {name:"NYC - Brooklyn", lat:40.6782, lon:-73.9442, pop:2600000, timezone:-5},
@@ -5785,6 +5771,592 @@
 {name:"NYC - White Plains", lat:41.0330, lon:-73.7629, pop:60000, timezone:-5},
 {name:"NYC - Hempstead", lat:40.7062, lon:-73.6187, pop:80000, timezone:-5},
 {name:"NYC - Long Beach", lat:40.5884, lon:-73.6579, pop:35000, timezone:-5},
+
+// ==================== VANCOUVER METRO EXPANSION ====================
+
+{name:"Vancouver - West End, Canada", lat:49.2866, lon:-123.1374, pop:150000, timezone:-8},
+{name:"Vancouver - Yaletown, Canada", lat:49.2747, lon:-123.1216, pop:120000, timezone:-8},
+{name:"Vancouver - Gastown, Canada", lat:49.2846, lon:-123.1086, pop:100000, timezone:-8},
+{name:"Vancouver - Coal Harbour, Canada", lat:49.2890, lon:-123.1200, pop:100000, timezone:-8},
+{name:"Vancouver - Kitsilano, Canada", lat:49.2640, lon:-123.1680, pop:120000, timezone:-8},
+{name:"Vancouver - Mount Pleasant, Canada", lat:49.2630, lon:-123.0960, pop:150000, timezone:-8},
+{name:"Vancouver - Commercial Drive, Canada", lat:49.2740, lon:-123.0690, pop:120000, timezone:-8},
+{name:"Vancouver - Grandview-Woodland, Canada", lat:49.2760, lon:-123.0690, pop:120000, timezone:-8},
+{name:"Vancouver - Marpole, Canada", lat:49.2090, lon:-123.1300, pop:100000, timezone:-8},
+
+{name:"Vancouver - East Vancouver, Canada", lat:49.2480, lon:-123.0550, pop:150000, timezone:-8},
+{name:"Vancouver - Renfrew-Collingwood, Canada", lat:49.2440, lon:-123.0450, pop:140000, timezone:-8},
+{name:"Vancouver - Hastings-Sunrise, Canada", lat:49.2810, lon:-123.0350, pop:120000, timezone:-8},
+{name:"Vancouver - Kerrisdale, Canada", lat:49.2340, lon:-123.1550, pop:90000, timezone:-8},
+
+{name:"Burnaby - Metrotown, Canada", lat:49.2260, lon:-123.0030, pop:180000, timezone:-8},
+{name:"Burnaby - Brentwood, Canada", lat:49.2670, lon:-123.0010, pop:150000, timezone:-8},
+{name:"Burnaby - Edmonds, Canada", lat:49.2120, lon:-122.9550, pop:100000, timezone:-8},
+
+{name:"Richmond - City Centre, Canada", lat:49.1660, lon:-123.1330, pop:180000, timezone:-8},
+{name:"Richmond - Steveston, Canada", lat:49.1250, lon:-123.1850, pop:80000, timezone:-8},
+{name:"Richmond - East Richmond, Canada", lat:49.1700, lon:-123.0600, pop:70000, timezone:-8},
+
+{name:"Surrey - Surrey Central, Canada", lat:49.1900, lon:-122.8490, pop:180000, timezone:-8},
+{name:"Surrey - Guildford, Canada", lat:49.1900, lon:-122.8000, pop:120000, timezone:-8},
+{name:"Surrey - Newton, Canada", lat:49.1600, lon:-122.8500, pop:140000, timezone:-8},
+{name:"Surrey - South Surrey, Canada", lat:49.0200, lon:-122.8000, pop:120000, timezone:-8},
+
+{name:"Coquitlam - City Centre, Canada", lat:49.2830, lon:-122.7930, pop:120000, timezone:-8},
+{name:"Port Coquitlam, Canada", lat:49.2620, lon:-122.7810, pop:65000, timezone:-8},
+{name:"Port Moody, Canada", lat:49.2830, lon:-122.8300, pop:40000, timezone:-8},
+
+{name:"North Vancouver - Lonsdale, Canada", lat:49.3100, lon:-123.0730, pop:100000, timezone:-8},
+{name:"West Vancouver - Dundarave, Canada", lat:49.3330, lon:-123.1800, pop:50000, timezone:-8},
+
+{name:"Langley - City Centre, Canada", lat:49.1040, lon:-122.6600, pop:100000, timezone:-8},
+{name:"Langley Township, Canada", lat:49.1000, lon:-122.5800, pop:120000, timezone:-8},
+{name:"White Rock, Canada", lat:49.0250, lon:-122.8050, pop:60000, timezone:-8},
+
+{name:"Delta - Ladner, Canada", lat:49.0890, lon:-123.0830, pop:50000, timezone:-8},
+{name:"Delta - Tsawwassen, Canada", lat:49.0200, lon:-123.0800, pop:50000, timezone:-8},
+
+{name:"Maple Ridge, Canada", lat:49.2190, lon:-122.6010, pop:90000, timezone:-8},
+{name:"Pitt Meadows, Canada", lat:49.2320, lon:-122.6900, pop:20000, timezone:-8},
+
+{name:"Vancouver - UBC, Canada", lat:49.2609, lon:-123.2460, pop:80000, timezone:-8},
+
+// ==================== BOSTON METRO EXPANSION ====================
+
+{name:"Boston - Back Bay, USA", lat:42.3503, lon:-71.0810, pop:180000, timezone:-5},
+{name:"Boston - Beacon Hill, USA", lat:42.3588, lon:-71.0707, pop:100000, timezone:-5},
+{name:"Boston - South End, USA", lat:42.3415, lon:-71.0750, pop:150000, timezone:-5},
+{name:"Boston - Fenway, USA", lat:42.3440, lon:-71.1020, pop:180000, timezone:-5},
+{name:"Boston - Seaport, USA", lat:42.3515, lon:-71.0445, pop:160000, timezone:-5},
+{name:"Boston - South Boston, USA", lat:42.3334, lon:-71.0495, pop:100000, timezone:-5},
+{name:"Boston - Dorchester, USA", lat:42.2973, lon:-71.0745, pop:300000, timezone:-5},
+{name:"Boston - Roxbury, USA", lat:42.3280, lon:-71.0830, pop:150000, timezone:-5},
+{name:"Boston - Jamaica Plain, USA", lat:42.3097, lon:-71.1150, pop:150000, timezone:-5},
+{name:"Boston - Allston, USA", lat:42.3550, lon:-71.1320, pop:100000, timezone:-5},
+{name:"Boston - Brighton, USA", lat:42.3500, lon:-71.1560, pop:100000, timezone:-5},
+
+{name:"Boston - Charlestown, USA", lat:42.3780, lon:-71.0600, pop:70000, timezone:-5},
+{name:"Boston - East Boston, USA", lat:42.3750, lon:-71.0380, pop:100000, timezone:-5},
+
+{name:"Brookline - Coolidge Corner, USA", lat:42.3420, lon:-71.1220, pop:70000, timezone:-5},
+{name:"Brookline - Chestnut Hill, USA", lat:42.3260, lon:-71.1650, pop:60000, timezone:-5},
+
+{name:"Watertown, USA", lat:42.3700, lon:-71.1820, pop:60000, timezone:-5},
+{name:"Belmont, USA", lat:42.3950, lon:-71.1780, pop:30000, timezone:-5},
+{name:"Arlington, USA", lat:42.4150, lon:-71.1570, pop:50000, timezone:-5},
+{name:"Lexington, USA", lat:42.4470, lon:-71.2250, pop:35000, timezone:-5},
+
+{name:"Winchester, USA", lat:42.4520, lon:-71.1370, pop:25000, timezone:-5},
+{name:"Woburn, USA", lat:42.4790, lon:-71.1520, pop:45000, timezone:-5},
+{name:"Burlington, USA", lat:42.5040, lon:-71.1960, pop:27000, timezone:-5},
+
+{name:"Wakefield, USA", lat:42.5040, lon:-71.0730, pop:25000, timezone:-5},
+{name:"Melrose, USA", lat:42.4580, lon:-71.0660, pop:30000, timezone:-5},
+{name:"Saugus, USA", lat:42.4640, lon:-71.0110, pop:30000, timezone:-5},
+
+{name:"Winthrop, USA", lat:42.3770, lon:-70.9820, pop:18000, timezone:-5},
+{name:"Lynn, USA", lat:42.4668, lon:-70.9495, pop:100000, timezone:-5},
+{name:"Swampscott, USA", lat:42.3751, lon:-70.9179, pop:15000, timezone:-5},
+{name:"Salem, USA", lat:42.5195, lon:-70.8967, pop:45000, timezone:-5},
+
+{name:"Braintree, USA", lat:42.2223, lon:-71.0023, pop:38000, timezone:-5},
+{name:"Weymouth, USA", lat:42.2180, lon:-70.9400, pop:58000, timezone:-5},
+{name:"Hingham, USA", lat:42.2418, lon:-70.8890, pop:24000, timezone:-5},
+
+{name:"Dedham, USA", lat:42.2418, lon:-71.1662, pop:26000, timezone:-5},
+{name:"Needham, USA", lat:42.2834, lon:-71.2328, pop:31000, timezone:-5},
+{name:"Framingham, USA", lat:42.2793, lon:-71.4162, pop:70000, timezone:-5},
+
+// ==================== SEATTLE METRO EXPANSION ====================
+
+{name:"Seattle - Capitol Hill, USA", lat:47.6253, lon:-122.3222, pop:150000, timezone:-8},
+{name:"Seattle - South Lake Union, USA", lat:47.6230, lon:-122.3370, pop:140000, timezone:-8},
+{name:"Seattle - Pioneer Square, USA", lat:47.6020, lon:-122.3340, pop:90000, timezone:-8},
+{name:"Seattle - Belltown, USA", lat:47.6150, lon:-122.3470, pop:120000, timezone:-8},
+{name:"Seattle - Queen Anne, USA", lat:47.6370, lon:-122.3560, pop:120000, timezone:-8},
+{name:"Seattle - Ballard, USA", lat:47.6680, lon:-122.3860, pop:140000, timezone:-8},
+{name:"Seattle - Fremont, USA", lat:47.6500, lon:-122.3500, pop:120000, timezone:-8},
+{name:"Seattle - University District, USA", lat:47.6615, lon:-122.3130, pop:130000, timezone:-8},
+{name:"Seattle - Green Lake, USA", lat:47.6800, lon:-122.3280, pop:90000, timezone:-8},
+{name:"Seattle - Wallingford, USA", lat:47.6580, lon:-122.3360, pop:100000, timezone:-8},
+
+{name:"Seattle - West Seattle, USA", lat:47.5660, lon:-122.3870, pop:130000, timezone:-8},
+{name:"Seattle - Beacon Hill, USA", lat:47.5550, lon:-122.3100, pop:110000, timezone:-8},
+{name:"Seattle - Columbia City, USA", lat:47.5590, lon:-122.2870, pop:90000, timezone:-8},
+{name:"Seattle - Rainier Valley, USA", lat:47.5400, lon:-122.2800, pop:120000, timezone:-8},
+{name:"Seattle - Lake City, USA", lat:47.7170, lon:-122.2950, pop:100000, timezone:-8},
+
+{name:"Shoreline, USA", lat:47.7557, lon:-122.3415, pop:58000, timezone:-8},
+{name:"Mountlake Terrace, USA", lat:47.7882, lon:-122.3087, pop:22000, timezone:-8},
+{name:"Edmonds, USA", lat:47.8107, lon:-122.3774, pop:45000, timezone:-8},
+{name:"Lynnwood, USA", lat:47.8209, lon:-122.3151, pop:41000, timezone:-8},
+
+{name:"Mukilteo, USA", lat:47.9480, lon:-122.3040, pop:22000, timezone:-8},
+{name:"Mill Creek, USA", lat:47.8600, lon:-122.2040, pop:21000, timezone:-8},
+{name:"Marysville, USA", lat:48.0518, lon:-122.1771, pop:72000, timezone:-8},
+
+{name:"Issaquah, USA", lat:47.5301, lon:-122.0326, pop:40000, timezone:-8},
+{name:"Sammamish, USA", lat:47.6163, lon:-122.0356, pop:68000, timezone:-8},
+{name:"Mercer Island, USA", lat:47.5707, lon:-122.2221, pop:26000, timezone:-8},
+
+{name:"Newcastle, USA", lat:47.5387, lon:-122.1554, pop:13000, timezone:-8},
+{name:"SeaTac, USA", lat:47.4485, lon:-122.2945, pop:30000, timezone:-8},
+{name:"Tukwila, USA", lat:47.4730, lon:-122.2600, pop:22000, timezone:-8},
+{name:"Burien, USA", lat:47.4704, lon:-122.3482, pop:52000, timezone:-8},
+
+{name:"Auburn, USA", lat:47.3073, lon:-122.2285, pop:88000, timezone:-8},
+{name:"Covington, USA", lat:47.3582, lon:-122.1173, pop:20000, timezone:-8},
+{name:"Maple Valley, USA", lat:47.3668, lon:-122.0468, pop:28000, timezone:-8},
+
+{name:"Puyallup, USA", lat:47.1854, lon:-122.2929, pop:42000, timezone:-8},
+{name:"Lakewood, USA", lat:47.1718, lon:-122.5185, pop:65000, timezone:-8},
+{name:"University Place, USA", lat:47.2357, lon:-122.5504, pop:34000, timezone:-8},
+
+{name:"Gig Harbor, USA", lat:47.3293, lon:-122.5801, pop:12000, timezone:-8},
+{name:"Poulsbo, USA", lat:47.7359, lon:-122.6465, pop:12000, timezone:-8},
+
+// ==================== NEW YORK CITY METRO EXPANSION ====================
+
+{name:"NYC - Midtown Manhattan, USA", lat:40.7549, lon:-73.9840, pop:500000, timezone:-5},
+{name:"NYC - Lower Manhattan, USA", lat:40.7075, lon:-74.0113, pop:350000, timezone:-5},
+{name:"NYC - Upper West Side, USA", lat:40.7870, lon:-73.9750, pop:220000, timezone:-5},
+{name:"NYC - Upper East Side, USA", lat:40.7736, lon:-73.9566, pop:220000, timezone:-5},
+{name:"NYC - Harlem, USA", lat:40.8116, lon:-73.9465, pop:180000, timezone:-5},
+{name:"NYC - Washington Heights, USA", lat:40.8500, lon:-73.9360, pop:150000, timezone:-5},
+{name:"NYC - Chelsea, USA", lat:40.7465, lon:-74.0014, pop:180000, timezone:-5},
+{name:"NYC - SoHo, USA", lat:40.7233, lon:-74.0000, pop:150000, timezone:-5},
+
+{name:"NYC - Williamsburg, USA", lat:40.7081, lon:-73.9571, pop:220000, timezone:-5},
+{name:"NYC - Bushwick, USA", lat:40.6944, lon:-73.9213, pop:200000, timezone:-5},
+{name:"NYC - Downtown Brooklyn, USA", lat:40.6930, lon:-73.9890, pop:180000, timezone:-5},
+{name:"NYC - Park Slope, USA", lat:40.6720, lon:-73.9770, pop:150000, timezone:-5},
+{name:"NYC - Bay Ridge, USA", lat:40.6260, lon:-74.0300, pop:130000, timezone:-5},
+{name:"NYC - Coney Island, USA", lat:40.5755, lon:-73.9850, pop:100000, timezone:-5},
+
+{name:"NYC - Long Island City, USA", lat:40.7447, lon:-73.9485, pop:180000, timezone:-5},
+{name:"NYC - Astoria, USA", lat:40.7644, lon:-73.9235, pop:180000, timezone:-5},
+{name:"NYC - Flushing, USA", lat:40.7675, lon:-73.8330, pop:200000, timezone:-5},
+{name:"NYC - Jamaica, USA", lat:40.7027, lon:-73.7880, pop:180000, timezone:-5},
+{name:"NYC - Forest Hills, USA", lat:40.7195, lon:-73.8448, pop:150000, timezone:-5},
+{name:"NYC - Jackson Heights, USA", lat:40.7557, lon:-73.8831, pop:150000, timezone:-5},
+{name:"NYC - Corona, USA", lat:40.7469, lon:-73.8600, pop:150000, timezone:-5},
+{name:"NYC - Rockaway, USA", lat:40.5850, lon:-73.8150, pop:80000, timezone:-5},
+
+{name:"NYC - Fordham, USA", lat:40.8615, lon:-73.8950, pop:140000, timezone:-5},
+{name:"NYC - Pelham Bay, USA", lat:40.8500, lon:-73.8330, pop:100000, timezone:-5},
+{name:"NYC - Riverdale, USA", lat:40.8960, lon:-73.9120, pop:100000, timezone:-5},
+{name:"NYC - Hunts Point, USA", lat:40.8090, lon:-73.8840, pop:100000, timezone:-5},
+
+{name:"NYC - Staten Island North Shore, USA", lat:40.6350, lon:-74.1160, pop:120000, timezone:-5},
+{name:"NYC - Staten Island South Shore, USA", lat:40.5200, lon:-74.1900, pop:100000, timezone:-5},
+
+{name:"Jersey City - Downtown, USA", lat:40.7178, lon:-74.0431, pop:200000, timezone:-5},
+{name:"Hoboken, USA", lat:40.7430, lon:-74.0324, pop:60000, timezone:-5},
+{name:"Bayonne, USA", lat:40.6687, lon:-74.1143, pop:70000, timezone:-5},
+{name:"Elizabeth, USA", lat:40.66399, lon:-74.2107, pop:140000, timezone:-5},
+{name:"Paterson, USA", lat:40.9168, lon:-74.1718, pop:150000, timezone:-5},
+
+{name:"Westchester - Mount Vernon, USA", lat:40.9126, lon:-73.8370, pop:70000, timezone:-5},
+{name:"Westchester - Yonkers South, USA", lat:40.9100, lon:-73.9000, pop:90000, timezone:-5},
+{name:"Westchester - Port Chester, USA", lat:41.0018, lon:-73.6657, pop:30000, timezone:-5},
+
+{name:"Long Island - Garden City, USA", lat:40.7268, lon:-73.6343, pop:25000, timezone:-5},
+{name:"Long Island - Freeport, USA", lat:40.6576, lon:-73.5832, pop:45000, timezone:-5},
+{name:"Long Island - Valley Stream, USA", lat:40.6643, lon:-73.7085, pop:38000, timezone:-5},
+{name:"Long Island - Huntington, USA", lat:40.8682, lon:-73.4257, pop:20000, timezone:-5},
+
+// ==================== LAS VEGAS METRO EXPANSION ====================
+
+{name:"Las Vegas - Arts District, USA", lat:36.1590, lon:-115.1530, pop:120000, timezone:-8},
+{name:"Las Vegas - Downtown East, USA", lat:36.1650, lon:-115.1300, pop:100000, timezone:-8},
+{name:"Las Vegas - Chinatown, USA", lat:36.1260, lon:-115.2000, pop:180000, timezone:-8},
+{name:"Las Vegas - University District, USA", lat:36.1080, lon:-115.1400, pop:120000, timezone:-8},
+{name:"Las Vegas - Meadows, USA", lat:36.1420, lon:-115.1750, pop:100000, timezone:-8},
+
+{name:"Las Vegas - Centennial Hills, USA", lat:36.2760, lon:-115.2630, pop:150000, timezone:-8},
+{name:"Las Vegas - Northwest Las Vegas, USA", lat:36.2380, lon:-115.2350, pop:160000, timezone:-8},
+{name:"Las Vegas - Lone Mountain, USA", lat:36.2160, lon:-115.3000, pop:100000, timezone:-8},
+
+{name:"Las Vegas - Southwest, USA", lat:36.0810, lon:-115.2750, pop:180000, timezone:-8},
+{name:"Las Vegas - Rhodes Ranch, USA", lat:36.0560, lon:-115.2800, pop:100000, timezone:-8},
+{name:"Las Vegas - Mountains Edge, USA", lat:36.0290, lon:-115.3000, pop:90000, timezone:-8},
+
+{name:"Las Vegas - Green Valley, USA", lat:36.0290, lon:-115.0820, pop:150000, timezone:-8},
+{name:"Las Vegas - Anthem, USA", lat:35.9890, lon:-115.1000, pop:90000, timezone:-8},
+{name:"Las Vegas - Seven Hills, USA", lat:35.9970, lon:-115.0850, pop:80000, timezone:-8},
+
+{name:"Las Vegas - Silverado Ranch, USA", lat:36.0120, lon:-115.1180, pop:150000, timezone:-8},
+{name:"Las Vegas - Inspirada, USA", lat:35.9860, lon:-115.1230, pop:80000, timezone:-8},
+
+{name:"Las Vegas - Sunrise Manor, USA", lat:36.1780, lon:-115.0750, pop:220000, timezone:-8},
+{name:"Las Vegas - Nellis Area, USA", lat:36.2100, lon:-115.0750, pop:100000, timezone:-8},
+{name:"Las Vegas - East Las Vegas, USA", lat:36.1450, lon:-115.1050, pop:180000, timezone:-8},
+
+{name:"Las Vegas - Boulder Highway, USA", lat:36.0850, lon:-115.0800, pop:120000, timezone:-8},
+{name:"Las Vegas - Lake Las Vegas, USA", lat:36.1030, lon:-114.9300, pop:50000, timezone:-8},
+
+{name:"Henderson - Green Valley Ranch, USA", lat:36.0180, lon:-115.0620, pop:100000, timezone:-8},
+{name:"Henderson - Water Street, USA", lat:36.0390, lon:-114.9810, pop:70000, timezone:-8},
+{name:"Henderson - Inspirada, USA", lat:35.9700, lon:-115.1100, pop:60000, timezone:-8},
+
+{name:"North Las Vegas - Aliante, USA", lat:36.2870, lon:-115.1740, pop:100000, timezone:-8},
+{name:"North Las Vegas - Craig Ranch, USA", lat:36.2380, lon:-115.1750, pop:90000, timezone:-8},
+
+{name:"Las Vegas - Mountain View, USA", lat:36.1900, lon:-115.2150, pop:100000, timezone:-8},
+{name:"Las Vegas - Desert Shores, USA", lat:36.2010, lon:-115.2830, pop:80000, timezone:-8},
+
+{name:"Las Vegas - Blue Diamond, USA", lat:36.0490, lon:-115.4100, pop:10000, timezone:-8},
+{name:"Las Vegas - Pahrump Junction, USA", lat:36.1900, lon:-115.9900, pop:10000, timezone:-8},
+
+// ==================== PHILADELPHIA METRO EXPANSION ====================
+
+{name:"Philadelphia - Center City, USA", lat:39.9526, lon:-75.1652, pop:500000, timezone:-5},
+{name:"Philadelphia - Old City, USA", lat:39.9496, lon:-75.1440, pop:100000, timezone:-5},
+{name:"Philadelphia - University City, USA", lat:39.9530, lon:-75.1930, pop:150000, timezone:-5},
+{name:"Philadelphia - Rittenhouse Square, USA", lat:39.9496, lon:-75.1717, pop:120000, timezone:-5},
+{name:"Philadelphia - Northern Liberties, USA", lat:39.9610, lon:-75.1390, pop:100000, timezone:-5},
+{name:"Philadelphia - Fishtown, USA", lat:39.9670, lon:-75.1340, pop:120000, timezone:-5},
+
+{name:"Philadelphia - South Philadelphia, USA", lat:39.9220, lon:-75.1710, pop:180000, timezone:-5},
+{name:"Philadelphia - Passyunk Square, USA", lat:39.9340, lon:-75.1660, pop:100000, timezone:-5},
+{name:"Philadelphia - Point Breeze, USA", lat:39.9390, lon:-75.1800, pop:100000, timezone:-5},
+{name:"Philadelphia - Grays Ferry, USA", lat:39.9380, lon:-75.1970, pop:80000, timezone:-5},
+
+{name:"Philadelphia - West Philadelphia, USA", lat:39.9600, lon:-75.2150, pop:220000, timezone:-5},
+{name:"Philadelphia - Powelton Village, USA", lat:39.9600, lon:-75.1870, pop:80000, timezone:-5},
+{name:"Philadelphia - Belmont, USA", lat:39.9780, lon:-75.2100, pop:70000, timezone:-5},
+{name:"Philadelphia - Overbrook, USA", lat:39.9920, lon:-75.2420, pop:80000, timezone:-5},
+
+{name:"Philadelphia - North Philadelphia, USA", lat:39.9800, lon:-75.1450, pop:250000, timezone:-5},
+{name:"Philadelphia - Fairhill, USA", lat:39.9920, lon:-75.1380, pop:90000, timezone:-5},
+{name:"Philadelphia - Germantown, USA", lat:40.0380, lon:-75.1750, pop:100000, timezone:-5},
+{name:"Philadelphia - Chestnut Hill, USA", lat:40.0710, lon:-75.2070, pop:60000, timezone:-5},
+{name:"Philadelphia - Mount Airy, USA", lat:40.0570, lon:-75.1900, pop:70000, timezone:-5},
+
+{name:"Philadelphia - Northeast Philadelphia, USA", lat:40.0600, lon:-75.0300, pop:200000, timezone:-5},
+{name:"Philadelphia - Frankford, USA", lat:40.0160, lon:-75.0880, pop:90000, timezone:-5},
+{name:"Philadelphia - Mayfair, USA", lat:40.0360, lon:-75.0640, pop:80000, timezone:-5},
+
+{name:"Camden, New Jersey, USA", lat:39.9259, lon:-75.1196, pop:70000, timezone:-5},
+{name:"Cherry Hill, New Jersey, USA", lat:39.9348, lon:-75.0307, pop:75000, timezone:-5},
+{name:"Pennsauken, New Jersey, USA", lat:39.9560, lon:-75.0570, pop:36000, timezone:-5},
+{name:"Collingswood, New Jersey, USA", lat:39.9180, lon:-75.0710, pop:14000, timezone:-5},
+
+{name:"Upper Darby, Pennsylvania, USA", lat:39.9490, lon:-75.2610, pop:85000, timezone:-5},
+{name:"Drexel Hill, Pennsylvania, USA", lat:39.9470, lon:-75.3030, pop:30000, timezone:-5},
+{name:"Conshohocken, Pennsylvania, USA", lat:40.0790, lon:-75.3020, pop:9000, timezone:-5},
+{name:"King of Prussia, Pennsylvania, USA", lat:40.1010, lon:-75.3830, pop:25000, timezone:-5},
+
+{name:"Norristown, Pennsylvania, USA", lat:40.1215, lon:-75.3399, pop:35000, timezone:-5},
+{name:"Bensalem, Pennsylvania, USA", lat:40.1040, lon:-74.9510, pop:60000, timezone:-5},
+{name:"Levittown, Pennsylvania, USA", lat:40.1550, lon:-74.8280, pop:52000, timezone:-5},
+
+// ==================== DALLAS–FORT WORTH METRO EXPANSION ====================
+
+{name:"Dallas - Downtown, USA", lat:32.7767, lon:-96.7970, pop:500000, timezone:-6},
+{name:"Dallas - Uptown, USA", lat:32.8020, lon:-96.8000, pop:150000, timezone:-6},
+{name:"Dallas - Deep Ellum, USA", lat:32.7840, lon:-96.7830, pop:100000, timezone:-6},
+{name:"Dallas - Bishop Arts, USA", lat:32.7470, lon:-96.8280, pop:80000, timezone:-6},
+{name:"Dallas - Oak Lawn, USA", lat:32.8130, lon:-96.8090, pop:120000, timezone:-6},
+{name:"Dallas - Knox-Henderson, USA", lat:32.8120, lon:-96.7880, pop:100000, timezone:-6},
+
+{name:"Dallas - Lake Highlands, USA", lat:32.9170, lon:-96.7330, pop:150000, timezone:-6},
+{name:"Dallas - North Dallas, USA", lat:32.9450, lon:-96.8000, pop:180000, timezone:-6},
+{name:"Dallas - Oak Cliff, USA", lat:32.7240, lon:-96.8500, pop:150000, timezone:-6},
+
+{name:"Irving - Las Colinas, USA", lat:32.8800, lon:-96.9580, pop:120000, timezone:-6},
+{name:"Irving - Valley Ranch, USA", lat:32.9400, lon:-96.9630, pop:100000, timezone:-6},
+{name:"Farmers Branch, USA", lat:32.9260, lon:-96.8960, pop:40000, timezone:-6},
+{name:"Addison, USA", lat:32.9618, lon:-96.8292, pop:18000, timezone:-6},
+
+{name:"Carrollton, USA", lat:32.9537, lon:-96.8903, pop:140000, timezone:-6},
+{name:"Coppell, USA", lat:32.9546, lon:-97.0150, pop:45000, timezone:-6},
+{name:"Grapevine, USA", lat:32.9343, lon:-97.0781, pop:50000, timezone:-6},
+
+{name:"Arlington - Downtown, USA", lat:32.7357, lon:-97.1081, pop:120000, timezone:-6},
+{name:"Arlington - Entertainment District, USA", lat:32.7473, lon:-97.0945, pop:90000, timezone:-6},
+{name:"Grand Prairie, USA", lat:32.7460, lon:-96.9978, pop:200000, timezone:-6},
+{name:"Mansfield, USA", lat:32.5632, lon:-97.1417, pop:80000, timezone:-6},
+
+{name:"Fort Worth - Downtown, USA", lat:32.7555, lon:-97.3308, pop:180000, timezone:-6},
+{name:"Fort Worth - Cultural District, USA", lat:32.7470, lon:-97.3650, pop:90000, timezone:-6},
+{name:"Fort Worth - Stockyards, USA", lat:32.7880, lon:-97.3470, pop:70000, timezone:-6},
+{name:"Fort Worth - North Side, USA", lat:32.8050, lon:-97.3470, pop:100000, timezone:-6},
+
+{name:"Hurst, USA", lat:32.8235, lon:-97.1706, pop:40000, timezone:-6},
+{name:"Euless, USA", lat:32.8371, lon:-97.0819, pop:60000, timezone:-6},
+{name:"Bedford, USA", lat:32.8440, lon:-97.1431, pop:50000, timezone:-6},
+{name:"North Richland Hills, USA", lat:32.8343, lon:-97.2289, pop:70000, timezone:-6},
+
+{name:"Plano - Legacy, USA", lat:33.0750, lon:-96.7980, pop:120000, timezone:-6},
+{name:"Frisco - Main Street, USA", lat:33.1507, lon:-96.8236, pop:120000, timezone:-6},
+{name:"McKinney - Downtown, USA", lat:33.1972, lon:-96.6150, pop:80000, timezone:-6},
+{name:"Allen, USA", lat:33.1032, lon:-96.6706, pop:110000, timezone:-6},
+
+{name:"Richardson - Telecom Corridor, USA", lat:32.9780, lon:-96.7240, pop:100000, timezone:-6},
+{name:"Garland - Downtown, USA", lat:32.9126, lon:-96.6389, pop:100000, timezone:-6},
+{name:"Mesquite - Downtown, USA", lat:32.7668, lon:-96.5992, pop:70000, timezone:-6},
+
+{name:"Duncanville, USA", lat:32.6518, lon:-96.9081, pop:40000, timezone:-6},
+{name:"DeSoto, USA", lat:32.5899, lon:-96.8571, pop:60000, timezone:-6},
+
+// ==================== HOUSTON METRO EXPANSION ====================
+
+{name:"Houston - Downtown, USA", lat:29.7604, lon:-95.3698, pop:500000, timezone:-6},
+{name:"Houston - Midtown, USA", lat:29.7410, lon:-95.3730, pop:100000, timezone:-6},
+{name:"Houston - Montrose, USA", lat:29.7447, lon:-95.3900, pop:120000, timezone:-6},
+{name:"Houston - Museum District, USA", lat:29.7210, lon:-95.3900, pop:100000, timezone:-6},
+{name:"Houston - Medical Center, USA", lat:29.7070, lon:-95.4000, pop:150000, timezone:-6},
+{name:"Houston - EaDo, USA", lat:29.7510, lon:-95.3500, pop:90000, timezone:-6},
+
+{name:"Houston - The Heights, USA", lat:29.7980, lon:-95.3980, pop:120000, timezone:-6},
+{name:"Houston - Garden Oaks, USA", lat:29.8230, lon:-95.4190, pop:80000, timezone:-6},
+{name:"Houston - Greater Heights, USA", lat:29.8100, lon:-95.3830, pop:100000, timezone:-6},
+{name:"Houston - Washington Corridor, USA", lat:29.7660, lon:-95.4050, pop:100000, timezone:-6},
+
+{name:"Houston - West University, USA", lat:29.7170, lon:-95.4320, pop:45000, timezone:-6},
+{name:"Houston - Bellaire, USA", lat:29.7050, lon:-95.4580, pop:19000, timezone:-6},
+{name:"Houston - Meyerland, USA", lat:29.6780, lon:-95.4670, pop:50000, timezone:-6},
+
+{name:"Houston - East Houston, USA", lat:29.7800, lon:-95.2800, pop:100000, timezone:-6},
+{name:"Houston - Fifth Ward, USA", lat:29.7700, lon:-95.3450, pop:60000, timezone:-6},
+{name:"Houston - East End, USA", lat:29.7350, lon:-95.3300, pop:90000, timezone:-6},
+
+{name:"Houston - Gulfgate, USA", lat:29.6970, lon:-95.2960, pop:70000, timezone:-6},
+{name:"Houston - Hobby Area, USA", lat:29.6460, lon:-95.2820, pop:70000, timezone:-6},
+
+{name:"Houston - Sharpstown, USA", lat:29.6960, lon:-95.5240, pop:100000, timezone:-6},
+{name:"Houston - Westchase, USA", lat:29.7370, lon:-95.5570, pop:120000, timezone:-6},
+{name:"Houston - Memorial, USA", lat:29.7700, lon:-95.5000, pop:120000, timezone:-6},
+{name:"Houston - Energy Corridor, USA", lat:29.7830, lon:-95.6200, pop:120000, timezone:-6},
+
+{name:"Houston - Spring Branch, USA", lat:29.8000, lon:-95.5200, pop:100000, timezone:-6},
+{name:"Houston - Alief, USA", lat:29.7110, lon:-95.5960, pop:120000, timezone:-6},
+{name:"Houston - Sugar Land, USA", lat:29.6197, lon:-95.6349, pop:110000, timezone:-6},
+
+{name:"Houston - Missouri City, USA", lat:29.6186, lon:-95.5377, pop:75000, timezone:-6},
+{name:"Houston - Stafford, USA", lat:29.6161, lon:-95.5577, pop:18000, timezone:-6},
+{name:"Houston - Pearland, USA", lat:29.5636, lon:-95.2860, pop:130000, timezone:-6},
+
+{name:"Houston - Pasadena, USA", lat:29.6911, lon:-95.2091, pop:150000, timezone:-6},
+{name:"Houston - Deer Park, USA", lat:29.7052, lon:-95.1238, pop:34000, timezone:-6},
+{name:"Houston - Baytown, USA", lat:29.7355, lon:-94.9774, pop:80000, timezone:-6},
+
+{name:"Houston - Cypress, USA", lat:29.9691, lon:-95.6972, pop:200000, timezone:-6},
+{name:"Houston - Katy, USA", lat:29.7858, lon:-95.8245, pop:240000, timezone:-6},
+{name:"Houston - Spring, USA", lat:30.0799, lon:-95.4172, pop:120000, timezone:-6},
+{name:"Houston - The Woodlands, USA", lat:30.1658, lon:-95.4613, pop:120000, timezone:-6},
+{name:"Houston - Humble, USA", lat:29.9988, lon:-95.2622, pop:60000, timezone:-6},
+
+// ==================== TORONTO METRO EXPANSION ====================
+
+{name:"Toronto - Financial District, Canada", lat:43.6487, lon:-79.3817, pop:300000, timezone:-5},
+{name:"Toronto - Entertainment District, Canada", lat:43.6465, lon:-79.3900, pop:250000, timezone:-5},
+{name:"Toronto - Yorkville, Canada", lat:43.6710, lon:-79.3930, pop:180000, timezone:-5},
+{name:"Toronto - Kensington Market, Canada", lat:43.6548, lon:-79.4005, pop:150000, timezone:-5},
+{name:"Toronto - Queen West, Canada", lat:43.6478, lon:-79.4045, pop:180000, timezone:-5},
+{name:"Toronto - Harbourfront, Canada", lat:43.6400, lon:-79.3800, pop:180000, timezone:-5},
+
+{name:"Toronto - The Annex, Canada", lat:43.6677, lon:-79.4035, pop:150000, timezone:-5},
+{name:"Toronto - Little Italy, Canada", lat:43.6555, lon:-79.4215, pop:140000, timezone:-5},
+{name:"Toronto - Parkdale, Canada", lat:43.6405, lon:-79.4395, pop:150000, timezone:-5},
+{name:"Toronto - High Park, Canada", lat:43.6530, lon:-79.4660, pop:150000, timezone:-5},
+
+{name:"Toronto - Leslieville, Canada", lat:43.6625, lon:-79.3370, pop:140000, timezone:-5},
+{name:"Toronto - The Beaches, Canada", lat:43.6700, lon:-79.2980, pop:130000, timezone:-5},
+{name:"Toronto - East York, Canada", lat:43.6900, lon:-79.3370, pop:150000, timezone:-5},
+{name:"Toronto - Leaside, Canada", lat:43.7040, lon:-79.3670, pop:120000, timezone:-5},
+
+{name:"Toronto - Yonge-Eglinton, Canada", lat:43.7065, lon:-79.3980, pop:180000, timezone:-5},
+{name:"Toronto - Willowdale, Canada", lat:43.7700, lon:-79.4100, pop:180000, timezone:-5},
+{name:"Toronto - Don Mills, Canada", lat:43.7380, lon:-79.3480, pop:150000, timezone:-5},
+{name:"Toronto - Bayview Village, Canada", lat:43.7690, lon:-79.3860, pop:120000, timezone:-5},
+
+{name:"Toronto - Downsview, Canada", lat:43.7490, lon:-79.4650, pop:130000, timezone:-5},
+{name:"Toronto - Weston, Canada", lat:43.7000, lon:-79.5150, pop:130000, timezone:-5},
+{name:"Toronto - Rexdale, Canada", lat:43.7190, lon:-79.5650, pop:150000, timezone:-5},
+
+{name:"Toronto - Port Credit, Canada", lat:43.5530, lon:-79.5850, pop:120000, timezone:-5},
+{name:"Mississauga - City Centre, Canada", lat:43.5890, lon:-79.6440, pop:250000, timezone:-5},
+{name:"Mississauga - Meadowvale, Canada", lat:43.5960, lon:-79.7550, pop:130000, timezone:-5},
+{name:"Mississauga - Streetsville, Canada", lat:43.5800, lon:-79.7130, pop:100000, timezone:-5},
+{name:"Mississauga - Erin Mills, Canada", lat:43.5600, lon:-79.6900, pop:150000, timezone:-5},
+
+{name:"Brampton - Downtown, Canada", lat:43.6850, lon:-79.7600, pop:180000, timezone:-5},
+{name:"Brampton - Bramalea, Canada", lat:43.7310, lon:-79.7150, pop:180000, timezone:-5},
+{name:"Brampton - Heart Lake, Canada", lat:43.7500, lon:-79.7800, pop:100000, timezone:-5},
+
+{name:"Vaughan - Concord, Canada", lat:43.8200, lon:-79.4800, pop:120000, timezone:-5},
+{name:"Vaughan - Woodbridge, Canada", lat:43.7880, lon:-79.5960, pop:120000, timezone:-5},
+{name:"Vaughan - Maple, Canada", lat:43.8560, lon:-79.5100, pop:120000, timezone:-5},
+
+{name:"Markham - Unionville, Canada", lat:43.8600, lon:-79.3150, pop:120000, timezone:-5},
+{name:"Markham - Cornell, Canada", lat:43.8800, lon:-79.2300, pop:100000, timezone:-5},
+{name:"Markham - Milliken, Canada", lat:43.8250, lon:-79.3000, pop:120000, timezone:-5},
+
+{name:"Richmond Hill - Yonge Street, Canada", lat:43.8820, lon:-79.4380, pop:120000, timezone:-5},
+{name:"Richmond Hill - Oak Ridges, Canada", lat:43.9300, lon:-79.4500, pop:80000, timezone:-5},
+
+{name:"Vaughan - Kleinburg, Canada", lat:43.8400, lon:-79.6300, pop:60000, timezone:-5},
+
+// ==================== LOS ANGELES METRO EXPANSION ====================
+
+{name:"LA - Koreatown, USA", lat:34.0610, lon:-118.3000, pop:350000, timezone:-8},
+{name:"LA - Echo Park, USA", lat:34.0780, lon:-118.2600, pop:250000, timezone:-8},
+{name:"LA - Silver Lake, USA", lat:34.0860, lon:-118.2700, pop:250000, timezone:-8},
+{name:"LA - East Hollywood, USA", lat:34.0920, lon:-118.2800, pop:250000, timezone:-8},
+{name:"LA - Los Feliz, USA", lat:34.1050, lon:-118.2950, pop:200000, timezone:-8},
+{name:"LA - West Hollywood, USA", lat:34.0900, lon:-118.3600, pop:250000, timezone:-8},
+
+{name:"LA - Westwood, USA", lat:34.0620, lon:-118.4450, pop:250000, timezone:-8},
+{name:"LA - Century City, USA", lat:34.0530, lon:-118.4130, pop:220000, timezone:-8},
+{name:"LA - Culver City, USA", lat:34.0210, lon:-118.3960, pop:250000, timezone:-8},
+{name:"LA - Marina del Rey, USA", lat:33.9800, lon:-118.4400, pop:180000, timezone:-8},
+
+{name:"LA - Venice, USA", lat:33.9850, lon:-118.4700, pop:200000, timezone:-8},
+{name:"LA - Playa Vista, USA", lat:33.9750, lon:-118.4100, pop:180000, timezone:-8},
+{name:"LA - Hawthorne, USA", lat:33.9160, lon:-118.3520, pop:300000, timezone:-8},
+{name:"LA - Gardena, USA", lat:33.8880, lon:-118.3090, pop:250000, timezone:-8},
+
+{name:"LA - Carson, USA", lat:33.8310, lon:-118.2620, pop:250000, timezone:-8},
+{name:"LA - San Pedro, USA", lat:33.7360, lon:-118.2920, pop:250000, timezone:-8},
+{name:"LA - Wilmington, USA", lat:33.7800, lon:-118.2600, pop:200000, timezone:-8},
+
+{name:"LA - South Gate, USA", lat:33.9540, lon:-118.2120, pop:300000, timezone:-8},
+{name:"LA - Bell, USA", lat:33.9770, lon:-118.1870, pop:200000, timezone:-8},
+{name:"LA - Whittier, USA", lat:33.9790, lon:-118.0320, pop:300000, timezone:-8},
+{name:"LA - La Habra, USA", lat:33.9310, lon:-117.9460, pop:200000, timezone:-8},
+
+{name:"LA - Hacienda Heights, USA", lat:33.9930, lon:-117.9680, pop:150000, timezone:-8},
+{name:"LA - Rowland Heights, USA", lat:33.9760, lon:-117.9050, pop:150000, timezone:-8},
+{name:"LA - Diamond Bar, USA", lat:33.9990, lon:-117.8100, pop:200000, timezone:-8},
+{name:"LA - Chino, USA", lat:34.0120, lon:-117.6880, pop:200000, timezone:-8},
+
+{name:"LA - Chino Hills, USA", lat:33.9890, lon:-117.7320, pop:150000, timezone:-8},
+{name:"LA - Rancho Cucamonga, USA", lat:34.1060, lon:-117.5930, pop:300000, timezone:-8},
+{name:"LA - Fontana, USA", lat:34.0922, lon:-117.4350, pop:300000, timezone:-8},
+{name:"LA - Redlands, USA", lat:34.0556, lon:-117.1825, pop:150000, timezone:-8},
+
+{name:"LA - Moreno Valley, USA", lat:33.9425, lon:-117.2297, pop:220000, timezone:-8},
+{name:"LA - Eastvale, USA", lat:33.9525, lon:-117.5848, pop:120000, timezone:-8},
+{name:"LA - Corona, USA", lat:33.8753, lon:-117.5664, pop:200000, timezone:-8},
+{name:"LA - Norco, USA", lat:33.9311, lon:-117.5487, pop:30000, timezone:-8},
+
+{name:"LA - San Fernando, USA", lat:34.2819, lon:-118.4389, pop:250000, timezone:-8},
+{name:"LA - Panorama City, USA", lat:34.2247, lon:-118.4480, pop:250000, timezone:-8},
+{name:"LA - Van Nuys, USA", lat:34.1899, lon:-118.4514, pop:300000, timezone:-8},
+{name:"LA - Reseda, USA", lat:34.2011, lon:-118.5365, pop:250000, timezone:-8},
+
+{name:"LA - Northridge, USA", lat:34.2350, lon:-118.5350, pop:250000, timezone:-8},
+{name:"LA - Woodland Hills, USA", lat:34.1683, lon:-118.6059, pop:250000, timezone:-8},
+{name:"LA - Encino, USA", lat:34.1510, lon:-118.5010, pop:220000, timezone:-8},
+{name:"LA - Canoga Park, USA", lat:34.2010, lon:-118.5980, pop:220000, timezone:-8},
+
+{name:"LA - Calabasas, USA", lat:34.1570, lon:-118.6380, pop:25000, timezone:-8},
+{name:"LA - Agoura Hills, USA", lat:34.1364, lon:-118.7745, pop:25000, timezone:-8},
+{name:"LA - Thousand Oaks, USA", lat:34.1706, lon:-118.8376, pop:130000, timezone:-8},
+{name:"LA - Simi Valley, USA", lat:34.2694, lon:-118.7815, pop:130000, timezone:-8},
+
+{name:"LA - West Covina, USA", lat:34.0686, lon:-117.9390, pop:110000, timezone:-8},
+{name:"LA - Azusa, USA", lat:34.1336, lon:-117.9076, pop:50000, timezone:-8},
+{name:"LA - Monrovia, USA", lat:34.1447, lon:-117.9981, pop:40000, timezone:-8},
+{name:"LA - Arcadia, USA", lat:34.1397, lon:-118.0353, pop:55000, timezone:-8},
+
+// ==================== CHICAGO METRO EXPANSION ====================
+
+{name:"Chicago - The Loop, USA", lat:41.8837, lon:-87.6324, pop:400000, timezone:-6},
+{name:"Chicago - River North, USA", lat:41.8925, lon:-87.6340, pop:300000, timezone:-6},
+{name:"Chicago - West Loop, USA", lat:41.8858, lon:-87.6480, pop:300000, timezone:-6},
+{name:"Chicago - South Loop, USA", lat:41.8560, lon:-87.6330, pop:250000, timezone:-6},
+{name:"Chicago - Near North Side, USA", lat:41.9100, lon:-87.6300, pop:400000, timezone:-6},
+{name:"Chicago - Near West Side, USA", lat:41.8800, lon:-87.6700, pop:300000, timezone:-6},
+{name:"Chicago - Pilsen, USA", lat:41.8560, lon:-87.6560, pop:200000, timezone:-6},
+{name:"Chicago - Chinatown, USA", lat:41.8510, lon:-87.6310, pop:150000, timezone:-6},
+
+{name:"Chicago - Lincoln Park, USA", lat:41.9214, lon:-87.6513, pop:300000, timezone:-6},
+{name:"Chicago - Lakeview, USA", lat:41.9430, lon:-87.6540, pop:350000, timezone:-6},
+{name:"Chicago - Wrigleyville, USA", lat:41.9484, lon:-87.6553, pop:180000, timezone:-6},
+{name:"Chicago - Uptown, USA", lat:41.9660, lon:-87.6550, pop:200000, timezone:-6},
+{name:"Chicago - Rogers Park, USA", lat:42.0086, lon:-87.6700, pop:180000, timezone:-6},
+
+{name:"Chicago - Logan Square, USA", lat:41.9280, lon:-87.7068, pop:250000, timezone:-6},
+{name:"Chicago - Avondale, USA", lat:41.9389, lon:-87.7112, pop:200000, timezone:-6},
+{name:"Chicago - Humboldt Park, USA", lat:41.9020, lon:-87.7160, pop:200000, timezone:-6},
+{name:"Chicago - Ukrainian Village, USA", lat:41.8990, lon:-87.6860, pop:180000, timezone:-6},
+
+{name:"Chicago - Bronzeville, USA", lat:41.8300, lon:-87.6250, pop:150000, timezone:-6},
+{name:"Chicago - Hyde Park, USA", lat:41.7943, lon:-87.5907, pop:180000, timezone:-6},
+{name:"Chicago - South Shore, USA", lat:41.7610, lon:-87.5750, pop:200000, timezone:-6},
+{name:"Chicago - Chatham, USA", lat:41.7410, lon:-87.6110, pop:180000, timezone:-6},
+{name:"Chicago - Beverly, USA", lat:41.7180, lon:-87.6710, pop:150000, timezone:-6},
+
+{name:"Chicago - Portage Park, USA", lat:41.9570, lon:-87.7660, pop:180000, timezone:-6},
+{name:"Chicago - Jefferson Park, USA", lat:41.9710, lon:-87.7650, pop:160000, timezone:-6},
+{name:"Chicago - Albany Park, USA", lat:41.9680, lon:-87.7190, pop:180000, timezone:-6},
+{name:"Chicago - Irving Park, USA", lat:41.9540, lon:-87.7230, pop:180000, timezone:-6},
+
+{name:"Chicago - North Park, USA", lat:41.9840, lon:-87.7280, pop:140000, timezone:-6},
+{name:"Chicago - Lincoln Square, USA", lat:41.9750, lon:-87.6890, pop:160000, timezone:-6},
+{name:"Chicago - West Ridge, USA", lat:42.0000, lon:-87.6880, pop:170000, timezone:-6},
+
+{name:"Chicago - Bridgeport, USA", lat:41.8370, lon:-87.6510, pop:130000, timezone:-6},
+{name:"Chicago - McKinley Park, USA", lat:41.8310, lon:-87.6730, pop:120000, timezone:-6},
+{name:"Chicago - Back of the Yards, USA", lat:41.8080, lon:-87.6660, pop:130000, timezone:-6},
+
+{name:"Chicago - Austin, USA", lat:41.8940, lon:-87.7650, pop:250000, timezone:-6},
+{name:"Chicago - West Garfield Park, USA", lat:41.8800, lon:-87.7350, pop:150000, timezone:-6},
+{name:"Chicago - North Lawndale, USA", lat:41.8610, lon:-87.7160, pop:150000, timezone:-6},
+
+{name:"Chicago - Oak Lawn, USA", lat:41.7190, lon:-87.7470, pop:60000, timezone:-6},
+{name:"Chicago - Cicero East, USA", lat:41.8450, lon:-87.7450, pop:80000, timezone:-6},
+{name:"Chicago - Berwyn, USA", lat:41.8506, lon:-87.7937, pop:60000, timezone:-6},
+{name:"Chicago - Oak Park, USA", lat:41.8850, lon:-87.7845, pop:55000, timezone:-6},
+
+{name:"Chicago - Elmwood Park, USA", lat:41.9211, lon:-87.8092, pop:50000, timezone:-6},
+{name:"Chicago - River Forest, USA", lat:41.8978, lon:-87.8139, pop:11000, timezone:-6},
+{name:"Chicago - Melrose Park, USA", lat:41.9006, lon:-87.8567, pop:25000, timezone:-6},
+
+// ==================== WASHINGTON, DC METRO EXPANSION ====================
+
+{name:"Washington DC - Downtown, USA", lat:38.9072, lon:-77.0369, pop:700000, timezone:-5},
+{name:"Washington DC - Capitol Hill, USA", lat:38.8899, lon:-76.9950, pop:250000, timezone:-5},
+{name:"Washington DC - Dupont Circle, USA", lat:38.9096, lon:-77.0434, pop:220000, timezone:-5},
+{name:"Washington DC - Georgetown, USA", lat:38.9076, lon:-77.0723, pop:180000, timezone:-5},
+{name:"Washington DC - Columbia Heights, USA", lat:38.9287, lon:-77.0320, pop:220000, timezone:-5},
+{name:"Washington DC - Petworth, USA", lat:38.9420, lon:-77.0310, pop:180000, timezone:-5},
+
+{name:"Arlington, Virginia, USA", lat:38.8816, lon:-77.0910, pop:250000, timezone:-5},
+{name:"Rosslyn, Virginia, USA", lat:38.8951, lon:-77.0719, pop:180000, timezone:-5},
+{name:"Ballston, Virginia, USA", lat:38.8820, lon:-77.1110, pop:180000, timezone:-5},
+{name:"Alexandria, Virginia, USA", lat:38.8048, lon:-77.0469, pop:200000, timezone:-5},
+{name:"Springfield, Virginia, USA", lat:38.7893, lon:-77.1872, pop:120000, timezone:-5},
+{name:"Annandale, Virginia, USA", lat:38.8304, lon:-77.1964, pop:120000, timezone:-5},
+
+{name:"Falls Church, Virginia, USA", lat:38.8823, lon:-77.1711, pop:80000, timezone:-5},
+{name:"Tysons, Virginia, USA", lat:38.9187, lon:-77.2311, pop:180000, timezone:-5},
+{name:"McLean, Virginia, USA", lat:38.9339, lon:-77.1773, pop:100000, timezone:-5},
+{name:"Fairfax, Virginia, USA", lat:38.8462, lon:-77.3064, pop:180000, timezone:-5},
+{name:"Vienna, Virginia, USA", lat:38.9012, lon:-77.2653, pop:70000, timezone:-5},
+{name:"Reston, Virginia, USA", lat:38.9586, lon:-77.3570, pop:150000, timezone:-5},
+{name:"Herndon, Virginia, USA", lat:38.9696, lon:-77.3861, pop:70000, timezone:-5},
+
+{name:"Bethesda, Maryland, USA", lat:38.9847, lon:-77.0947, pop:100000, timezone:-5},
+{name:"Silver Spring, Maryland, USA", lat:38.9907, lon:-77.0261, pop:120000, timezone:-5},
+{name:"Takoma Park, Maryland, USA", lat:38.9779, lon:-77.0075, pop:50000, timezone:-5},
+{name:"Wheaton, Maryland, USA", lat:39.0398, lon:-77.0553, pop:70000, timezone:-5},
+{name:"Rockville, Maryland, USA", lat:39.0840, lon:-77.1528, pop:150000, timezone:-5},
+{name:"Gaithersburg, Maryland, USA", lat:39.1434, lon:-77.2014, pop:120000, timezone:-5},
+{name:"Germantown, Maryland, USA", lat:39.1732, lon:-77.2717, pop:100000, timezone:-5},
+
+{name:"College Park, Maryland, USA", lat:38.9897, lon:-76.9378, pop:70000, timezone:-5},
+{name:"Hyattsville, Maryland, USA", lat:38.9559, lon:-76.9455, pop:50000, timezone:-5},
+{name:"Greenbelt, Maryland, USA", lat:39.0046, lon:-76.8755, pop:50000, timezone:-5},
+{name:"Laurel, Maryland, USA", lat:39.0993, lon:-76.8483, pop:100000, timezone:-5},
+
+{name:"Columbia, Maryland, USA", lat:39.2037, lon:-76.8610, pop:120000, timezone:-5},
+{name:"Ellicott City, Maryland, USA", lat:39.2673, lon:-76.7983, pop:80000, timezone:-5},
+{name:"Catonsville, Maryland, USA", lat:39.2721, lon:-76.7319, pop:60000, timezone:-5},
+{name:"Towson, Maryland, USA", lat:39.4015, lon:-76.6019, pop:90000, timezone:-5},
 
 // ========== LOS ANGELES ==========
 {name:"LA - Downtown", lat:34.0407, lon:-118.2468, pop:600000, timezone:-8},
@@ -5863,6 +6435,899 @@
 {name:"Tokyo - Fuchu", lat:35.6694, lon:139.4778, pop:260000, timezone:9},
 {name:"Tokyo - Chofu", lat:35.6506, lon:139.5406, pop:230000, timezone:9},
 {name:"Tokyo - Mitaka", lat:35.6833, lon:139.5667, pop:190000, timezone:9},
+
+// ==================== BEIJING, CHINA ====================
+
+{name:"Beijing Central, China", lat:39.9042, lon:116.4074, pop:21500000, timezone:8},
+{name:"Dongcheng, Beijing, China", lat:39.9289, lon:116.4167, pop:700000, timezone:8},
+{name:"Xicheng, Beijing, China", lat:39.9144, lon:116.3650, pop:1100000, timezone:8},
+
+{name:"Chaoyang Central, Beijing, China", lat:39.9219, lon:116.4436, pop:3500000, timezone:8},
+{name:"Wangjing, Beijing, China", lat:39.9988, lon:116.4692, pop:700000, timezone:8},
+{name:"Jinsong, Beijing, China", lat:39.8716, lon:116.4614, pop:600000, timezone:8},
+{name:"Jianguomen, Beijing, China", lat:39.9085, lon:116.4350, pop:500000, timezone:8},
+
+{name:"Haidian Central, Beijing, China", lat:39.9593, lon:116.2981, pop:2800000, timezone:8},
+{name:"Zhongguancun, Beijing, China", lat:39.9830, lon:116.3160, pop:700000, timezone:8},
+{name:"Wanshou Road, Beijing, China", lat:39.9020, lon:116.2940, pop:500000, timezone:8},
+{name:"Shangdi, Beijing, China", lat:40.0400, lon:116.3150, pop:500000, timezone:8},
+
+{name:"Fengtai Central, Beijing, China", lat:39.8500, lon:116.2867, pop:2200000, timezone:8},
+{name:"Lugouqiao, Beijing, China", lat:39.8560, lon:116.2180, pop:500000, timezone:8},
+{name:"Majiabao, Beijing, China", lat:39.8350, lon:116.3650, pop:600000, timezone:8},
+
+{name:"Shijingshan, Beijing, China", lat:39.9060, lon:116.2220, pop:700000, timezone:8},
+{name:"Pingguoyuan, Beijing, China", lat:39.9260, lon:116.1750, pop:400000, timezone:8},
+
+{name:"Tongzhou Central, Beijing, China", lat:39.9024, lon:116.6564, pop:1850000, timezone:8},
+{name:"Luyuan, Tongzhou, Beijing, China", lat:39.8770, lon:116.6870, pop:500000, timezone:8},
+{name:"Zhangjiawan, Beijing, China", lat:39.8460, lon:116.7060, pop:350000, timezone:8},
+
+{name:"Daxing Central, Beijing, China", lat:39.7268, lon:116.3414, pop:1500000, timezone:8},
+{name:"Yizhuang, Beijing, China", lat:39.7950, lon:116.5060, pop:700000, timezone:8},
+{name:"Huangcun, Beijing, China", lat:39.7350, lon:116.3320, pop:500000, timezone:8},
+
+{name:"Fangshan, Beijing, China", lat:39.7479, lon:115.9986, pop:1000000, timezone:8},
+{name:"Liangxiang, Beijing, China", lat:39.7350, lon:116.1300, pop:400000, timezone:8},
+
+{name:"Changping Central, Beijing, China", lat:40.2208, lon:116.2313, pop:1100000, timezone:8},
+{name:"Huilongguan, Beijing, China", lat:40.0700, lon:116.3360, pop:700000, timezone:8},
+{name:"Tiantongyuan, Beijing, China", lat:40.0670, lon:116.4200, pop:600000, timezone:8},
+
+{name:"Shunyi Central, Beijing, China", lat:40.1289, lon:116.6546, pop:1200000, timezone:8},
+{name:"Houshayu, Beijing, China", lat:40.1450, lon:116.5700, pop:350000, timezone:8},
+{name:"Cuigezhuang, Beijing, China", lat:40.0100, lon:116.5300, pop:400000, timezone:8},
+
+{name:"Mentougou, Beijing, China", lat:39.9404, lon:116.1020, pop:500000, timezone:8},
+{name:"Yongding, Beijing, China", lat:39.9350, lon:116.1600, pop:350000, timezone:8},
+
+{name:"Miyun, Beijing, China", lat:40.3763, lon:116.8434, pop:500000, timezone:8},
+{name:"Huairou, Beijing, China", lat:40.3242, lon:116.6370, pop:400000, timezone:8},
+{name:"Yanqing, Beijing, China", lat:40.4567, lon:115.9749, pop:350000, timezone:8},
+
+// ==================== GUANGZHOU–FOSHAN, CHINA ====================
+
+{name:"Guangzhou Central, China", lat:23.1291, lon:113.2644, pop:15000000, timezone:8},
+{name:"Yuexiu, Guangzhou, China", lat:23.1299, lon:113.2600, pop:1100000, timezone:8},
+{name:"Liwan, Guangzhou, China", lat:23.1250, lon:113.2340, pop:1000000, timezone:8},
+{name:"Tianhe, Guangzhou, China", lat:23.1357, lon:113.3610, pop:2200000, timezone:8},
+{name:"Haizhu, Guangzhou, China", lat:23.0876, lon:113.3174, pop:1800000, timezone:8},
+{name:"Zhujiang New Town, Guangzhou, China", lat:23.1195, lon:113.3245, pop:600000, timezone:8},
+
+{name:"Baiyun, Guangzhou, China", lat:23.2590, lon:113.2620, pop:2200000, timezone:8},
+{name:"Jingxi, Guangzhou, China", lat:23.2010, lon:113.3300, pop:500000, timezone:8},
+{name:"Jianggao, Guangzhou, China", lat:23.2900, lon:113.1900, pop:400000, timezone:8},
+
+{name:"Huangpu, Guangzhou, China", lat:23.1815, lon:113.4807, pop:1000000, timezone:8},
+{name:"Science City, Guangzhou, China", lat:23.1750, lon:113.4450, pop:500000, timezone:8},
+{name:"Luogang, Guangzhou, China", lat:23.1730, lon:113.5000, pop:500000, timezone:8},
+
+{name:"Panyu Central, Guangzhou, China", lat:22.9388, lon:113.3842, pop:1800000, timezone:8},
+{name:"University City, Guangzhou, China", lat:23.0550, lon:113.3950, pop:400000, timezone:8},
+{name:"Shiqiao, Guangzhou, China", lat:22.9470, lon:113.3600, pop:500000, timezone:8},
+{name:"Hanxi, Guangzhou, China", lat:22.9900, lon:113.3350, pop:400000, timezone:8},
+
+{name:"Nansha Central, Guangzhou, China", lat:22.8038, lon:113.5254, pop:800000, timezone:8},
+{name:"Huangge, Nansha, China", lat:22.8400, lon:113.5600, pop:300000, timezone:8},
+
+{name:"Huadu Central, Guangzhou, China", lat:23.3921, lon:113.2200, pop:900000, timezone:8},
+{name:"Xiuquan, Huadu, China", lat:23.3800, lon:113.2700, pop:400000, timezone:8},
+
+{name:"Zengcheng Central, Guangzhou, China", lat:23.2905, lon:113.8109, pop:1200000, timezone:8},
+{name:"Xintang, Guangzhou, China", lat:23.1810, lon:113.6100, pop:700000, timezone:8},
+{name:"Zhu Village, Zengcheng, China", lat:23.3100, lon:113.7500, pop:350000, timezone:8},
+
+{name:"Foshan Central, China", lat:23.0218, lon:113.1219, pop:10000000, timezone:8},
+{name:"Chancheng, Foshan, China", lat:23.0078, lon:113.1225, pop:1200000, timezone:8},
+{name:"Zumiao, Foshan, China", lat:23.0320, lon:113.1170, pop:500000, timezone:8},
+
+{name:"Nanhai, Foshan, China", lat:23.0533, lon:113.1437, pop:3000000, timezone:8},
+{name:"Guicheng, Foshan, China", lat:23.0340, lon:113.1480, pop:700000, timezone:8},
+{name:"Dali, Foshan, China", lat:23.1150, lon:113.1150, pop:500000, timezone:8},
+{name:"Shishan, Foshan, China", lat:23.1450, lon:113.0350, pop:600000, timezone:8},
+
+{name:"Shunde Central, Foshan, China", lat:22.8401, lon:113.2939, pop:3200000, timezone:8},
+{name:"Daliang, Foshan, China", lat:22.8400, lon:113.2500, pop:600000, timezone:8},
+{name:"Ronggui, Foshan, China", lat:22.7570, lon:113.2930, pop:500000, timezone:8},
+{name:"Beijiao, Foshan, China", lat:22.9280, lon:113.2160, pop:500000, timezone:8},
+
+{name:"Sanshui, Foshan, China", lat:23.1550, lon:112.8969, pop:700000, timezone:8},
+{name:"Gaoming, Foshan, China", lat:22.9000, lon:112.9000, pop:500000, timezone:8},
+{name:"Longjiang, Foshan, China", lat:22.8720, lon:112.8990, pop:350000, timezone:8},
+
+// ==================== DHAKA, BANGLADESH ====================
+
+{name:"Dhaka Central, Bangladesh", lat:23.8103, lon:90.4125, pop:11000000, timezone:6},
+{name:"Old Dhaka, Bangladesh", lat:23.7104, lon:90.4074, pop:900000, timezone:6},
+{name:"Motijheel, Dhaka, Bangladesh", lat:23.7333, lon:90.4170, pop:600000, timezone:6},
+{name:"Dhanmondi, Dhaka, Bangladesh", lat:23.7465, lon:90.3760, pop:600000, timezone:6},
+{name:"Mohammadpur, Dhaka, Bangladesh", lat:23.7667, lon:90.3580, pop:700000, timezone:6},
+
+{name:"Tejgaon, Dhaka, Bangladesh", lat:23.7639, lon:90.3919, pop:500000, timezone:6},
+{name:"Farmgate, Dhaka, Bangladesh", lat:23.7570, lon:90.3890, pop:400000, timezone:6},
+{name:"Gulshan, Dhaka, Bangladesh", lat:23.7925, lon:90.4078, pop:600000, timezone:6},
+{name:"Banani, Dhaka, Bangladesh", lat:23.7937, lon:90.4043, pop:400000, timezone:6},
+{name:"Badda, Dhaka, Bangladesh", lat:23.7806, lon:90.4260, pop:600000, timezone:6},
+
+{name:"Uttara, Dhaka, Bangladesh", lat:23.8759, lon:90.3795, pop:800000, timezone:6},
+{name:"Mirpur, Dhaka, Bangladesh", lat:23.8223, lon:90.3654, pop:1200000, timezone:6},
+{name:"Pallabi, Dhaka, Bangladesh", lat:23.8230, lon:90.3560, pop:500000, timezone:6},
+{name:"Kafrul, Dhaka, Bangladesh", lat:23.7890, lon:90.3870, pop:400000, timezone:6},
+
+{name:"Jatrabari, Dhaka, Bangladesh", lat:23.7104, lon:90.4351, pop:700000, timezone:6},
+{name:"Demra, Dhaka, Bangladesh", lat:23.7190, lon:90.4680, pop:600000, timezone:6},
+{name:"Shyampur, Dhaka, Bangladesh", lat:23.6920, lon:90.4300, pop:400000, timezone:6},
+{name:"Khilgaon, Dhaka, Bangladesh", lat:23.7490, lon:90.4280, pop:500000, timezone:6},
+
+{name:"Keraniganj, Bangladesh", lat:23.6860, lon:90.3635, pop:500000, timezone:6},
+{name:"Savar, Bangladesh", lat:23.8583, lon:90.2667, pop:500000, timezone:6},
+{name:"Ashulia, Bangladesh", lat:23.9167, lon:90.3167, pop:450000, timezone:6},
+{name:"Dhamrai, Bangladesh", lat:23.9220, lon:90.2100, pop:250000, timezone:6},
+
+{name:"Tongi, Bangladesh", lat:23.8989, lon:90.4031, pop:600000, timezone:6},
+{name:"Gazipur Central, Bangladesh", lat:24.0023, lon:90.4264, pop:1200000, timezone:6},
+{name:"Board Bazar, Gazipur, Bangladesh", lat:23.9700, lon:90.4100, pop:400000, timezone:6},
+{name:"Konabari, Gazipur, Bangladesh", lat:23.9850, lon:90.3200, pop:400000, timezone:6},
+{name:"Kaliakair, Bangladesh", lat:24.0750, lon:90.2130, pop:300000, timezone:6},
+
+{name:"Narayanganj Central, Bangladesh", lat:23.6238, lon:90.5000, pop:900000, timezone:6},
+{name:"Fatullah, Bangladesh", lat:23.6230, lon:90.4750, pop:400000, timezone:6},
+{name:"Siddhirganj, Bangladesh", lat:23.6830, lon:90.5000, pop:400000, timezone:6},
+{name:"Rupganj, Bangladesh", lat:23.7730, lon:90.5250, pop:350000, timezone:6},
+
+{name:"Purbachal, Bangladesh", lat:23.8240, lon:90.5300, pop:250000, timezone:6},
+{name:"Kaliganj, Bangladesh", lat:23.9360, lon:90.5630, pop:250000, timezone:6},
+
+// ==================== KARACHI, PAKISTAN ====================
+
+{name:"Karachi Central, Pakistan", lat:24.8607, lon:67.0011, pop:15000000, timezone:5},
+{name:"Saddar, Karachi, Pakistan", lat:24.8540, lon:67.0200, pop:800000, timezone:5},
+{name:"Clifton, Karachi, Pakistan", lat:24.8138, lon:67.0305, pop:700000, timezone:5},
+{name:"DHA Karachi, Pakistan", lat:24.8130, lon:67.0527, pop:500000, timezone:5},
+{name:"PECHS, Karachi, Pakistan", lat:24.8680, lon:67.0650, pop:500000, timezone:5},
+
+{name:"Gulshan-e-Iqbal, Karachi, Pakistan", lat:24.9206, lon:67.0898, pop:1000000, timezone:5},
+{name:"Gulistan-e-Johar, Karachi, Pakistan", lat:24.9180, lon:67.1200, pop:700000, timezone:5},
+{name:"Federal B Area, Karachi, Pakistan", lat:24.9200, lon:67.0600, pop:600000, timezone:5},
+{name:"North Nazimabad, Karachi, Pakistan", lat:24.9447, lon:66.9920, pop:800000, timezone:5},
+{name:"Nazimabad, Karachi, Pakistan", lat:24.9050, lon:66.9950, pop:600000, timezone:5},
+
+{name:"Orangi Town, Karachi, Pakistan", lat:24.9526, lon:66.9415, pop:1200000, timezone:5},
+{name:"Baldia Town, Karachi, Pakistan", lat:24.9260, lon:66.9113, pop:700000, timezone:5},
+{name:"SITE Town, Karachi, Pakistan", lat:24.8950, lon:66.9700, pop:500000, timezone:5},
+{name:"Manghopir, Karachi, Pakistan", lat:24.9700, lon:66.9300, pop:400000, timezone:5},
+
+{name:"Korangi, Karachi, Pakistan", lat:24.8237, lon:67.1335, pop:1000000, timezone:5},
+{name:"Landhi, Karachi, Pakistan", lat:24.8471, lon:67.1857, pop:700000, timezone:5},
+{name:"Shah Faisal Colony, Karachi, Pakistan", lat:24.8760, lon:67.1120, pop:600000, timezone:5},
+{name:"Malir, Karachi, Pakistan", lat:24.9434, lon:67.2097, pop:900000, timezone:5},
+
+{name:"Gadap, Karachi, Pakistan", lat:25.0300, lon:67.2000, pop:500000, timezone:5},
+{name:"New Karachi, Pakistan", lat:24.9840, lon:67.0660, pop:800000, timezone:5},
+{name:"Surjani Town, Karachi, Pakistan", lat:25.0100, lon:67.0700, pop:600000, timezone:5},
+{name:"North Karachi, Pakistan", lat:24.9950, lon:67.0700, pop:700000, timezone:5},
+
+{name:"Bin Qasim, Karachi, Pakistan", lat:24.8050, lon:67.3000, pop:500000, timezone:5},
+{name:"Port Qasim, Karachi, Pakistan", lat:24.7670, lon:67.3300, pop:400000, timezone:5},
+{name:"Steel Town, Karachi, Pakistan", lat:24.8300, lon:67.3500, pop:300000, timezone:5},
+
+{name:"Gulshan-e-Maymar, Karachi, Pakistan", lat:25.0200, lon:67.1300, pop:400000, timezone:5},
+{name:"Saadi Town, Karachi, Pakistan", lat:24.9800, lon:67.2300, pop:300000, timezone:5},
+{name:"Scheme 33, Karachi, Pakistan", lat:24.9700, lon:67.1700, pop:600000, timezone:5},
+
+{name:"Manzoor Colony, Karachi, Pakistan", lat:24.8350, lon:67.0750, pop:400000, timezone:5},
+{name:"Mehmoodabad, Karachi, Pakistan", lat:24.8500, lon:67.0750, pop:400000, timezone:5},
+{name:"Model Colony, Karachi, Pakistan", lat:24.9020, lon:67.1700, pop:400000, timezone:5},
+
+{name:"Gulzar-e-Hijri, Karachi, Pakistan", lat:24.9500, lon:67.1300, pop:400000, timezone:5},
+{name:"Surjani–Northwest Karachi, Pakistan", lat:25.0200, lon:67.0200, pop:350000, timezone:5},
+{name:"Mauripur, Karachi, Pakistan", lat:24.8900, lon:66.9000, pop:300000, timezone:5},
+{name:"Kemari, Karachi, Pakistan", lat:24.8160, lon:66.9800, pop:400000, timezone:5},
+{name:"Lyari, Karachi, Pakistan", lat:24.8750, lon:66.9900, pop:500000, timezone:5},
+
+// ==================== KOLKATA, INDIA ====================
+
+{name:"Kolkata Central, India", lat:22.5726, lon:88.3639, pop:15000000, timezone:5.5},
+{name:"BBD Bagh, Kolkata, India", lat:22.5726, lon:88.3475, pop:500000, timezone:5.5},
+{name:"Esplanade, Kolkata, India", lat:22.5626, lon:88.3528, pop:500000, timezone:5.5},
+{name:"Park Street, Kolkata, India", lat:22.5520, lon:88.3527, pop:450000, timezone:5.5},
+
+{name:"Ballygunge, Kolkata, India", lat:22.5270, lon:88.3660, pop:500000, timezone:5.5},
+{name:"Jadavpur, Kolkata, India", lat:22.4939, lon:88.3697, pop:450000, timezone:5.5},
+{name:"Garia, Kolkata, India", lat:22.4633, lon:88.3933, pop:450000, timezone:5.5},
+{name:"Tollygunge, Kolkata, India", lat:22.5000, lon:88.3450, pop:400000, timezone:5.5},
+
+{name:"Behala, Kolkata, India", lat:22.4956, lon:88.3167, pop:550000, timezone:5.5},
+{name:"Alipore, Kolkata, India", lat:22.5300, lon:88.3300, pop:350000, timezone:5.5},
+{name:"New Alipore, Kolkata, India", lat:22.5100, lon:88.3250, pop:350000, timezone:5.5},
+{name:"Kasba, Kolkata, India", lat:22.5180, lon:88.3850, pop:400000, timezone:5.5},
+
+{name:"Salt Lake, Kolkata, India", lat:22.5804, lon:88.4120, pop:600000, timezone:5.5},
+{name:"Bidhannagar, Kolkata, India", lat:22.5850, lon:88.4100, pop:500000, timezone:5.5},
+{name:"New Town, Kolkata, India", lat:22.5958, lon:88.4797, pop:500000, timezone:5.5},
+{name:"Rajarhat, Kolkata, India", lat:22.6200, lon:88.4700, pop:400000, timezone:5.5},
+
+{name:"Dum Dum, India", lat:22.6333, lon:88.4167, pop:600000, timezone:5.5},
+{name:"South Dum Dum, India", lat:22.6100, lon:88.4000, pop:500000, timezone:5.5},
+{name:"Kamarhati, India", lat:22.6711, lon:88.3747, pop:450000, timezone:5.5},
+{name:"Baranagar, India", lat:22.6415, lon:88.3770, pop:400000, timezone:5.5},
+
+{name:"Howrah Central, India", lat:22.5958, lon:88.2636, pop:1000000, timezone:5.5},
+{name:"Shibpur, Howrah, India", lat:22.5770, lon:88.3150, pop:400000, timezone:5.5},
+{name:"Bally, Howrah, India", lat:22.6556, lon:88.3400, pop:350000, timezone:5.5},
+{name:"Liluah, Howrah, India", lat:22.6200, lon:88.3250, pop:300000, timezone:5.5},
+
+{name:"Serampore, India", lat:22.7528, lon:88.3422, pop:350000, timezone:5.5},
+{name:"Uttarpara, India", lat:22.6760, lon:88.3470, pop:300000, timezone:5.5},
+{name:"Rishra, India", lat:22.7100, lon:88.3450, pop:300000, timezone:5.5},
+
+{name:"Barasat, India", lat:22.7215, lon:88.4812, pop:350000, timezone:5.5},
+{name:"Madhyamgram, India", lat:22.6900, lon:88.4500, pop:300000, timezone:5.5},
+{name:"New Barrackpore, India", lat:22.7050, lon:88.4200, pop:300000, timezone:5.5},
+
+{name:"Kalyani, India", lat:22.9750, lon:88.4340, pop:300000, timezone:5.5},
+{name:"Bhatpara, India", lat:22.8660, lon:88.4100, pop:500000, timezone:5.5},
+
+{name:"Sonarpur, India", lat:22.4450, lon:88.4250, pop:300000, timezone:5.5},
+{name:"Rajpur, India", lat:22.4300, lon:88.4300, pop:250000, timezone:5.5},
+{name:"Maheshtala, India", lat:22.5100, lon:88.2500, pop:450000, timezone:5.5},
+
+// ==================== CHENGDU, CHINA ====================
+
+{name:"Chengdu Central, China", lat:30.5728, lon:104.0668, pop:16000000, timezone:8},
+{name:"Jinjiang, Chengdu, China", lat:30.6576, lon:104.0834, pop:700000, timezone:8},
+{name:"Qingyang, Chengdu, China", lat:30.6749, lon:104.0667, pop:800000, timezone:8},
+{name:"Wuhou, Chengdu, China", lat:30.6239, lon:104.0433, pop:1200000, timezone:8},
+{name:"Jinniu, Chengdu, China", lat:30.6919, lon:104.0510, pop:900000, timezone:8},
+{name:"Chenghua, Chengdu, China", lat:30.6603, lon:104.1167, pop:900000, timezone:8},
+
+{name:"Tianfu Square, Chengdu, China", lat:30.6570, lon:104.0650, pop:600000, timezone:8},
+{name:"South Chengdu, China", lat:30.5900, lon:104.0700, pop:800000, timezone:8},
+{name:"Chengdu High-Tech Zone, China", lat:30.5700, lon:104.0650, pop:1000000, timezone:8},
+{name:"Tianfu 3rd Street, Chengdu, China", lat:30.5520, lon:104.0650, pop:600000, timezone:8},
+
+{name:"Longquanyi, Chengdu, China", lat:30.5565, lon:104.2740, pop:800000, timezone:8},
+{name:"Longquanyi Central, Chengdu, China", lat:30.5560, lon:104.2520, pop:500000, timezone:8},
+{name:"Shiling, Chengdu, China", lat:30.6250, lon:104.1800, pop:400000, timezone:8},
+
+{name:"Xindu, Chengdu, China", lat:30.8240, lon:104.1600, pop:700000, timezone:8},
+{name:"Xindu Central, Chengdu, China", lat:30.8240, lon:104.1500, pop:400000, timezone:8},
+{name:"Qingbaijiang, Chengdu, China", lat:30.8800, lon:104.2500, pop:400000, timezone:8},
+
+{name:"Wenjiang, Chengdu, China", lat:30.6820, lon:103.8560, pop:600000, timezone:8},
+{name:"Wenjiang Central, Chengdu, China", lat:30.6980, lon:103.8350, pop:400000, timezone:8},
+{name:"Guanghua, Chengdu, China", lat:30.6500, lon:103.9400, pop:400000, timezone:8},
+
+{name:"Pidu, Chengdu, China", lat:30.7950, lon:103.8870, pop:500000, timezone:8},
+{name:"Hongguang, Chengdu, China", lat:30.8000, lon:103.9200, pop:350000, timezone:8},
+{name:"Pixian, Chengdu, China", lat:30.8200, lon:103.8900, pop:350000, timezone:8},
+
+{name:"Shuangliu, Chengdu, China", lat:30.5740, lon:103.9230, pop:700000, timezone:8},
+{name:"Dongsheng, Shuangliu, China", lat:30.5700, lon:103.9400, pop:400000, timezone:8},
+{name:"Huayang, Chengdu, China", lat:30.5100, lon:104.0600, pop:500000, timezone:8},
+
+{name:"Tianfu New Area, Chengdu, China", lat:30.5000, lon:104.0700, pop:700000, timezone:8},
+{name:"Zhengxing, Chengdu, China", lat:30.4700, lon:104.1000, pop:300000, timezone:8},
+{name:"Wan'an, Chengdu, China", lat:30.5200, lon:104.1000, pop:350000, timezone:8},
+
+{name:"Xindu East, Chengdu, China", lat:30.8000, lon:104.2200, pop:350000, timezone:8},
+{name:"Jintang, Chengdu, China", lat:30.8600, lon:104.4300, pop:350000, timezone:8},
+
+{name:"Dujiangyan, China", lat:30.9880, lon:103.6460, pop:350000, timezone:8},
+{name:"Qionglai, China", lat:30.4100, lon:103.4600, pop:300000, timezone:8},
+{name:"Jianyang, Sichuan, China", lat:30.3900, lon:104.5500, pop:300000, timezone:8},
+{name:"Pengzhou, China", lat:30.9900, lon:103.9400, pop:300000, timezone:8},
+
+// ==================== CLEVELAND, OHIO, USA ====================
+
+{name:"Cleveland Central, USA", lat:41.4993, lon:-81.6944, pop:370000, timezone:-5},
+{name:"Downtown Cleveland, USA", lat:41.4965, lon:-81.6937, pop:250000, timezone:-5},
+{name:"Ohio City, Cleveland, USA", lat:41.4840, lon:-81.7110, pop:180000, timezone:-5},
+{name:"Tremont, Cleveland, USA", lat:41.4670, lon:-81.6970, pop:180000, timezone:-5},
+
+{name:"University Circle, Cleveland, USA", lat:41.5080, lon:-81.6080, pop:200000, timezone:-5},
+{name:"East Cleveland, Ohio, USA", lat:41.5330, lon:-81.5790, pop:180000, timezone:-5},
+{name:"Collinwood, Cleveland, USA", lat:41.5660, lon:-81.5700, pop:180000, timezone:-5},
+{name:"Glenville, Cleveland, USA", lat:41.5290, lon:-81.6370, pop:180000, timezone:-5},
+
+{name:"Shaker Square, Cleveland, USA", lat:41.4830, lon:-81.5910, pop:150000, timezone:-5},
+{name:"Shaker Heights, Ohio, USA", lat:41.4739, lon:-81.5371, pop:29000, timezone:-5},
+{name:"Cleveland Heights, Ohio, USA", lat:41.5201, lon:-81.5562, pop:44000, timezone:-5},
+{name:"South Euclid, Ohio, USA", lat:41.5231, lon:-81.5185, pop:22000, timezone:-5},
+
+{name:"Lakewood, Ohio, USA", lat:41.4819, lon:-81.7982, pop:50000, timezone:-5},
+{name:"Rocky River, Ohio, USA", lat:41.4756, lon:-81.8393, pop:22000, timezone:-5},
+{name:"Westlake, Ohio, USA", lat:41.4553, lon:-81.9179, pop:33000, timezone:-5},
+{name:"North Olmsted, Ohio, USA", lat:41.4156, lon:-81.9235, pop:32000, timezone:-5},
+
+{name:"Parma, Ohio, USA", lat:41.4048, lon:-81.7229, pop:80000, timezone:-5},
+{name:"Parma Heights, Ohio, USA", lat:41.3901, lon:-81.7596, pop:20000, timezone:-5},
+{name:"Brooklyn, Ohio, USA", lat:41.4398, lon:-81.7499, pop:11000, timezone:-5},
+{name:"Middleburg Heights, Ohio, USA", lat:41.3614, lon:-81.8129, pop:16000, timezone:-5},
+
+{name:"Independence, Ohio, USA", lat:41.3825, lon:-81.6407, pop:7500, timezone:-5},
+{name:"Garfield Heights, Ohio, USA", lat:41.4170, lon:-81.6059, pop:28000, timezone:-5},
+{name:"Maple Heights, Ohio, USA", lat:41.4153, lon:-81.5659, pop:23000, timezone:-5},
+{name:"Bedford, Ohio, USA", lat:41.3931, lon:-81.5365, pop:13000, timezone:-5},
+
+{name:"Euclid, Ohio, USA", lat:41.5931, lon:-81.5268, pop:49000, timezone:-5},
+{name:"Willoughby, Ohio, USA", lat:41.6398, lon:-81.4065, pop:23000, timezone:-5},
+{name:"Mentor, Ohio, USA", lat:41.6662, lon:-81.3396, pop:50000, timezone:-5},
+{name:"Beachwood, Ohio, USA", lat:41.4645, lon:-81.5084, pop:14000, timezone:-5},
+
+{name:"Solon, Ohio, USA", lat:41.3898, lon:-81.4412, pop:24000, timezone:-5},
+{name:"Strongsville, Ohio, USA", lat:41.3145, lon:-81.8357, pop:46000, timezone:-5},
+{name:"Berea, Ohio, USA", lat:41.3662, lon:-81.8543, pop:19000, timezone:-5},
+
+// ==================== CHONGQING, CHINA ====================
+
+{name:"Chongqing Central, China", lat:29.5630, lon:106.5516, pop:17000000, timezone:8},
+{name:"Yuzhong, Chongqing, China", lat:29.5580, lon:106.5770, pop:500000, timezone:8},
+{name:"Jiefangbei, Chongqing, China", lat:29.5637, lon:106.5772, pop:450000, timezone:8},
+{name:"Jiangbei, Chongqing, China", lat:29.6050, lon:106.5740, pop:900000, timezone:8},
+{name:"Guanyinqiao, Chongqing, China", lat:29.5830, lon:106.5350, pop:500000, timezone:8},
+
+{name:"Nan'an, Chongqing, China", lat:29.5200, lon:106.5700, pop:900000, timezone:8},
+{name:"Nanshan, Chongqing, China", lat:29.5600, lon:106.6200, pop:300000, timezone:8},
+{name:"Longtousi, Chongqing, China", lat:29.6100, lon:106.5400, pop:400000, timezone:8},
+
+{name:"Shapingba, Chongqing, China", lat:29.5400, lon:106.4560, pop:1000000, timezone:8},
+{name:"Shapingba Central, Chongqing, China", lat:29.5630, lon:106.4550, pop:600000, timezone:8},
+{name:"Ciqikou, Chongqing, China", lat:29.5790, lon:106.4450, pop:300000, timezone:8},
+{name:"University Town, Chongqing, China", lat:29.6050, lon:106.3050, pop:500000, timezone:8},
+
+{name:"Jiulongpo, Chongqing, China", lat:29.5000, lon:106.4800, pop:1200000, timezone:8},
+{name:"Yangjiaping, Chongqing, China", lat:29.5000, lon:106.5110, pop:500000, timezone:8},
+{name:"Daping, Chongqing, China", lat:29.5440, lon:106.5150, pop:400000, timezone:8},
+{name:"Xipeng, Chongqing, China", lat:29.3000, lon:106.3500, pop:300000, timezone:8},
+
+{name:"Dadukou, Chongqing, China", lat:29.4850, lon:106.4800, pop:400000, timezone:8},
+{name:"Huayan, Chongqing, China", lat:29.4800, lon:106.4200, pop:350000, timezone:8},
+
+{name:"Yubei, Chongqing, China", lat:29.7200, lon:106.6300, pop:1600000, timezone:8},
+{name:"Longxi, Chongqing, China", lat:29.6200, lon:106.5350, pop:400000, timezone:8},
+{name:"Liangjiang New Area, Chongqing, China", lat:29.6800, lon:106.5700, pop:700000, timezone:8},
+{name:"Cuntan, Chongqing, China", lat:29.6200, lon:106.6500, pop:350000, timezone:8},
+
+{name:"Banan, Chongqing, China", lat:29.3800, lon:106.5200, pop:900000, timezone:8},
+{name:"Lijia, Chongqing, China", lat:29.6900, lon:106.5500, pop:400000, timezone:8},
+{name:"Huixing, Chongqing, China", lat:29.6900, lon:106.6300, pop:400000, timezone:8},
+
+{name:"Beibei, Chongqing, China", lat:29.8250, lon:106.3960, pop:500000, timezone:8},
+{name:"Beibei Central, Chongqing, China", lat:29.8200, lon:106.4300, pop:350000, timezone:8},
+
+{name:"Jiangjin, Chongqing, China", lat:29.2900, lon:106.2530, pop:600000, timezone:8},
+{name:"Jiangjin Central, Chongqing, China", lat:29.2900, lon:106.2600, pop:350000, timezone:8},
+
+{name:"Hechuan, Chongqing, China", lat:29.9930, lon:106.2650, pop:500000, timezone:8},
+{name:"Hechuan Central, Chongqing, China", lat:29.9950, lon:106.2700, pop:300000, timezone:8},
+
+{name:"Fuling, Chongqing, China", lat:29.7030, lon:107.3890, pop:500000, timezone:8},
+{name:"Fuling Central, Chongqing, China", lat:29.7150, lon:107.3950, pop:300000, timezone:8},
+
+{name:"Changshou, Chongqing, China", lat:29.8330, lon:107.0740, pop:400000, timezone:8},
+{name:"Bishan, Chongqing, China", lat:29.5940, lon:106.2270, pop:400000, timezone:8},
+{name:"Tongliang, Chongqing, China", lat:30.3300, lon:105.7700, pop:300000, timezone:8},
+{name:"Yongchuan, Chongqing, China", lat:29.3560, lon:105.9270, pop:400000, timezone:8},
+{name:"Rongchang, Chongqing, China", lat:29.3400, lon:105.5900, pop:300000, timezone:8},
+{name:"Wansheng, Chongqing, China", lat:28.9600, lon:106.9300, pop:250000, timezone:8},
+
+// ==================== BENGALURU, INDIA ====================
+
+{name:"Bengaluru Central, India", lat:12.9716, lon:77.5946, pop:13000000, timezone:5.5},
+{name:"Shivajinagar, Bengaluru, India", lat:12.9857, lon:77.6057, pop:450000, timezone:5.5},
+{name:"Vasanth Nagar, Bengaluru, India", lat:12.9886, lon:77.5946, pop:300000, timezone:5.5},
+{name:"Rajajinagar, Bengaluru, India", lat:12.9910, lon:77.5540, pop:500000, timezone:5.5},
+{name:"Malleshwaram, Bengaluru, India", lat:13.0030, lon:77.5700, pop:350000, timezone:5.5},
+
+{name:"Jayanagar, Bengaluru, India", lat:12.9250, lon:77.5838, pop:400000, timezone:5.5},
+{name:"Basavanagudi, Bengaluru, India", lat:12.9435, lon:77.5740, pop:300000, timezone:5.5},
+{name:"Koramangala, Bengaluru, India", lat:12.9352, lon:77.6245, pop:400000, timezone:5.5},
+{name:"BTM Layout, Bengaluru, India", lat:12.9166, lon:77.6101, pop:400000, timezone:5.5},
+
+{name:"Indiranagar, Bengaluru, India", lat:12.9784, lon:77.6408, pop:400000, timezone:5.5},
+{name:"Domlur, Bengaluru, India", lat:12.9600, lon:77.6380, pop:300000, timezone:5.5},
+{name:"Marathahalli, Bengaluru, India", lat:12.9591, lon:77.6974, pop:500000, timezone:5.5},
+{name:"Bellandur, Bengaluru, India", lat:12.9260, lon:77.6760, pop:500000, timezone:5.5},
+
+{name:"Whitefield, Bengaluru, India", lat:12.9698, lon:77.7500, pop:700000, timezone:5.5},
+{name:"Kadugodi, Bengaluru, India", lat:12.9980, lon:77.7580, pop:300000, timezone:5.5},
+{name:"Mahadevapura, Bengaluru, India", lat:12.9910, lon:77.6950, pop:450000, timezone:5.5},
+{name:"Hoodi, Bengaluru, India", lat:12.9880, lon:77.7150, pop:350000, timezone:5.5},
+
+{name:"Electronic City, Bengaluru, India", lat:12.8452, lon:77.6602, pop:600000, timezone:5.5},
+{name:"Bommanahalli, Bengaluru, India", lat:12.9048, lon:77.6250, pop:400000, timezone:5.5},
+{name:"HSR Layout, Bengaluru, India", lat:12.9116, lon:77.6389, pop:400000, timezone:5.5},
+{name:"Begur, Bengaluru, India", lat:12.8780, lon:77.6280, pop:300000, timezone:5.5},
+
+{name:"Hebbal, Bengaluru, India", lat:13.0358, lon:77.5970, pop:500000, timezone:5.5},
+{name:"Yelahanka, Bengaluru, India", lat:13.1007, lon:77.5963, pop:500000, timezone:5.5},
+{name:"Jakkur, Bengaluru, India", lat:13.0780, lon:77.6050, pop:300000, timezone:5.5},
+{name:"Thanisandra, Bengaluru, India", lat:13.0570, lon:77.6380, pop:350000, timezone:5.5},
+
+{name:"Peenya, Bengaluru, India", lat:13.0320, lon:77.5200, pop:400000, timezone:5.5},
+{name:"Nagarbhavi, Bengaluru, India", lat:12.9610, lon:77.5120, pop:350000, timezone:5.5},
+{name:"Kengeri, Bengaluru, India", lat:12.9170, lon:77.4830, pop:350000, timezone:5.5},
+
+{name:"Banashankari, Bengaluru, India", lat:12.9255, lon:77.5460, pop:400000, timezone:5.5},
+{name:"JP Nagar, Bengaluru, India", lat:12.9063, lon:77.5857, pop:450000, timezone:5.5},
+
+{name:"Devanahalli, India", lat:13.2475, lon:77.7139, pop:300000, timezone:5.5},
+{name:"Doddaballapur, India", lat:13.2920, lon:77.5380, pop:250000, timezone:5.5},
+{name:"Anekal, India", lat:12.7110, lon:77.6950, pop:250000, timezone:5.5},
+{name:"Hosur, India", lat:12.7409, lon:77.8253, pop:300000, timezone:5.5},
+
+// ==================== HO CHI MINH CITY, VIETNAM ====================
+
+{name:"Ho Chi Minh City Central, Vietnam", lat:10.7769, lon:106.7009, pop:9000000, timezone:7},
+{name:"District 1, Ho Chi Minh City, Vietnam", lat:10.7757, lon:106.7004, pop:500000, timezone:7},
+{name:"District 3, Ho Chi Minh City, Vietnam", lat:10.7840, lon:106.6840, pop:450000, timezone:7},
+{name:"District 5, Ho Chi Minh City, Vietnam", lat:10.7540, lon:106.6630, pop:500000, timezone:7},
+{name:"District 10, Ho Chi Minh City, Vietnam", lat:10.7720, lon:106.6670, pop:400000, timezone:7},
+
+{name:"Binh Thanh, Ho Chi Minh City, Vietnam", lat:10.8100, lon:106.7100, pop:600000, timezone:7},
+{name:"Phu Nhuan, Ho Chi Minh City, Vietnam", lat:10.7990, lon:106.6800, pop:350000, timezone:7},
+{name:"Go Vap, Ho Chi Minh City, Vietnam", lat:10.8380, lon:106.6650, pop:700000, timezone:7},
+{name:"Tan Binh, Ho Chi Minh City, Vietnam", lat:10.8010, lon:106.6520, pop:500000, timezone:7},
+{name:"Tan Phu, Ho Chi Minh City, Vietnam", lat:10.7900, lon:106.6280, pop:500000, timezone:7},
+
+{name:"Binh Tan, Ho Chi Minh City, Vietnam", lat:10.7450, lon:106.6050, pop:700000, timezone:7},
+{name:"District 6, Ho Chi Minh City, Vietnam", lat:10.7460, lon:106.6350, pop:400000, timezone:7},
+{name:"District 8, Ho Chi Minh City, Vietnam", lat:10.7350, lon:106.6800, pop:500000, timezone:7},
+{name:"District 11, Ho Chi Minh City, Vietnam", lat:10.7640, lon:106.6500, pop:350000, timezone:7},
+
+{name:"Thu Duc, Ho Chi Minh City, Vietnam", lat:10.8490, lon:106.7530, pop:1200000, timezone:7},
+{name:"Thu Thiem, Ho Chi Minh City, Vietnam", lat:10.7760, lon:106.7200, pop:300000, timezone:7},
+{name:"Linh Trung, Thu Duc, Vietnam", lat:10.8700, lon:106.7700, pop:400000, timezone:7},
+{name:"Linh Xuan, Thu Duc, Vietnam", lat:10.8820, lon:106.7550, pop:300000, timezone:7},
+{name:"Truong Tho, Thu Duc, Vietnam", lat:10.8460, lon:106.7450, pop:350000, timezone:7},
+
+{name:"District 2, Ho Chi Minh City, Vietnam", lat:10.7900, lon:106.7500, pop:400000, timezone:7},
+{name:"An Phu, Ho Chi Minh City, Vietnam", lat:10.8010, lon:106.7500, pop:350000, timezone:7},
+{name:"District 9, Ho Chi Minh City, Vietnam", lat:10.8300, lon:106.8300, pop:500000, timezone:7},
+{name:"Long Thanh My, Ho Chi Minh City, Vietnam", lat:10.8400, lon:106.8600, pop:300000, timezone:7},
+
+{name:"District 7, Ho Chi Minh City, Vietnam", lat:10.7350, lon:106.7200, pop:500000, timezone:7},
+{name:"Phu My Hung, Ho Chi Minh City, Vietnam", lat:10.7300, lon:106.7050, pop:350000, timezone:7},
+{name:"Nha Be, Ho Chi Minh City, Vietnam", lat:10.6900, lon:106.7350, pop:350000, timezone:7},
+{name:"Hiep Phuoc, Ho Chi Minh City, Vietnam", lat:10.6500, lon:106.7350, pop:250000, timezone:7},
+
+{name:"Hoc Mon, Ho Chi Minh City, Vietnam", lat:10.8900, lon:106.5950, pop:400000, timezone:7},
+{name:"Cu Chi, Ho Chi Minh City, Vietnam", lat:11.0000, lon:106.4950, pop:300000, timezone:7},
+{name:"Binh Chanh, Ho Chi Minh City, Vietnam", lat:10.7000, lon:106.6000, pop:500000, timezone:7},
+
+{name:"Di An, Vietnam", lat:10.9068, lon:106.7694, pop:500000, timezone:7},
+{name:"Thuan An, Vietnam", lat:10.9038, lon:106.7010, pop:500000, timezone:7},
+{name:"Bien Hoa, Vietnam", lat:10.9574, lon:106.8426, pop:1100000, timezone:7},
+{name:"Long Thanh, Vietnam", lat:10.7890, lon:106.9550, pop:300000, timezone:7},
+{name:"Tan Uyen, Vietnam", lat:11.0520, lon:106.7600, pop:300000, timezone:7},
+
+// ==================== TAIPEI–NEW TAIPEI–TAOYUAN, TAIWAN ====================
+
+{name:"Taipei Central, Taiwan", lat:25.0330, lon:121.5654, pop:2500000, timezone:8},
+{name:"Xinyi, Taipei, Taiwan", lat:25.0330, lon:121.5660, pop:500000, timezone:8},
+{name:"Zhongzheng, Taipei, Taiwan", lat:25.0324, lon:121.5199, pop:500000, timezone:8},
+{name:"Daan, Taipei, Taiwan", lat:25.0260, lon:121.5430, pop:450000, timezone:8},
+{name:"Wanhua, Taipei, Taiwan", lat:25.0270, lon:121.4990, pop:400000, timezone:8},
+
+{name:"Songshan, Taipei, Taiwan", lat:25.0490, lon:121.5770, pop:400000, timezone:8},
+{name:"Zhongshan, Taipei, Taiwan", lat:25.0640, lon:121.5250, pop:450000, timezone:8},
+{name:"Shilin, Taipei, Taiwan", lat:25.0930, lon:121.5240, pop:500000, timezone:8},
+{name:"Beitou, Taipei, Taiwan", lat:25.1320, lon:121.5000, pop:350000, timezone:8},
+
+{name:"Sanchong, New Taipei, Taiwan", lat:25.0615, lon:121.4880, pop:500000, timezone:8},
+{name:"Xinzhuang, New Taipei, Taiwan", lat:25.0350, lon:121.4500, pop:450000, timezone:8},
+{name:"Banqiao, New Taipei, Taiwan", lat:25.0110, lon:121.4610, pop:600000, timezone:8},
+{name:"Tucheng, New Taipei, Taiwan", lat:24.9730, lon:121.4440, pop:400000, timezone:8},
+
+{name:"Zhonghe, New Taipei, Taiwan", lat:24.9940, lon:121.4950, pop:450000, timezone:8},
+{name:"Yonghe, New Taipei, Taiwan", lat:25.0090, lon:121.5150, pop:300000, timezone:8},
+{name:"Xindian, New Taipei, Taiwan", lat:24.9670, lon:121.5410, pop:400000, timezone:8},
+{name:"Shulin, New Taipei, Taiwan", lat:24.9900, lon:121.4200, pop:350000, timezone:8},
+
+{name:"Luzhou, New Taipei, Taiwan", lat:25.0830, lon:121.4730, pop:300000, timezone:8},
+{name:"Wugu, New Taipei, Taiwan", lat:25.0880, lon:121.4360, pop:250000, timezone:8},
+{name:"Taishan, New Taipei, Taiwan", lat:25.0580, lon:121.4310, pop:250000, timezone:8},
+{name:"New Taipei Industrial Park, Taiwan", lat:25.0610, lon:121.4600, pop:300000, timezone:8},
+
+{name:"Tamsui, New Taipei, Taiwan", lat:25.1676, lon:121.4450, pop:300000, timezone:8},
+{name:"Linkou, New Taipei, Taiwan", lat:25.0770, lon:121.3890, pop:300000, timezone:8},
+{name:"Bali, New Taipei, Taiwan", lat:25.1560, lon:121.4350, pop:200000, timezone:8},
+
+{name:"Taoyuan Central, Taiwan", lat:24.9937, lon:121.3010, pop:500000, timezone:8},
+{name:"Taoyuan District, Taiwan", lat:24.9880, lon:121.3140, pop:400000, timezone:8},
+{name:"Zhongli, Taoyuan, Taiwan", lat:24.9530, lon:121.2250, pop:450000, timezone:8},
+{name:"Pingzhen, Taoyuan, Taiwan", lat:24.9430, lon:121.2170, pop:300000, timezone:8},
+
+{name:"Bade, Taoyuan, Taiwan", lat:24.9280, lon:121.2840, pop:300000, timezone:8},
+{name:"Guishan, Taoyuan, Taiwan", lat:25.0180, lon:121.3650, pop:300000, timezone:8},
+{name:"Nankan, Taoyuan, Taiwan", lat:25.0190, lon:121.2980, pop:300000, timezone:8},
+{name:"Luzhu, Taoyuan, Taiwan", lat:25.0470, lon:121.2920, pop:250000, timezone:8},
+
+{name:"Dayuan, Taoyuan, Taiwan", lat:25.0650, lon:121.1960, pop:200000, timezone:8},
+{name:"Taoyuan HSR District, Taiwan", lat:25.0130, lon:121.2140, pop:250000, timezone:8},
+{name:"Qingpu, Taoyuan, Taiwan", lat:25.0000, lon:121.1900, pop:250000, timezone:8},
+
+{name:"Yangmei, Taoyuan, Taiwan", lat:24.9100, lon:121.1450, pop:250000, timezone:8},
+{name:"Longtan, Taoyuan, Taiwan", lat:24.8700, lon:121.2150, pop:200000, timezone:8},
+{name:"Daxi, Taoyuan, Taiwan", lat:24.8800, lon:121.2900, pop:180000, timezone:8},
+
+// ==================== HYDERABAD, INDIA ====================
+
+{name:"Hyderabad Central, India", lat:17.3850, lon:78.4867, pop:11000000, timezone:5.5},
+{name:"Abids, Hyderabad, India", lat:17.3910, lon:78.4760, pop:400000, timezone:5.5},
+{name:"Nampally, Hyderabad, India", lat:17.3924, lon:78.4730, pop:350000, timezone:5.5},
+{name:"Himayatnagar, Hyderabad, India", lat:17.4000, lon:78.4900, pop:350000, timezone:5.5},
+{name:"Lakdikapul, Hyderabad, India", lat:17.4040, lon:78.4630, pop:300000, timezone:5.5},
+
+{name:"Banjara Hills, Hyderabad, India", lat:17.4156, lon:78.4347, pop:450000, timezone:5.5},
+{name:"Jubilee Hills, Hyderabad, India", lat:17.4325, lon:78.4071, pop:400000, timezone:5.5},
+{name:"Punjagutta, Hyderabad, India", lat:17.4280, lon:78.4500, pop:350000, timezone:5.5},
+{name:"Masab Tank, Hyderabad, India", lat:17.3970, lon:78.4480, pop:300000, timezone:5.5},
+
+{name:"Secunderabad, India", lat:17.4399, lon:78.4983, pop:900000, timezone:5.5},
+{name:"Begumpet, Hyderabad, India", lat:17.4440, lon:78.4620, pop:350000, timezone:5.5},
+{name:"Paradise, Hyderabad, India", lat:17.4410, lon:78.4860, pop:300000, timezone:5.5},
+{name:"Malkajgiri, Hyderabad, India", lat:17.4500, lon:78.5350, pop:500000, timezone:5.5},
+
+{name:"HITEC City, Hyderabad, India", lat:17.4483, lon:78.3915, pop:500000, timezone:5.5},
+{name:"Madhapur, Hyderabad, India", lat:17.4486, lon:78.3908, pop:450000, timezone:5.5},
+{name:"Kondapur, Hyderabad, India", lat:17.4580, lon:78.3670, pop:450000, timezone:5.5},
+{name:"Gachibowli, Hyderabad, India", lat:17.4401, lon:78.3489, pop:500000, timezone:5.5},
+
+{name:"Financial District, Hyderabad, India", lat:17.4239, lon:78.3428, pop:350000, timezone:5.5},
+{name:"Nanakramguda, Hyderabad, India", lat:17.4140, lon:78.3530, pop:300000, timezone:5.5},
+{name:"Manikonda, Hyderabad, India", lat:17.4062, lon:78.3832, pop:450000, timezone:5.5},
+{name:"Narsingi, Hyderabad, India", lat:17.3880, lon:78.3260, pop:300000, timezone:5.5},
+
+{name:"Kukatpally, Hyderabad, India", lat:17.4849, lon:78.4138, pop:700000, timezone:5.5},
+{name:"KPHB Colony, Hyderabad, India", lat:17.4840, lon:78.3950, pop:400000, timezone:5.5},
+{name:"Miyapur, Hyderabad, India", lat:17.4969, lon:78.3574, pop:450000, timezone:5.5},
+{name:"Chandanagar, Hyderabad, India", lat:17.4950, lon:78.3300, pop:350000, timezone:5.5},
+
+{name:"Uppal, Hyderabad, India", lat:17.4058, lon:78.5591, pop:500000, timezone:5.5},
+{name:"Habsiguda, Hyderabad, India", lat:17.4100, lon:78.5480, pop:350000, timezone:5.5},
+{name:"LB Nagar, Hyderabad, India", lat:17.3457, lon:78.5522, pop:550000, timezone:5.5},
+{name:"Dilsukhnagar, Hyderabad, India", lat:17.3688, lon:78.5247, pop:500000, timezone:5.5},
+
+{name:"Mehdipatnam, Hyderabad, India", lat:17.3943, lon:78.4398, pop:450000, timezone:5.5},
+{name:"Tolichowki, Hyderabad, India", lat:17.4000, lon:78.4150, pop:350000, timezone:5.5},
+{name:"Rajendranagar, Hyderabad, India", lat:17.3200, lon:78.4000, pop:350000, timezone:5.5},
+{name:"Shamshabad, Hyderabad, India", lat:17.2510, lon:78.4290, pop:300000, timezone:5.5},
+
+{name:"Kompally, Hyderabad, India", lat:17.5430, lon:78.4810, pop:300000, timezone:5.5},
+{name:"Medchal, Hyderabad, India", lat:17.6290, lon:78.4810, pop:300000, timezone:5.5},
+
+// ==================== CHENNAI, INDIA ====================
+
+{name:"Chennai Central, India", lat:13.0827, lon:80.2707, pop:12000000, timezone:5.5},
+{name:"George Town, Chennai, India", lat:13.0910, lon:80.2850, pop:500000, timezone:5.5},
+{name:"Egmore, Chennai, India", lat:13.0732, lon:80.2609, pop:450000, timezone:5.5},
+{name:"T. Nagar, Chennai, India", lat:13.0418, lon:80.2341, pop:600000, timezone:5.5},
+{name:"Nungambakkam, Chennai, India", lat:13.0569, lon:80.2425, pop:450000, timezone:5.5},
+
+{name:"Anna Nagar, Chennai, India", lat:13.0850, lon:80.2101, pop:500000, timezone:5.5},
+{name:"Kilpauk, Chennai, India", lat:13.0780, lon:80.2450, pop:350000, timezone:5.5},
+{name:"Mylapore, Chennai, India", lat:13.0368, lon:80.2676, pop:400000, timezone:5.5},
+{name:"Adyar, Chennai, India", lat:13.0063, lon:80.2574, pop:450000, timezone:5.5},
+
+{name:"Guindy, Chennai, India", lat:13.0067, lon:80.2206, pop:400000, timezone:5.5},
+{name:"Saidapet, Chennai, India", lat:13.0215, lon:80.2230, pop:350000, timezone:5.5},
+{name:"Velachery, Chennai, India", lat:12.9815, lon:80.2180, pop:500000, timezone:5.5},
+{name:"Perungudi, Chennai, India", lat:12.9600, lon:80.2450, pop:400000, timezone:5.5},
+
+{name:"Sholinganallur, Chennai, India", lat:12.9010, lon:80.2279, pop:500000, timezone:5.5},
+{name:"Thoraipakkam, Chennai, India", lat:12.9430, lon:80.2360, pop:400000, timezone:5.5},
+{name:"Navallur, Chennai, India", lat:12.8440, lon:80.2270, pop:350000, timezone:5.5},
+{name:"Siruseri, Chennai, India", lat:12.8330, lon:80.2250, pop:300000, timezone:5.5},
+
+{name:"Tambaram, Chennai, India", lat:12.9249, lon:80.1000, pop:500000, timezone:5.5},
+{name:"Chromepet, Chennai, India", lat:12.9516, lon:80.1462, pop:400000, timezone:5.5},
+{name:"Pallavaram, Chennai, India", lat:12.9675, lon:80.1491, pop:350000, timezone:5.5},
+{name:"Medavakkam, Chennai, India", lat:12.9170, lon:80.1850, pop:350000, timezone:5.5},
+
+{name:"Porur, Chennai, India", lat:13.0350, lon:80.1560, pop:450000, timezone:5.5},
+{name:"Ramapuram, Chennai, India", lat:13.0250, lon:80.1850, pop:350000, timezone:5.5},
+{name:"Maduravoyal, Chennai, India", lat:13.0600, lon:80.1600, pop:350000, timezone:5.5},
+{name:"Mogappair, Chennai, India", lat:13.0830, lon:80.1750, pop:450000, timezone:5.5},
+
+{name:"Ambattur, Chennai, India", lat:13.1143, lon:80.1548, pop:500000, timezone:5.5},
+{name:"Avadi, Chennai, India", lat:13.1147, lon:80.1010, pop:400000, timezone:5.5},
+{name:"Poonamallee, Chennai, India", lat:13.0480, lon:80.1100, pop:350000, timezone:5.5},
+{name:"Thirumazhisai, Chennai, India", lat:13.0520, lon:80.0600, pop:250000, timezone:5.5},
+
+{name:"Perambur, Chennai, India", lat:13.1120, lon:80.2330, pop:450000, timezone:5.5},
+{name:"Kolathur, Chennai, India", lat:13.1240, lon:80.2180, pop:400000, timezone:5.5},
+{name:"Madhavaram, Chennai, India", lat:13.1480, lon:80.2310, pop:350000, timezone:5.5},
+{name:"Ennore, Chennai, India", lat:13.2160, lon:80.3200, pop:250000, timezone:5.5},
+
+{name:"Tiruvottiyur, Chennai, India", lat:13.1600, lon:80.3010, pop:400000, timezone:5.5},
+{name:"Red Hills, Chennai, India", lat:13.1850, lon:80.1950, pop:250000, timezone:5.5},
+
+// ==================== HANOI, VIETNAM ====================
+
+{name:"Hanoi Central, Vietnam", lat:21.0285, lon:105.8542, pop:9000000, timezone:7},
+{name:"Hoan Kiem, Hanoi, Vietnam", lat:21.0280, lon:105.8520, pop:400000, timezone:7},
+{name:"Ba Dinh, Hanoi, Vietnam", lat:21.0350, lon:105.8390, pop:450000, timezone:7},
+{name:"Dong Da, Hanoi, Vietnam", lat:21.0140, lon:105.8250, pop:600000, timezone:7},
+{name:"Hai Ba Trung, Hanoi, Vietnam", lat:21.0060, lon:105.8500, pop:500000, timezone:7},
+
+{name:"Cau Giay, Hanoi, Vietnam", lat:21.0330, lon:105.7930, pop:550000, timezone:7},
+{name:"Thanh Xuan, Hanoi, Vietnam", lat:20.9950, lon:105.8100, pop:500000, timezone:7},
+{name:"Tay Ho, Hanoi, Vietnam", lat:21.0650, lon:105.8230, pop:400000, timezone:7},
+{name:"Long Bien, Hanoi, Vietnam", lat:21.0400, lon:105.8950, pop:500000, timezone:7},
+
+{name:"Nam Tu Liem, Hanoi, Vietnam", lat:21.0100, lon:105.7600, pop:500000, timezone:7},
+{name:"My Dinh, Hanoi, Vietnam", lat:21.0280, lon:105.7650, pop:450000, timezone:7},
+{name:"Bac Tu Liem, Hanoi, Vietnam", lat:21.0700, lon:105.7500, pop:500000, timezone:7},
+{name:"Ha Dong, Hanoi, Vietnam", lat:20.9700, lon:105.7750, pop:500000, timezone:7},
+
+{name:"Hoang Mai, Hanoi, Vietnam", lat:20.9800, lon:105.8500, pop:550000, timezone:7},
+{name:"Thanh Tri, Hanoi, Vietnam", lat:20.9500, lon:105.8500, pop:350000, timezone:7},
+{name:"Van Phuc, Hanoi, Vietnam", lat:21.0450, lon:105.7750, pop:300000, timezone:7},
+
+{name:"Gia Lam, Hanoi, Vietnam", lat:21.0350, lon:105.9300, pop:400000, timezone:7},
+{name:"Long Bien East, Hanoi, Vietnam", lat:21.0500, lon:105.9200, pop:300000, timezone:7},
+{name:"Trau Quy, Hanoi, Vietnam", lat:21.0100, lon:105.9350, pop:250000, timezone:7},
+
+{name:"Dong Anh, Hanoi, Vietnam", lat:21.1400, lon:105.8400, pop:400000, timezone:7},
+{name:"Me Linh, Hanoi, Vietnam", lat:21.1800, lon:105.7100, pop:250000, timezone:7},
+{name:"Soc Son, Hanoi, Vietnam", lat:21.2600, lon:105.8500, pop:300000, timezone:7},
+
+{name:"Thanh Ha, Hanoi, Vietnam", lat:20.9300, lon:105.8000, pop:250000, timezone:7},
+{name:"Van Khe, Hanoi, Vietnam", lat:20.9600, lon:105.7550, pop:300000, timezone:7},
+{name:"Duong Noi, Hanoi, Vietnam", lat:20.9650, lon:105.7200, pop:250000, timezone:7},
+
+{name:"Hoai Duc, Hanoi, Vietnam", lat:21.0200, lon:105.7000, pop:300000, timezone:7},
+{name:"Dan Phuong, Hanoi, Vietnam", lat:21.0800, lon:105.6700, pop:250000, timezone:7},
+{name:"Thanh Oai, Hanoi, Vietnam", lat:20.8600, lon:105.7700, pop:250000, timezone:7},
+
+{name:"Phu Xuyen, Hanoi, Vietnam", lat:20.7300, lon:105.9100, pop:220000, timezone:7},
+{name:"Son Tay, Hanoi, Vietnam", lat:21.1400, lon:105.5050, pop:250000, timezone:7},
+
+// ==================== LAHORE, PAKISTAN ====================
+
+{name:"Lahore Central, Pakistan", lat:31.5497, lon:74.3436, pop:13000000, timezone:5},
+{name:"Walled City, Lahore, Pakistan", lat:31.5820, lon:74.3290, pop:500000, timezone:5},
+{name:"Gulberg, Lahore, Pakistan", lat:31.5200, lon:74.3580, pop:600000, timezone:5},
+{name:"Mozang, Lahore, Pakistan", lat:31.5550, lon:74.3300, pop:350000, timezone:5},
+
+{name:"Samanabad, Lahore, Pakistan", lat:31.5400, lon:74.3000, pop:500000, timezone:5},
+{name:"Allama Iqbal Town, Lahore, Pakistan", lat:31.5000, lon:74.2900, pop:550000, timezone:5},
+{name:"Shadman, Lahore, Pakistan", lat:31.5400, lon:74.3400, pop:300000, timezone:5},
+{name:"Model Town, Lahore, Pakistan", lat:31.4800, lon:74.3300, pop:500000, timezone:5},
+
+{name:"Johar Town, Lahore, Pakistan", lat:31.4690, lon:74.2720, pop:600000, timezone:5},
+{name:"Township, Lahore, Pakistan", lat:31.4500, lon:74.3000, pop:500000, timezone:5},
+{name:"Wapda Town, Lahore, Pakistan", lat:31.4500, lon:74.2500, pop:350000, timezone:5},
+{name:"Faisal Town, Lahore, Pakistan", lat:31.4900, lon:74.3100, pop:300000, timezone:5},
+
+{name:"DHA Lahore, Pakistan", lat:31.4700, lon:74.4000, pop:500000, timezone:5},
+{name:"Lahore Cantt, Pakistan", lat:31.5150, lon:74.3900, pop:400000, timezone:5},
+{name:"Askari, Lahore, Pakistan", lat:31.5050, lon:74.4050, pop:300000, timezone:5},
+{name:"Bedian Road, Lahore, Pakistan", lat:31.4800, lon:74.4400, pop:250000, timezone:5},
+
+{name:"Shalimar, Lahore, Pakistan", lat:31.5900, lon:74.3700, pop:400000, timezone:5},
+{name:"Baghbanpura, Lahore, Pakistan", lat:31.5850, lon:74.3650, pop:300000, timezone:5},
+{name:"Shahdara, Lahore, Pakistan", lat:31.6200, lon:74.2800, pop:400000, timezone:5},
+{name:"Ravi Road, Lahore, Pakistan", lat:31.5800, lon:74.3300, pop:300000, timezone:5},
+
+{name:"Mughalpura, Lahore, Pakistan", lat:31.5650, lon:74.3500, pop:300000, timezone:5},
+{name:"Garhi Shahu, Lahore, Pakistan", lat:31.5600, lon:74.3450, pop:250000, timezone:5},
+{name:"Harbanspura, Lahore, Pakistan", lat:31.5850, lon:74.4100, pop:300000, timezone:5},
+
+{name:"Bahria Town Lahore, Pakistan", lat:31.3700, lon:74.1800, pop:450000, timezone:5},
+{name:"Raiwind, Pakistan", lat:31.2500, lon:74.2200, pop:300000, timezone:5},
+{name:"Thokar Niaz Baig, Lahore, Pakistan", lat:31.4600, lon:74.2500, pop:300000, timezone:5},
+
+{name:"Kasur, Pakistan", lat:31.1150, lon:74.4500, pop:350000, timezone:5},
+{name:"Sheikhupura, Pakistan", lat:31.7131, lon:73.9783, pop:450000, timezone:5},
+
+// ==================== KUALA LUMPUR–KLANG VALLEY, MALAYSIA ====================
+
+{name:"Kuala Lumpur Central, Malaysia", lat:3.1390, lon:101.6869, pop:8000000, timezone:8},
+{name:"Bukit Bintang, Kuala Lumpur, Malaysia", lat:3.1478, lon:101.7131, pop:500000, timezone:8},
+{name:"KLCC, Kuala Lumpur, Malaysia", lat:3.1579, lon:101.7116, pop:500000, timezone:8},
+{name:"Chow Kit, Kuala Lumpur, Malaysia", lat:3.1660, lon:101.6950, pop:350000, timezone:8},
+{name:"Bangsar, Kuala Lumpur, Malaysia", lat:3.1290, lon:101.6780, pop:400000, timezone:8},
+
+{name:"Brickfields, Kuala Lumpur, Malaysia", lat:3.1280, lon:101.6860, pop:350000, timezone:8},
+{name:"Sentul, Kuala Lumpur, Malaysia", lat:3.1800, lon:101.6900, pop:350000, timezone:8},
+{name:"Setapak, Kuala Lumpur, Malaysia", lat:3.1900, lon:101.7100, pop:400000, timezone:8},
+{name:"Cheras, Kuala Lumpur, Malaysia", lat:3.0830, lon:101.7330, pop:600000, timezone:8},
+
+{name:"Ampang, Malaysia", lat:3.1500, lon:101.7600, pop:500000, timezone:8},
+{name:"Taman Melawati, Malaysia", lat:3.2120, lon:101.7480, pop:300000, timezone:8},
+{name:"Wangsa Maju, Kuala Lumpur, Malaysia", lat:3.2050, lon:101.7350, pop:350000, timezone:8},
+
+{name:"Petaling Jaya, Malaysia", lat:3.1073, lon:101.6067, pop:700000, timezone:8},
+{name:"Kelana Jaya, Malaysia", lat:3.1060, lon:101.6040, pop:350000, timezone:8},
+{name:"Damansara, Malaysia", lat:3.1500, lon:101.6200, pop:450000, timezone:8},
+{name:"Ara Damansara, Malaysia", lat:3.1170, lon:101.5770, pop:300000, timezone:8},
+
+{name:"Subang Jaya, Malaysia", lat:3.0560, lon:101.5850, pop:700000, timezone:8},
+{name:"USJ, Subang Jaya, Malaysia", lat:3.0450, lon:101.5800, pop:350000, timezone:8},
+{name:"Puchong, Malaysia", lat:3.0250, lon:101.6170, pop:600000, timezone:8},
+{name:"Bandar Kinrara, Malaysia", lat:3.0350, lon:101.6500, pop:300000, timezone:8},
+
+{name:"Shah Alam, Malaysia", lat:3.0733, lon:101.5185, pop:750000, timezone:8},
+{name:"Setia Alam, Malaysia", lat:3.1030, lon:101.4600, pop:300000, timezone:8},
+{name:"Klang, Malaysia", lat:3.0449, lon:101.4456, pop:900000, timezone:8},
+{name:"Port Klang, Malaysia", lat:2.9990, lon:101.3920, pop:300000, timezone:8},
+
+{name:"Kajang, Malaysia", lat:2.9935, lon:101.7870, pop:500000, timezone:8},
+{name:"Bangi, Malaysia", lat:2.9240, lon:101.7730, pop:300000, timezone:8},
+{name:"Semenyih, Malaysia", lat:2.9510, lon:101.8430, pop:250000, timezone:8},
+
+{name:"Seri Kembangan, Malaysia", lat:3.0290, lon:101.7170, pop:400000, timezone:8},
+{name:"Balakong, Malaysia", lat:3.0200, lon:101.7500, pop:300000, timezone:8},
+{name:"Cyberjaya, Malaysia", lat:2.9210, lon:101.6550, pop:300000, timezone:8},
+{name:"Putrajaya, Malaysia", lat:2.9260, lon:101.6960, pop:300000, timezone:8},
+
+{name:"Sepang, Malaysia", lat:2.6930, lon:101.7490, pop:250000, timezone:8},
+{name:"Rawang, Malaysia", lat:3.3210, lon:101.5760, pop:400000, timezone:8},
+{name:"Sungai Buloh, Malaysia", lat:3.2070, lon:101.5630, pop:300000, timezone:8},
+{name:"Gombak, Malaysia", lat:3.2500, lon:101.7300, pop:300000, timezone:8},
+{name:"Batu Caves, Malaysia", lat:3.2370, lon:101.6830, pop:350000, timezone:8},
+
+// ==================== SURABAYA, INDONESIA ====================
+
+{name:"Surabaya Central, Indonesia", lat:-7.2575, lon:112.7521, pop:3000000, timezone:7},
+{name:"Tunjungan, Surabaya, Indonesia", lat:-7.2600, lon:112.7380, pop:400000, timezone:7},
+{name:"Gubeng, Surabaya, Indonesia", lat:-7.2740, lon:112.7510, pop:350000, timezone:7},
+{name:"Darmo, Surabaya, Indonesia", lat:-7.2850, lon:112.7420, pop:300000, timezone:7},
+{name:"Wonokromo, Surabaya, Indonesia", lat:-7.3050, lon:112.7340, pop:350000, timezone:7},
+
+{name:"Sawahan, Surabaya, Indonesia", lat:-7.2650, lon:112.7240, pop:350000, timezone:7},
+{name:"Tegalsari, Surabaya, Indonesia", lat:-7.2650, lon:112.7450, pop:350000, timezone:7},
+{name:"Simokerto, Surabaya, Indonesia", lat:-7.2500, lon:112.7580, pop:300000, timezone:7},
+{name:"Tambaksari, Surabaya, Indonesia", lat:-7.2500, lon:112.7700, pop:400000, timezone:7},
+
+{name:"Kenjeran, Surabaya, Indonesia", lat:-7.2350, lon:112.7950, pop:350000, timezone:7},
+{name:"Rungkut, Surabaya, Indonesia", lat:-7.3200, lon:112.7700, pop:450000, timezone:7},
+{name:"Sukolilo, Surabaya, Indonesia", lat:-7.2850, lon:112.7950, pop:400000, timezone:7},
+{name:"Mulyorejo, Surabaya, Indonesia", lat:-7.2650, lon:112.7850, pop:300000, timezone:7},
+
+{name:"Lakarsantri, Surabaya, Indonesia", lat:-7.3150, lon:112.6550, pop:250000, timezone:7},
+{name:"Wiyung, Surabaya, Indonesia", lat:-7.3050, lon:112.6900, pop:300000, timezone:7},
+{name:"Dukuh Pakis, Surabaya, Indonesia", lat:-7.2900, lon:112.7050, pop:300000, timezone:7},
+{name:"Tandes, Surabaya, Indonesia", lat:-7.2450, lon:112.6900, pop:350000, timezone:7},
+
+{name:"Benowo, Surabaya, Indonesia", lat:-7.2350, lon:112.6250, pop:250000, timezone:7},
+{name:"Sambikerep, Surabaya, Indonesia", lat:-7.2700, lon:112.6500, pop:250000, timezone:7},
+{name:"Krembangan, Surabaya, Indonesia", lat:-7.2350, lon:112.7250, pop:300000, timezone:7},
+
+{name:"Waru, Indonesia", lat:-7.3550, lon:112.7300, pop:400000, timezone:7},
+{name:"Gedangan, Indonesia", lat:-7.3900, lon:112.7200, pop:300000, timezone:7},
+{name:"Sidoarjo, Indonesia", lat:-7.4478, lon:112.7183, pop:700000, timezone:7},
+{name:"Taman, Sidoarjo, Indonesia", lat:-7.3550, lon:112.6900, pop:350000, timezone:7},
+
+{name:"Krian, Indonesia", lat:-7.4100, lon:112.5800, pop:300000, timezone:7},
+{name:"Gresik, Indonesia", lat:-7.1560, lon:112.6550, pop:600000, timezone:7},
+{name:"Manyar, Gresik, Indonesia", lat:-7.1150, lon:112.6250, pop:300000, timezone:7},
+{name:"Driyorejo, Indonesia", lat:-7.3500, lon:112.6200, pop:300000, timezone:7},
+
+// ==================== BANDUNG, INDONESIA ====================
+
+{name:"Bandung Central, Indonesia", lat:-6.9175, lon:107.6191, pop:2500000, timezone:7},
+{name:"Sumur Bandung, Indonesia", lat:-6.9170, lon:107.6090, pop:300000, timezone:7},
+{name:"Cicendo, Bandung, Indonesia", lat:-6.9000, lon:107.5900, pop:300000, timezone:7},
+{name:"Andir, Bandung, Indonesia", lat:-6.9160, lon:107.5850, pop:300000, timezone:7},
+{name:"Astanaanyar, Bandung, Indonesia", lat:-6.9300, lon:107.5950, pop:300000, timezone:7},
+
+{name:"Coblong, Bandung, Indonesia", lat:-6.8900, lon:107.6100, pop:350000, timezone:7},
+{name:"Sukajadi, Bandung, Indonesia", lat:-6.8900, lon:107.5950, pop:300000, timezone:7},
+{name:"Cidadap, Bandung, Indonesia", lat:-6.8600, lon:107.6050, pop:250000, timezone:7},
+{name:"Sukasari, Bandung, Indonesia", lat:-6.8750, lon:107.5850, pop:300000, timezone:7},
+
+{name:"Lengkong, Bandung, Indonesia", lat:-6.9300, lon:107.6200, pop:300000, timezone:7},
+{name:"Batununggal, Bandung, Indonesia", lat:-6.9300, lon:107.6450, pop:350000, timezone:7},
+{name:"Kiaracondong, Bandung, Indonesia", lat:-6.9150, lon:107.6500, pop:350000, timezone:7},
+{name:"Arcamanik, Bandung, Indonesia", lat:-6.9100, lon:107.6800, pop:300000, timezone:7},
+
+{name:"Antapani, Bandung, Indonesia", lat:-6.9100, lon:107.6600, pop:300000, timezone:7},
+{name:"Ujungberung, Bandung, Indonesia", lat:-6.9150, lon:107.7050, pop:350000, timezone:7},
+{name:"Cibiru, Bandung, Indonesia", lat:-6.9200, lon:107.7300, pop:300000, timezone:7},
+
+{name:"Buahbatu, Bandung, Indonesia", lat:-6.9500, lon:107.6400, pop:350000, timezone:7},
+{name:"Gedebage, Bandung, Indonesia", lat:-6.9500, lon:107.6900, pop:300000, timezone:7},
+{name:"Rancasari, Bandung, Indonesia", lat:-6.9600, lon:107.6700, pop:250000, timezone:7},
+
+{name:"Cimahi, Indonesia", lat:-6.8720, lon:107.5420, pop:600000, timezone:7},
+{name:"Cimahi Selatan, Indonesia", lat:-6.9000, lon:107.5350, pop:350000, timezone:7},
+{name:"Padalarang, Indonesia", lat:-6.8380, lon:107.4740, pop:300000, timezone:7},
+
+{name:"Soreang, Indonesia", lat:-7.0300, lon:107.5200, pop:300000, timezone:7},
+{name:"Katapang, Indonesia", lat:-7.0500, lon:107.5500, pop:250000, timezone:7},
+
+{name:"Dayeuhkolot, Indonesia", lat:-6.9900, lon:107.6300, pop:300000, timezone:7},
+{name:"Baleendah, Indonesia", lat:-7.0000, lon:107.6300, pop:300000, timezone:7},
+{name:"Majalaya, Indonesia", lat:-7.0500, lon:107.7600, pop:300000, timezone:7},
+{name:"Rancaekek, Indonesia", lat:-6.9700, lon:107.7600, pop:300000, timezone:7},
+
+// ==================== AHMEDABAD, INDIA ====================
+
+{name:"Ahmedabad Central, India", lat:23.0225, lon:72.5714, pop:8500000, timezone:5.5},
+{name:"Old Ahmedabad, India", lat:23.0258, lon:72.5873, pop:500000, timezone:5.5},
+{name:"Navrangpura, Ahmedabad, India", lat:23.0390, lon:72.5600, pop:450000, timezone:5.5},
+{name:"Paldi, Ahmedabad, India", lat:23.0120, lon:72.5570, pop:400000, timezone:5.5},
+{name:"Vastrapur, Ahmedabad, India", lat:23.0390, lon:72.5290, pop:450000, timezone:5.5},
+
+{name:"Satellite, Ahmedabad, India", lat:23.0250, lon:72.5100, pop:500000, timezone:5.5},
+{name:"Bodakdev, Ahmedabad, India", lat:23.0400, lon:72.5100, pop:400000, timezone:5.5},
+{name:"Thaltej, Ahmedabad, India", lat:23.0500, lon:72.4900, pop:400000, timezone:5.5},
+{name:"Prahlad Nagar, Ahmedabad, India", lat:23.0120, lon:72.5100, pop:350000, timezone:5.5},
+
+{name:"Bopal, Ahmedabad, India", lat:23.0300, lon:72.4650, pop:400000, timezone:5.5},
+{name:"South Bopal, Ahmedabad, India", lat:23.0100, lon:72.4600, pop:300000, timezone:5.5},
+{name:"Shela, Ahmedabad, India", lat:23.0000, lon:72.4500, pop:250000, timezone:5.5},
+
+{name:"Chandkheda, Ahmedabad, India", lat:23.1500, lon:72.5900, pop:400000, timezone:5.5},
+{name:"Motera, Ahmedabad, India", lat:23.0920, lon:72.5970, pop:350000, timezone:5.5},
+{name:"Sabarmati, Ahmedabad, India", lat:23.0800, lon:72.5850, pop:400000, timezone:5.5},
+{name:"Ranip, Ahmedabad, India", lat:23.0700, lon:72.5550, pop:300000, timezone:5.5},
+
+{name:"Naroda, Ahmedabad, India", lat:23.0700, lon:72.6500, pop:450000, timezone:5.5},
+{name:"Nikol, Ahmedabad, India", lat:23.0400, lon:72.6700, pop:350000, timezone:5.5},
+{name:"Vastral, Ahmedabad, India", lat:23.0100, lon:72.6650, pop:350000, timezone:5.5},
+
+{name:"Maninagar, Ahmedabad, India", lat:22.9950, lon:72.6050, pop:450000, timezone:5.5},
+{name:"Isanpur, Ahmedabad, India", lat:22.9700, lon:72.6000, pop:300000, timezone:5.5},
+{name:"Vatva, Ahmedabad, India", lat:22.9600, lon:72.6300, pop:350000, timezone:5.5},
+
+{name:"Gota, Ahmedabad, India", lat:23.1000, lon:72.5300, pop:350000, timezone:5.5},
+{name:"Vaishnodevi Circle, Ahmedabad, India", lat:23.1100, lon:72.5100, pop:300000, timezone:5.5},
+{name:"SG Highway, Ahmedabad, India", lat:23.0700, lon:72.5100, pop:400000, timezone:5.5},
+
+{name:"Gandhinagar, India", lat:23.2156, lon:72.6369, pop:400000, timezone:5.5},
+{name:"Kalol, Gujarat, India", lat:23.2450, lon:72.4960, pop:250000, timezone:5.5},
+
+// ==================== KOLKATA, INDIA ====================
+
+{name:"Kolkata Central, India", lat:22.5726, lon:88.3639, pop:15000000, timezone:5.5},
+{name:"Esplanade, Kolkata, India", lat:22.5650, lon:88.3500, pop:450000, timezone:5.5},
+{name:"Park Street, Kolkata, India", lat:22.5520, lon:88.3530, pop:400000, timezone:5.5},
+{name:"Ballygunge, Kolkata, India", lat:22.5290, lon:88.3650, pop:450000, timezone:5.5},
+{name:"Alipore, Kolkata, India", lat:22.5350, lon:88.3300, pop:350000, timezone:5.5},
+
+{name:"Salt Lake City, Kolkata, India", lat:22.5867, lon:88.4170, pop:600000, timezone:5.5},
+{name:"Bidhannagar, Kolkata, India", lat:22.5800, lon:88.4100, pop:500000, timezone:5.5},
+{name:"New Town, Kolkata, India", lat:22.5930, lon:88.4840, pop:600000, timezone:5.5},
+{name:"Rajarhat, Kolkata, India", lat:22.6200, lon:88.4700, pop:400000, timezone:5.5},
+
+{name:"Dum Dum, Kolkata, India", lat:22.6330, lon:88.4250, pop:500000, timezone:5.5},
+{name:"Lake Town, Kolkata, India", lat:22.6060, lon:88.4000, pop:350000, timezone:5.5},
+{name:"Kestopur, Kolkata, India", lat:22.6000, lon:88.4350, pop:400000, timezone:5.5},
+
+{name:"Howrah, India", lat:22.5958, lon:88.2636, pop:1100000, timezone:5.5},
+{name:"Shibpur, Howrah, India", lat:22.5750, lon:88.3100, pop:400000, timezone:5.5},
+{name:"Bally, Howrah, India", lat:22.6500, lon:88.3400, pop:400000, timezone:5.5},
+{name:"Liluah, Howrah, India", lat:22.6250, lon:88.3250, pop:350000, timezone:5.5},
+
+{name:"Behala, Kolkata, India", lat:22.4950, lon:88.3100, pop:600000, timezone:5.5},
+{name:"Jadavpur, Kolkata, India", lat:22.4950, lon:88.3700, pop:450000, timezone:5.5},
+{name:"Garia, Kolkata, India", lat:22.4630, lon:88.3800, pop:500000, timezone:5.5},
+{name:"Tollygunge, Kolkata, India", lat:22.5000, lon:88.3450, pop:400000, timezone:5.5},
+
+{name:"Kasba, Kolkata, India", lat:22.5200, lon:88.3900, pop:400000, timezone:5.5},
+{name:"Ruby, Kolkata, India", lat:22.5150, lon:88.4000, pop:300000, timezone:5.5},
+{name:"Mukundapur, Kolkata, India", lat:22.4900, lon:88.4050, pop:350000, timezone:5.5},
+
+{name:"Barasat, India", lat:22.7200, lon:88.4800, pop:500000, timezone:5.5},
+{name:"Madhyamgram, India", lat:22.7000, lon:88.4500, pop:350000, timezone:5.5},
+{name:"Barrackpore, India", lat:22.7650, lon:88.3700, pop:500000, timezone:5.5},
+{name:"Khardaha, India", lat:22.7200, lon:88.3800, pop:350000, timezone:5.5},
+
+{name:"Serampore, India", lat:22.7500, lon:88.3400, pop:400000, timezone:5.5},
+{name:"Uttarpara, India", lat:22.6750, lon:88.3500, pop:300000, timezone:5.5},
+{name:"Chandannagar, India", lat:22.8670, lon:88.3670, pop:400000, timezone:5.5},
+
+{name:"Kalyani, India", lat:22.9750, lon:88.4340, pop:300000, timezone:5.5},
+{name:"Bhangar, West Bengal, India", lat:22.5400, lon:88.5800, pop:250000, timezone:5.5},
+{name:"Sonarpur, Kolkata, India", lat:22.4500, lon:88.4300, pop:350000, timezone:5.5},
+
+{name:"Baruipur, India", lat:22.3650, lon:88.4350, pop:300000, timezone:5.5},
+{name:"Budge Budge, India", lat:22.4700, lon:88.1700, pop:300000, timezone:5.5},
 
 // ========== DUBAI ==========
 {name:"Dubai - Downtown", lat:25.1972, lon:55.2744, pop:500000, timezone:4},
